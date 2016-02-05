@@ -11,6 +11,8 @@ As a simple alternative, downdyn is installed in a virtual machine, making acces
 First, install Virtualbox on your machine (Please note the "dot-org")
 
 https://www.virtualbox.org/wiki/Downloads
+(You want the installer from the "VirtualBox platform packages" section. Dont worry about the "extension pack" links)
+
 
 
 Next download the virtualbox machine image from this repository. 
