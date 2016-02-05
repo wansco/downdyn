@@ -17,7 +17,7 @@ https://www.virtualbox.org/wiki/Downloads
 
 Next download the virtualbox machine image from this repository. 
 
-https://github.com/wansco/downdyn/releases/download/Initial/DownDynImage.zip
+https://github.com/wansco/downdyn/releases/download/2/DownDynImage.zip
 
 Unzip and open the DownDyn.vbox file with Virtualbox (a doubleclick on the blue icon should accomplish this)
 
