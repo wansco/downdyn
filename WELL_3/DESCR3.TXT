@@ -1,0 +1,175 @@
+To return to Downhole Dynamometer Program: Minimize or close this
+window or select File & Exit from the menu. To word wrap: Select
+Edit & Word Wrap from the menu.
+*****************************************************************
+
+Test Number: 03
+
+Test Date: February, 1996
+
+General Comments: Five Albert Engineering/Sandia National
+Laboratories (AE/SNL) downhole dynamometer tools were used in
+this test.  The test was conducted to evaluate the downhole
+characteristics of the Rotaflex pumping unit, and the effect
+of pumping speed on those characteristics.
+
+Well Depth: 9270' (Drilled to 9560', plugged back to 9270')
+
+Casing Record: 5.5" to 9532'
+
+Tubing Record: 2.875" L-80 to 9228', seating nipple at 9220', tubing
+anchor at 8968', tubing set with 15,000# tension, 8' perforated sub
+below seating nipple, 15' blast joint above barrel.
+
+Rod String:
+   -Size--Description-----------Length Ea.--Number--Cum.Depth@end
+    1.25" Polished Rod with liner   36'       1       0'
+       1" API Grade 'D' Steel        4'       1       4'
+       1" API Grade 'D' Steel       25'     133    3329'
+   0.875" API Grade 'D' Steel       25'     167    7504'
+          Tool #5                    2'       1    7506'
+   0.875" API Grade 'D' Steel       25'       6    7656'
+          Tool #4                    2'       1    7658'
+       1" API Grade 'D' Steel       25'      45    8783'
+          Tool #3                    2'       1    8785'
+       1" API Grade 'D' Steel       25'      12    9085'
+          Tool #2                    2'       1    9087'
+       1" API Grade 'D' Steel       25'       4    9187'
+       1" Stabilizer                 4'       1    9191'
+    1.25" Polished Rod              36'       1    9227'
+          Tool #1                    2'       1    9229'
+       1" API Grade 'D' Steel        2'       1    9231'
+          Pump
+
+Note on Depths:  Rod depths are relative to the bottom of the
+polished rod.  Pump depths are relative to the stated seating
+nipple depth which is usually relative to the kelly bushing.
+
+Couplings:  Full hole, spray metal for 0.875" couplings
+            Slim hole, spray metal for 1." couplings
+
+Centralizers: None
+
+Perforations: 9204' to 9243'
+
+Downhole Pump: Tubing type, 2.25" plunger diameter, 6' spray metal plunger,
+               35' barrel (25-225-THWC-35-6-0)
+
+Pumping Unit: ROTAFLEX SLS1100-500-306
+
+Motor: Robbins & Myers 100 HP ND Frame 445
+
+Tubing pressure: 40 psi (on 2/6/96)
+
+Casing pressure:  40 psi
+
+Production:   28 bopd,  447 bwpd, very little gas
+
+Fluid Properties: 34 degree API oil, water specific gravity = 1.03
+
+Pumping Speed:   3.9 spm, 24 hrs/day (varied during test)
+
+Stroke Length:   306"
+
+Fluid Level:
+                                    Fluid Level
+     Date/Time                above pump | from surface
+     02/07/96 12:25    PM        86'               '
+
+Bottomhole temperature: 140 degrees F
+
+Corrosion/Scale/Paraffin condition: Some problems noted
+
+Inhibition program: Weekly batch chemical treatment for paraffin,
+    hot oil every 6 - 9 weeks.  Overnight soak and acid wash every
+    1 - 2 years for scale treatment.
+
+Deviation Survey: None.
+
+Tool Locations:
+
+Tool#1 - Above Pump @ 9229'
+Tool#2 - In 1" string @ 9087'
+Tool#3 - In 1" string @ 8785'
+Tool#4 - At 1" to 7/8" crossover @ 7658'
+Tool#5 - In 7/8" string @ 7506'
+
+Data Collected:
+
+  Date      Time    Duration Sample File     Notes        A  V  P A2 A3 L1 L2 L3 Pr  T   T1 T2 T3 T4 T5   Filename
+                              Rate  Size                                                                 
+                      (sec)   (Hz) (byte)
+02/02/96 07:00:00 AM 262800  0.02    0k                   0, 0, 0, 0, 0, 1, 0, 0, 1, 1    1, 1, 1, 1, 1    x3a01
+02/05/96 08:00:00 AM 81900   0.02    0k                   1, 0, 0, 1, 1, 1, 1, 1, 1, 1    1, 1, 1, 1, 1    x3b01
+02/06/96 06:45:00 AM   60      1     0k                   1, 0, 0, 1, 1, 1, 1, 1, 1, 1    1, 1, 1, 1, 1    x3c01
+02/06/96 06:46:00 AM   60     50   220k                   1, 1, 1, 1, 1, 1, 1, 1, 1, 0    1, 1, 1, 1, 1    x3c02.csv
+02/06/96 06:47:00 AM  9720   0.02    0k                   1, 0, 0, 1, 1, 1, 1, 1, 1, 1    1, 1, 1, 1, 1    x3c03
+02/06/96 09:29:00 AM   60      1     0k                   1, 0, 0, 1, 1, 1, 1, 1, 1, 1    1, 1, 1, 1, 1    x3c04
+02/06/96 09:30:00 AM  300      5    90k                   1, 0, 0, 0, 0, 1, 1, 1, 1, 0    1, 1, 1, 1, 1    x3c05.csv
+02/06/96 09:35:00 AM  1440   0.02    0k                   1, 0, 0, 1, 1, 1, 1, 1, 1, 1    1, 1, 1, 1, 1    x3c06
+02/06/96 09:59:00 AM   60      1     0k                   1, 0, 0, 1, 1, 1, 1, 1, 1, 1    1, 1, 1, 1, 1    x3c07
+02/06/96 10:00:00 AM   60     50   220k                   1, 1, 1, 1, 1, 1, 1, 1, 1, 0    1, 1, 1, 1, 1    x3c08.csv
+02/06/96 10:00:00 AM  Surface Dyno   3k        Nabla      0, 0, 0, 0, 0, 0, 0, 0, 0, 0    0, 0, 0, 0, 0    x3c08.dat
+02/06/96 10:01:00 AM  3480   0.02    0k                   1, 0, 0, 1, 1, 1, 1, 1, 1, 1    1, 1, 1, 1, 1    x3c09
+02/06/96 10:59:00 AM   60      1     0k                   1, 0, 0, 1, 1, 1, 1, 1, 1, 1    1, 1, 1, 1, 1    x3c10
+02/06/96 11:00:00 AM   60     50   220k                   1, 1, 1, 1, 1, 1, 1, 1, 1, 0    1, 1, 1, 1, 1    x3c11.csv
+02/06/96 11:00:00 AM  Surface Dyno   3k        Nabla      0, 0, 0, 0, 0, 0, 0, 0, 0, 0    0, 0, 0, 0, 0    x3c11.dat
+02/06/96 11:01:00 AM  3480   0.02    0k                   1, 0, 0, 1, 1, 1, 1, 1, 1, 1    1, 1, 1, 1, 1    x3c12
+02/06/96 11:59:00 AM   60      1     0k                   1, 0, 0, 1, 1, 1, 1, 1, 1, 1    1, 1, 1, 1, 1    x3c13
+02/06/96 12:00:00 PM   60     50   220k                   1, 1, 1, 1, 1, 1, 1, 1, 1, 0    1, 1, 1, 1, 1    x3c14.csv
+02/06/96 12:00:00 PM  Surface Dyno   3k        Nabla      0, 0, 0, 0, 0, 0, 0, 0, 0, 0    0, 0, 0, 0, 0    x3c14.dat
+02/06/96 12:01:00 PM  780    0.02    0k                   1, 0, 0, 1, 1, 1, 1, 1, 1, 1    1, 1, 1, 1, 1    x3c15
+02/06/96 12:14:00 PM   60      1     0k                   1, 0, 0, 1, 1, 1, 1, 1, 1, 1    1, 1, 1, 1, 1    x3c16
+02/06/96 12:15:00 PM  300      5    90k                   1, 0, 0, 0, 0, 1, 1, 1, 1, 0    1, 1, 1, 1, 1    x3c17.csv
+02/06/96 12:20:00 PM 76140   0.02    0k                   1, 0, 0, 1, 1, 1, 1, 1, 1, 1    1, 1, 1, 1, 1    x3c18
+02/07/96 09:29:00 AM   60      1     0k                   1, 0, 0, 1, 1, 1, 1, 1, 1, 1    1, 1, 1, 1, 1    x3d01
+02/07/96 09:30:00 AM  300      5    90k                   1, 0, 0, 0, 0, 1, 1, 1, 1, 0    1, 1, 1, 1, 1    x3d02.csv
+02/07/96 09:35:00 AM  1440   0.02    0k                   1, 0, 0, 1, 1, 1, 1, 1, 1, 1    1, 1, 1, 1, 1    x3d03
+02/07/96 09:59:00 AM   60      1     0k                   1, 0, 0, 1, 1, 1, 1, 1, 1, 1    1, 1, 1, 1, 1    x3d04
+02/07/96 10:00:00 AM   60     50   220k                   1, 1, 1, 1, 1, 1, 1, 1, 1, 0    1, 1, 1, 1, 1    x3d05.csv
+02/07/96 10:00:00 AM  Surface Dyno   3k        Nabla      0, 0, 0, 0, 0, 0, 0, 0, 0, 0    0, 0, 0, 0, 0    x3d05.dat
+02/07/96 10:01:00 AM  3480   0.02    0k                   1, 0, 0, 1, 1, 1, 1, 1, 1, 1    1, 1, 1, 1, 1    x3d06
+02/07/96 10:59:00 AM   60      1     0k                   1, 0, 0, 1, 1, 1, 1, 1, 1, 1    1, 1, 1, 1, 1    x3d07
+02/07/96 11:00:00 AM   60     50   220k                   1, 1, 1, 1, 1, 1, 1, 1, 1, 0    1, 1, 1, 1, 1    x3d08.csv
+02/07/96 11:00:00 AM  Surface Dyno   3k        Nabla      0, 0, 0, 0, 0, 0, 0, 0, 0, 0    0, 0, 0, 0, 0    x3d08.dat
+02/07/96 11:01:00 AM  780    0.02    0k                   1, 0, 0, 1, 1, 1, 1, 1, 1, 1    1, 1, 1, 1, 1    x3d09
+02/07/96 11:14:00 AM   60      1     0k                   1, 0, 0, 1, 1, 1, 1, 1, 1, 1    1, 1, 1, 1, 1    x3d10
+02/07/96 11:15:00 AM  300      5    90k                   1, 0, 0, 0, 0, 1, 1, 1, 1, 0    1, 1, 1, 1, 1    x3d11.csv
+02/07/96 11:20:00 AM 84300   0.02    0k                   1, 0, 0, 1, 1, 1, 1, 1, 1, 1    1, 1, 1, 1, 1    x3d12
+
+Legend:
+0 = No    A = Axial Acceleration   A2 = Lateral Acceleration 1   L1 = Load 1   Pr = Pressure      T1 = Tool#1
+1 = Yes   V = Velocity             A3 = Lateral Acceleration 2   L2 = Load 2   T  = Temperature   T2 = Tool#2
+          P = Position                                           L3 = Load 3                      T3 = Tool#3
+                                                                                                  T4 = Tool#4
+                                                                                                  T5 = Tool#5
+Filename Extensions:
+.dat = Surface Dyno file in Nabla dynamometer file format
+.dyn = Surface Dyno file in RodDiag dynamometer file format
+.csv = Downhole data in comma-delimited, ASCII file format (processed into engineering units)
+.raw = Raw data in comma-delimited, ASCII file format (unprocessed, A/D counts)
+
+
+Additional Information:
+
+Failure History:
+
+01/26/94 Rod failure @ 9214', no other information available
+02/11/94 Tubing failure @ 9230', corrosion on upset
+04/06/94 Coupling failure @ 4625', spray metal, slimhole 1.25" coupling
+06/15/94 Tubing failure @ 9200', pitting on body
+07/12/94 Rod failure @ 1725', body wear on 1.25" fiberglass rod
+07/27/94 Rod failure @ 338', body break in 1.25" fiberglass rod
+09/  /94 Installed Rotaflex unit and steel rod string
+12/22/94 Rod failure @ 3525', body break in 0.875" Norris 90 rod
+12/28/94 Rod failure @ 3275', pin break on 1" Norris 90 rod
+05/04/95 Rod failure @ 4615', pin break in 0.875" Norris 78 rod
+12/11/95 Rod failure @ 5725', pin break on 0.875" Norris 78 rod
+02/  /96 Downhole dynamometer test
+02/24/96 Rod failure @ 3925', pin break on 0.875" Norris 78 rod
+03/12/96 Rod failure @ 7200', pin break on 0.875" Norris 97 rod
+03/18/96 Rod failure @ 5075', pin break on 0.875" Norris rod, laid down all 0.875" rods, replaced with new.
+09/24/96 Coupling failure @ 4725', spray metal, 0.875" coupling
+12/12/96 Pump failure, standing valve leaking
+01/04/97 Coupling failure @ 225', 1" spray metal coupling
+

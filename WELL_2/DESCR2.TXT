@@ -1,0 +1,181 @@
+To return to Downhole Dynamometer Program: Minimize or close this
+window or select File & Exit from the menu. To word wrap: Select
+Edit & Word Wrap from the menu.
+*****************************************************************
+
+Test Number: 02
+
+Test Date: October, 1995
+
+General Comments: Five Albert Engineering/Sandia National
+Laboratories (AE/SNL) downhole dynamometer tools were used in
+this test, including one placed below the pump, Tool#1. 
+Unfortunately, a shallow rod part (not accociated with the
+dynamometer tools) occurred at 9:42AM on 10/5/95.  The rod fall
+damaged 3 of the 5 tools slightly.  In addition, Tool#3 failed at
+12:35AM on 10/5/95.  We we unable to get the well back on line in
+order to complete the scheduled field measurements, so only 1
+data recording interval produced useful data.
+
+Well Depth: 7799'
+
+Casing Record: 7" to 7715'
+
+Tubing Record: 2.875" to 7694', seating nipple at 7655', tubing
+anchor at 6168', tubing set with 12,000# tension.
+
+Rod String:
+   -Size--Description-----------Length Ea.--Number--Cum.Depth@end
+          Polished Rod              30'       1       0'
+    1.00" Steel Pony                 8'       1       8'
+    1.25" Norris Fiberglass         37.5'   114    4283'
+          Tool #5                    2'       1    4285'
+    1.25" Norris Fiberglass         37.5'     2    4360'
+          Tool #4                    2'       1    4362'
+    1.00" API Grade 'D' Steel       25'     125    7487'
+          Tool #3                    2'       1    7489'
+    1.00" API Grade 'D' Steel       25'       3    7564'
+          Tool #2                    2'       1    7566'
+          Pump                      30'            7655'
+          Tool #1                    2'       1    7657'
+
+Note: Both 1.125" and 1.25" fiberglass rods were pulled out of the hole,
+      without noting how many of each.  All fiberglass rods are listed
+      as 1.25" above.
+
+Note on Depths:  Rod depths are relative to the bottom of the
+polished rod.  Pump depths are relative to the stated seating
+nipple depth which is usually relative to the kelly bushing.
+
+Couplings:  Slim hole, spray metal, on fiberglass
+            Full hole, spray metal, otherwise
+
+Centralizers: None
+
+Perforations: 7632' to 7646'
+
+Downhole Pump: Insert type, 1.5" plunger diameter, 30' barrel, 6' plunger
+               (25-15-RWBC-30-6-0)
+
+Pumping Unit: Lufkin Mark II M-640-305-144, Crank MRO
+              Max stroke 144" in the long crank hole
+              CCW rotation
+              Counterbalance effect 1148916 in-lb.
+
+Motor: Toshiba 75HP Electric, NEMA D
+
+Tubing pressure: 45 - 80 psi
+
+Casing pressure:  76 psi
+
+Production:  29 bopd, 210 bwpd, 47mcfpd, 1620 cu.ft/b GOR (24 hr. test on 8/18/95)
+
+Fluid Properties: 40¡ API oil, water specific gravity = 1.055 (test 10/5/95)
+
+Pumping Speed: 8.2 spm, 24 hrs/day
+
+Stroke Length: 144"
+
+Fluid Level:
+                                    Fluid Level
+     Date/Time                above pump | from surface
+     10/02/95                   428'               '
+
+Bottomhole temperature: 130 degrees F
+
+Corrosion/Scale/Paraffin condition: Some scale problem
+
+Inhibition program: Batch treatment 3 gal/week, occasional squeeze inhibitor
+                    No hot oiling
+
+Deviation Survey: None.
+
+Tool Locations:
+
+Tool#1 - Below pump
+Tool#2 - Above pump @7566'
+Tool#3 - 75' above pump in 1" Rods @ 7489'  **No DATA**
+Tool#4 - At Fiberglass/steel crossover @ 4362'
+Tool#5 - 75' Above crossover @ 4285'
+
+Data Collected: 
+
+  Date      Time    Duration Sample File     Notes        A  V  P A2 A3 L1 L2 L3 Pr  T   T1 T2 T3 T4 T5   Filename
+                              Rate  Size                                                                 
+                      (sec)   (Hz) (byte)
+10/02/95  9:00:00 PM 36000   0.02    0k                   1, 0, 0, 0, 0, 1, 1, 1, 1, 1    1, 1, 1, 1, 1    x2a01
+10/04/95  5:00:00 AM 21540   0.02    0k                   1, 0, 0, 0, 0, 1, 1, 1, 1, 1    1, 1, 1, 1, 1    x2c01
+10/04/95 10:59:00 AM 18000   0.02    0k                   0, 0, 0, 0, 0, 1, 1, 1, 1, 1    1, 1, 1, 1, 1    x2c02
+10/04/95 03:59:00 PM   60    0.02    0k                   0, 0, 0, 0, 0, 1, 1, 1, 1, 1    1, 1, 1, 1, 1    x2c03
+10/04/95 04:00:00 PM  1200     5     0k                   1, 0, 0, 1, 1, 1, 1, 1, 1, 0    1, 1, 1, 1, 1    x2c04
+10/04/95 04:20:00 PM 51900   0.02    0k                   0, 0, 0, 0, 0, 1, 1, 1, 1, 1    1, 1, 1, 1, 1    x2c05
+10/05/95 06:45:00 AM  120      1     0k                   0, 0, 0, 0, 0, 1, 1, 1, 1, 1    1, 1, 0, 1, 1    x2d01
+10/05/95 06:47:00 AM   60     50   210k                   1, 1, 1, 1, 1, 1, 1, 1, 1, 0    1, 1, 0, 1, 1    x2d02.csv
+10/05/95 06:48:00 AM 11460   0.02    0k                   0, 0, 0, 0, 0, 1, 1, 1, 1, 1    1, 1, 0, 1, 1    x2d03
+10/05/95 09:35:15 AM  Surface Dyno   3k        Nabla      0, 0, 0, 0, 0, 0, 0, 0, 0, 0    0, 0, 0, 0, 0    x2d02.dat
+10/05/95 09:59:00 AM   60      1     0k                   0, 0, 0, 0, 0, 1, 1, 1, 1, 1    1, 1, 0, 1, 1    x2d04
+10/05/95 10:00:00 AM  300      5     0k                   1, 0, 0, 1, 1, 1, 1, 1, 1, 0    1, 1, 0, 1, 1    x2d05
+10/05/95 10:05:00 AM  540    0.02    0k                   0, 0, 0, 0, 0, 1, 1, 1, 1, 1    1, 1, 0, 1, 1    x2d06
+10/05/95 10:14:00 AM   60      1     0k                   0, 0, 0, 0, 0, 1, 1, 1, 1, 1    1, 1, 0, 1, 1    x2d07
+10/05/95 10:15:00 AM   60     50     0k                   1, 0, 0, 1, 1, 1, 1, 1, 1, 0    1, 1, 0, 1, 1    x2d08
+10/05/95 10:16:00 AM  9780   0.02    0k                   0, 0, 0, 0, 0, 1, 1, 1, 1, 1    1, 1, 0, 1, 1    x2d09
+10/05/95 12:59:00 PM   60      1     0k                   0, 0, 0, 0, 0, 1, 1, 1, 1, 1    1, 1, 0, 1, 1    x2d10
+10/05/95 01:00:00 PM  300      5     0k                   1, 0, 0, 1, 1, 1, 1, 1, 1, 0    1, 1, 0, 1, 1    x2d11
+10/05/95 01:05:00 PM  540    0.02    0k                   0, 0, 0, 0, 0, 1, 1, 1, 1, 1    1, 1, 0, 1, 1    x2d12
+10/05/95 01:14:00 PM   60      1     0k                   0, 0, 0, 0, 0, 1, 1, 1, 1, 1    1, 1, 0, 1, 1    x2d13
+10/05/95 01:15:00 PM   60     50     0k                   1, 0, 0, 1, 1, 1, 1, 1, 1, 0    1, 1, 0, 1, 1    x2d14
+10/05/95 01:16:00 PM 62940   0.02    0k                   0, 0, 0, 0, 0, 1, 1, 1, 1, 1    1, 1, 0, 1, 1    x2d15
+10/06/95 06:45:00 AM  120      1     0k                   0, 0, 0, 0, 0, 1, 1, 1, 1, 1    1, 1, 0, 1, 1    x2e01
+10/06/95 06:47:00 AM   60     50   210k                   1, 1, 1, 1, 1, 1, 1, 1, 1, 0    1, 1, 0, 1, 1    x2e02
+10/06/95 06:48:00 AM 11460   0.02    0k                   0, 0, 0, 0, 0, 1, 1, 1, 1, 1    1, 1, 0, 1, 1    x2e03
+10/06/95 09:59:00 AM   60      1     0k                   0, 0, 0, 0, 0, 1, 1, 1, 1, 1    1, 1, 0, 1, 1    x2e04
+10/06/95 10:00:00 AM  300      5     0k                   1, 0, 0, 1, 1, 1, 1, 1, 1, 0    1, 1, 0, 1, 1    x2e05
+10/06/95 10:05:00 AM  540    0.02    0k                   0, 0, 0, 0, 0, 1, 1, 1, 1, 1    1, 1, 0, 1, 1    x2e06
+10/06/95 10:14:00 AM   60      1     0k                   0, 0, 0, 0, 0, 1, 1, 1, 1, 1    1, 1, 0, 1, 1    x2e07
+10/06/95 10:15:00 AM   60     50     0k                   1, 0, 0, 1, 1, 1, 1, 1, 1, 0    1, 1, 0, 1, 1    x2e08
+10/06/95 10:16:00 AM  9780   0.02    0k                   0, 0, 0, 0, 0, 1, 1, 1, 1, 1    1, 1, 0, 1, 1    x2e09
+10/06/95 12:59:00 PM   60      1     0k                   0, 0, 0, 0, 0, 1, 1, 1, 1, 1    1, 1, 0, 1, 1    x2e10
+10/06/95 01:00:00 PM  300      5     0k                   1, 0, 0, 1, 1, 1, 1, 1, 1, 0    1, 1, 0, 1, 1    x2e11
+10/06/95 01:05:00 PM  540    0.02    0k                   0, 0, 0, 0, 0, 1, 1, 1, 1, 1    1, 1, 0, 1, 1    x2e12
+10/06/95 01:14:00 PM   60      1     0k                   0, 0, 0, 0, 0, 1, 1, 1, 1, 1    1, 1, 0, 1, 1    x2e13
+10/06/95 01:15:00 PM   60     50     0k                   1, 0, 0, 1, 1, 1, 1, 1, 1, 0    1, 1, 0, 1, 1    x2e14
+10/06/95 01:16:00 PM 84720   0.02    0k                   0, 0, 0, 0, 0, 1, 1, 1, 1, 1    1, 1, 0, 1, 1    x2e15
+
+
+Legend:
+0 = No    A = Axial Acceleration   A2 = Lateral Acceleration 1   L1 = Load 1   Pr = Pressure      T1 = Tool#1
+1 = Yes   V = Velocity             A3 = Lateral Acceleration 2   L2 = Load 2   T  = Temperature   T2 = Tool#2
+          P = Position                                           L3 = Load 3                      T3 = Tool#3
+                                                                                                  T4 = Tool#4
+                                                                                                  T5 = Tool#5
+Filename Extensions:
+.dat = Surface Dyno file in Nabla dynamometer file format
+.dyn = Surface Dyno file in RodDiag dynamometer file format
+.csv = Downhole data in comma-delimited, ASCII file format (processed into engineering units)
+.raw = Raw data in comma-delimited, ASCII file format (unprocessed, A/D counts)
+
+Additional Information: 
+
+Failure History:
+
+05/22/93 Rod failure @ 1st fiberglass rod
+06/26/93 Rod failure @ 226th rod, 1" body break
+06/30/93 Coupling failure @ 89th fiberglass rod
+08/31/93 Rod failure @ 49th fiberglass rod, shoulder break on coupling
+10/23/93 Rod failure @ 211th rod, 1" body break
+03/04/94 Rod failure on pull rod neck, install 12' gas anchor
+03/15/94 Rod failure @ 100th fiberglass rod, on fiberglass shoulder
+10/04/94 Rod failure @ 20th fiberglass rod, on fiberglass shoulder
+10/07/94 Pump failure, exchanged pump
+11/22/94 Rod failure @ 30th fiberglass rod, 1" pin break
+01/27/95 Rod failure @ 42nd fiberglass rod, break on wrench flat
+         Lay down 26 1.25" fiberglass rods, replace with 40 1" steel rods from another well
+03/08/95 Rod failure @ 25th fiberglass rod, on fiberglass shoulder
+03/18/95 Coupling failure @ 71st rod, 1" coupling break
+06/16/95 Tubing failure in bottom joint, 1 hole found
+10/06/95 Rod failure @ 30th fiberglass rod, 1" pin break, replaced 26 1" steel rods, 40 1" couplings
+12/26/95 Pump failure, exchanged pump
+12/29/95 Tubing failure, split in 18th joint above seating nipple. Also, lower portion of pump
+         had partially unscrewed
+05/31/96 Rod failure @ 87th rod, 1" pin break
+06/25/96 Rod failure @ 140th rod, 1" body break
