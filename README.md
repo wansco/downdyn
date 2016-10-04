@@ -44,6 +44,14 @@ Downdyn was then installed and tested. The data files were placed in the downdyn
 
 
 
+#Sandia Data Files
+The original Sandia test data files are available in the machine images above.
+
+Scott Malone provided the RODSTAR and SROD data files for the various tests and these are available in the /WELL_#/DesignFiles/ folders. I have not recompiled the machine images, so these design files are only available in the [git repository](https://github.com/wansco/downdyn)
+
+
+
+
 ###References
 https://www.onepetro.org/journal-paper/SPE-60768-PA
 

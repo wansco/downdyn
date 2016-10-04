@@ -1,0 +1,176 @@
+To return to Downhole Dynamometer Program: Minimize or close this
+window or select File & Exit from the menu. To word wrap: Select
+Edit & Word Wrap from the menu.
+*****************************************************************
+
+Test Number: 05b
+
+Test Date: July/August, 1996
+
+General Comments: Five Albert Engineering/Sandia National
+Laboratories (AE/SNL) downhole dynamometer tools were used in
+this test, including one placed below the pump.  The purpose
+of the test was to compare rod loading with and without the
+Echometer Decentralized Gas Separator.  The position of tools
+4 and 5 was different for the two phases of the test, so
+the test is numbered 05a for the first phase (without separator)
+and 05b for the second phase (with the separator).
+
+Well Depth: 5278' (Plugged back to 5278')
+
+Casing Record: 5.5" to 5090'
+
+Tubing Record: 2.875" to 5060', seating nipple at 5060', tubing
+anchor at 4970', tubing set with 10,000# tension, Echometer Gas
+Separator on bottom (116" long).
+
+Rod String:
+   -Size--Description-----------Length Ea.--Number--Cum.Depth@end
+     1.5" Polished Rod              30'       1       0'
+     1.0" API Grade 'D' Steel        4'       1       4'
+     1.0" API Grade 'D' Steel        2'       1       6'
+     1.0" API Grade 'D' Steel        6'       1      10'
+     1.0" API Grade 'D' Steel       25'      60    1510'
+          Tool #5                    2'       1    1512'
+   0.875" API Grade 'D' Steel       25'      64    3112'
+          Tool #4                    2'       1    3114'
+    0.75" API Grade 'D' Steel       25'      65    4739'
+          Tool #3                    2'       1    4741'
+     1.5" Sinkerbars                25'      10    4991'
+          Tool #2                    2'       1    4993'
+          Flexbar Stabilizer         4'       1    4997'
+          Pump                      24'            5060'
+          Echometer Dip Tube        70"       1    5066'
+          Tool #1                    2'       1    5068'
+
+Note on Depths:  Rod depths are relative to the bottom of the
+polished rod.  Pump depths are relative to the stated seating
+nipple depth which is usually relative to the kelly bushing.
+
+Couplings:  Full size for 0.75" and 0.875" rods
+            Slim hole for 1" rods
+
+Centralizers: Snap-on plastic, 2 per rod on 0.75" rods only
+
+Perforations: Open hole completion
+
+Downhole Pump: API 25-200-RWBC-24-4-H0
+               Hollow pull tube 1.5" OD x 1.125" ID
+
+Pumping Unit: Lufkin M-640D-305-168, CCW rotation, weights OORO set
+at 11.5" from end of crank
+
+Motor: Robbins & Myers 60HP, 460V, 75 full load amps, NEMA D, Frame 444U
+
+Tubing pressure: 205 psi  on 8/4/96
+
+Casing pressure:  180 psi (Buildup 10.2 psi in 2 minutes)   on 8/4/96
+
+Production:   71 bopd,  340 bwpd, 407.3 mcfpd, 5737 GOR scfpb  on 8/4/96
+
+Fluid Properties: 35 degree API oil, water specific gravity = 1.01
+
+Pumping Speed:   6.5 spm, 24 hr/day
+
+Stroke Length:   168"
+
+Fluid Level:
+                                    Fluid Level
+     Date/Time                above pump | from surface
+     08/04/96 10:24:10 AM       4767'           304'
+
+     Other data from Echometer analysis:
+          Total liquid above pump   4767'
+          Gas-free liquid above pump 849'
+          PBHP                       500 psig
+          SBHP                      2990 psig
+          Annular gas flow           262.7 mcfpd
+          PIP                        484 psig
+          18% liquid
+          Gas SG                    1.37
+
+Bottomhole temperature: 105 degrees F
+
+Corrosion/Scale/Paraffin condition: None
+
+Inhibition program: None
+
+Deviation Survey: None.
+
+Tool Locations:
+
+Tool#1 - Below pump
+Tool#2 - Above pump @4993'
+Tool#3 - At 1.5"" bar to .75"" rod crossover @ 4741'
+Tool#4 - At .75"" rod to .875"" rod crossover @ 3114'
+Tool#5 - At .875"" rod to 1.0"" rod crossover @ 1512' 
+
+Data Collected:
+
+  Date      Time    Duration Sample File     Notes        A  V  P A2 A3 L1 L2 L3 Pr  T   T1 T2 T3 T4 T5   Filename
+                              Rate  Size                                                                 
+                      (sec)   (Hz) (byte)
+03/07/95  7:00:00 AM 179100  0.02    0k                   1, 0, 0, 1, 1, 1, 1, 1, 1, 1    0, 1, 1, 1, 0    x1a01
+08/02/96 06:00:00 AM 14340   0.02    0k                   1, 0, 0, 1, 1, 1, 1, 1, 1, 1    0, 1, 1, 1, 1    x5g01
+08/02/96 09:59:00 AM   60      1     0k                   1, 0, 0, 1, 1, 1, 1, 1, 1, 1    0, 1, 1, 1, 1    x5g02
+08/02/96 10:00:00 AM   60     50     0k                   1, 1, 1, 1, 1, 1, 1, 1, 1, 0    0, 1, 1, 1, 1    x5g03.csv
+08/02/96 10:00:00 AM  Surface Dyno   2k    NOT Nabla      0, 0, 0, 0, 0, 0, 0, 0, 0, 0    0, 0, 0, 0, 0    x5g03.dyn
+08/02/96 10:01:00 AM  780    0.02    0k                   1, 0, 0, 1, 1, 1, 1, 1, 1, 1    0, 1, 1, 1, 1    x5g04
+08/02/96 10:14:00 AM   60      1     0k                   1, 0, 0, 1, 1, 1, 1, 1, 1, 1    0, 1, 1, 1, 1    x5g05
+08/02/96 10:15:00 AM  180      5     0k                   1, 0, 0, 0, 0, 1, 1, 1, 1, 0    0, 1, 1, 1, 1    x5g06.csv
+08/02/96 10:18:00 AM  6120   0.02    0k                   1, 0, 0, 1, 1, 1, 1, 1, 1, 1    0, 1, 1, 1, 1    x5g07
+08/03/96 06:00:00 AM 14340   0.02    0k                   1, 0, 0, 1, 1, 1, 1, 1, 1, 1    0, 1, 1, 1, 1    x5h01
+08/03/96 09:59:00 AM   60      1     0k                   1, 0, 0, 1, 1, 1, 1, 1, 1, 1    0, 1, 1, 1, 1    x5h02
+08/03/96 10:00:00 AM   60     50     0k                   1, 1, 1, 1, 1, 1, 1, 1, 1, 0    0, 1, 1, 1, 1    x5h03.csv
+08/03/96 10:01:00 AM  780    0.02    0k                   1, 0, 0, 1, 1, 1, 1, 1, 1, 1    0, 1, 1, 1, 1    x5h04
+08/03/96 10:14:00 AM   60      1     0k                   1, 0, 0, 1, 1, 1, 1, 1, 1, 1    0, 1, 1, 1, 1    x5h05
+08/03/96 10:15:00 AM  180      5     0k                   1, 0, 0, 0, 0, 1, 1, 1, 1, 0    0, 1, 1, 1, 1    x5h06.csv
+08/03/96 10:18:00 AM  6120   0.02    0k                   1, 0, 0, 1, 1, 1, 1, 1, 1, 1    0, 1, 1, 1, 1    x5h07
+08/04/96 06:00:00 AM 14340   0.02    0k                   1, 0, 0, 1, 1, 1, 1, 1, 1, 1    0, 1, 1, 0, 1    x5i01
+08/04/96 09:59:00 AM   60      1     0k                   1, 0, 0, 1, 1, 1, 1, 1, 1, 1    0, 1, 1, 0, 1    x5i02
+08/04/96 10:00:00 AM   60     50     0k                   1, 1, 1, 1, 1, 1, 1, 1, 1, 0    0, 1, 1, 0, 1    x5i03.csv
+08/04/96 10:00:00 AM  Surface Dyno   2k    NOT Nabla      0, 0, 0, 0, 0, 0, 0, 0, 0, 0    0, 0, 0, 0, 0    x5i03.dyn
+08/04/96 10:01:00 AM  780    0.02    0k                   1, 0, 0, 1, 1, 1, 1, 1, 1, 1    0, 1, 1, 0, 1    x5i04
+08/04/96 10:14:00 AM   60      1     0k                   1, 0, 0, 1, 1, 1, 1, 1, 1, 1    0, 1, 1, 0, 1    x5i05
+08/04/96 10:15:00 AM  180      5     0k                   1, 0, 0, 0, 0, 1, 1, 1, 1, 0    0, 1, 1, 0, 1    x5i06.csv
+08/04/96 10:18:00 AM  6120   0.02    0k                   1, 0, 0, 1, 1, 1, 1, 1, 1, 1    0, 1, 1, 0, 1    x5i07
+08/05/96 06:00:00 AM 14340   0.02    0k                   1, 0, 0, 1, 1, 1, 1, 1, 1, 1    0, 1, 1, 0, 1    x5j01
+08/05/96 09:59:00 AM   60      1     0k                   1, 0, 0, 1, 1, 1, 1, 1, 1, 1    0, 1, 1, 0, 1    x5j02
+08/05/96 10:00:00 AM   60     50     0k                   1, 1, 1, 1, 1, 1, 1, 1, 1, 0    0, 1, 1, 0, 1    x5j03.csv
+08/05/96 10:00:00 AM  Surface Dyno   2k        Nabla      0, 0, 0, 0, 0, 0, 0, 0, 0, 0    0, 0, 0, 0, 0    x5j03.dat
+08/05/96 10:01:00 AM  780    0.02    0k                   1, 0, 0, 1, 1, 1, 1, 1, 1, 1    0, 1, 1, 0, 1    x5j04
+08/05/96 10:14:00 AM   60      1     0k                   1, 0, 0, 1, 1, 1, 1, 1, 1, 1    0, 1, 1, 0, 1    x5j05
+08/05/96 10:15:00 AM  180      5     0k                   1, 0, 0, 0, 0, 1, 1, 1, 1, 0    0, 1, 1, 0, 1    x5j06.csv
+08/05/96 10:18:00 AM  6120   0.02    0k                   1, 0, 0, 1, 1, 1, 1, 1, 1, 1    0, 1, 1, 0, 1    x5j07
+08/05/96 10:18:00 AM 32400   0.02    0k                   1, 0, 0, 1, 1, 1, 1, 1, 1, 1    0, 1, 1, 0, 1    x5j08
+
+Legend:
+0 = No    A = Axial Acceleration   A2 = Lateral Acceleration 1   L1 = Load 1   Pr = Pressure      T1 = Tool#1
+1 = Yes   V = Velocity             A3 = Lateral Acceleration 2   L2 = Load 2   T  = Temperature   T2 = Tool#2
+          P = Position                                           L3 = Load 3                      T3 = Tool#3
+                                                                                                  T4 = Tool#4
+                                                                                                  T5 = Tool#5
+Filename Extensions:
+.dat = Surface Dyno file in Nabla dynamometer file format
+.dyn = Surface Dyno file in RodDiag dynamometer file format
+.csv = Downhole data in comma-delimited, ASCII file format (processed into engineering units)
+.raw = Raw data in comma-delimited, ASCII file format (unprocessed, A/D counts)
+
+'NOT Nabla' Surface Dyno data was collected by company personnel using an Echometer Hydraulic Dynamometer.
+
+
+
+Additional Information: 
+
+Failure History:
+
+07/27/89 Seating nipple bent and deformed.  Replace.
+10/10/89 Tubing split vertical at 4940' caused by abrasion.  Replace.
+11/24/89 Tubing split vertical at 1' caused by abrasion.  Replace.
+06/29/93 Replace pump for new design.
+01/13/95 Pump failure caused by foreign material.  Replace.
+07/26/96 Pump stuck caused by wax.  Replace.
+
+
+
+

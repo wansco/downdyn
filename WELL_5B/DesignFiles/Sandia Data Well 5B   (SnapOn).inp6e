@@ -1,0 +1,157 @@
+<?xml version="1.0"?>
+<INPRoot>
+	<Case><ActualCounterbalance>0</ActualCounterbalance>
+		<AddMoldedGuideWeightChecked>1</AddMoldedGuideWeightChecked>
+		<AdjustedStroke>0</AdjustedStroke>
+		<Analyst>Scott Malone</Analyst>
+		<AzimuthFromNorthArray>0:0:0:0:0</AzimuthFromNorthArray>
+		<BitWalkRateArr>0</BitWalkRateArr>
+		<BuildupRateArr>0</BuildupRateArr>
+		<BuildupRateForAutoDesign>0</BuildupRateForAutoDesign>
+		<BulkModulus>290000</BulkModulus>
+		<BuoyantWeightAdjustment>0</BuoyantWeightAdjustment>
+		<CaseName BaseCaseName="BASE CASE">BASE CASE</CaseName>
+		<CasingHeadPressure>180</CasingHeadPressure>
+		<CBalOption>0</CBalOption>
+		<Comments>Test Number: 5A. Test Date July/Aug 1996
+Tubing pressure: 205 psi  on 8/4/96
+Casing pressure:  180 psi (Buildup 10.2 psi in 2 minutes)   on 8/4/96
+Production:   71 bopd,  340 bwpd, 407.3 mcfpd, 5737 GOR scfpb  on 8/4/96
+Fluid Properties: 35 degree API oil, water specific gravity = 1.01
+
+
+
+</Comments>
+		<Company>Sandia Data</Company>
+		<CounterWeight>0</CounterWeight>
+		<CounterWeightInertia>0</CounterWeightInertia>
+		<CrankHole>1 - 169.8 (in)</CrankHole>
+		<CrankID></CrankID>
+		<CycleKey>0</CycleKey>
+		<DateCreated>9/10/2014</DateCreated>
+		<DecimalDelimiter>.</DecimalDelimiter>
+		<DesignModeIndex>0</DesignModeIndex>
+		<DeviationDataCount>5</DeviationDataCount>
+		<DeviationDateSurvey>9/10/2014</DeviationDateSurvey>
+		<DownStrokeDampingFactor>0.15</DownStrokeDampingFactor>
+		<DropOffRateForAutoDesign>0</DropOffRateForAutoDesign>
+		<ElectricCost>10</ElectricCost>
+		<ExactFillage>0</ExactFillage>
+		<ExistingStructureUnbalance>-1500</ExistingStructureUnbalance>
+		<FlowlineHeaderElevation>0</FlowlineHeaderElevation>
+		<FlowlineInternalDiameter>0</FlowlineInternalDiameter>
+		<FlowlineLength>0</FlowlineLength>
+		<FlowlinePressure>205</FlowlinePressure>
+		<FluidLevelOilGravity>35</FluidLevelOilGravity>
+		<FluidPropertyOilGravity>0</FluidPropertyOilGravity>
+		<GasEngine>0</GasEngine>
+		<GasEngineHP>0</GasEngineHP>
+		<GasEngineSpeed>0</GasEngineSpeed>
+		<HydralicStroke>0</HydralicStroke>
+		<HydralicStructureRating>0</HydralicStructureRating>
+		<ImprovingChecked>1</ImprovingChecked>
+		<InclinationFromVerticalArray>0:0:0:0:0</InclinationFromVerticalArray>
+		<InitialInclinationAngle>0</InitialInclinationAngle>
+		<IncludeSinkerBar>0</IncludeSinkerBar>
+		<IncompleteFillageOption>2</IncompleteFillageOption>
+		<IsOnDaulSpeedVariation>0</IsOnDaulSpeedVariation>
+		<KickOffDepth>0</KickOffDepth>
+		<LeadDirection>0</LeadDirection>
+		<MaximumAirPressure>0</MaximumAirPressure>
+		<MaximumRodDiameter>0</MaximumRodDiameter>
+		<MaxSideLoadForBaseRod>50</MaxSideLoadForBaseRod>
+		<MaxSideLoadForMoldedGuide>40</MaxSideLoadForMoldedGuide>
+		<MaxSideLoadForWheeledGuide>200</MaxSideLoadForWheeledGuide>
+		<MeasuredDepthArray>0:1000:3000:8000:10000</MeasuredDepthArray>
+		<MeasuredDepthInterval>0</MeasuredDepthInterval>
+		<MinimalRodDiameter>0</MinimalRodDiameter>
+		<MinimumAirPressure>0</MinimumAirPressure>
+		<MoldedGuideFrictionRatio>1.5</MoldedGuideFrictionRatio>
+		<MoldedGuideType>Norris PPS-Standard</MoldedGuideType>
+		<MotorID>RM60HP</MotorID>
+		<MotorKey>72</MotorKey>
+		<MotorSheaveDiameter>0</MotorSheaveDiameter>
+		<MotorSheaveInertia>0</MotorSheaveInertia>
+		<NonDimensionalFluidDamping>1.5</NonDimensionalFluidDamping>
+		<NumberOfGroove>0</NumberOfGroove>
+		<NumberOfSections>0</NumberOfSections>
+		<OtherGuideFrictionRatio>2</OtherGuideFrictionRatio>
+		<PercentPumpFillage>0</PercentPumpFillage>
+		<PercentageDownstrokeTime>50</PercentageDownstrokeTime>
+		<PercentageUpstrokeTime>50</PercentageUpstrokeTime>
+		<PolishedRodDiameter>0</PolishedRodDiameter>
+		<PumpCapacity>0</PumpCapacity>
+		<PumpCBubblePointPressure>0</PumpCBubblePointPressure>
+		<PumpCFluidViscosity>0</PumpCFluidViscosity>
+		<PumpCGasSpecGravity>0</PumpCGasSpecGravity>
+		<PumpCGasVentingEfficiency>0</PumpCGasVentingEfficiency>
+		<PumpCOilGravity>0</PumpCOilGravity>
+		<PumpCOilProductionRate>0</PumpCOilProductionRate>
+		<PumpCProducingGOR>0</PumpCProducingGOR>
+		<PumpCPumpMechEfficiency>0</PumpCPumpMechEfficiency>
+		<PumpCPumpPlungerClearance>0</PumpCPumpPlungerClearance>
+		<PumpCPumpPlungerLength>0</PumpCPumpPlungerLength>
+		<PumpCPumpTemperature>0</PumpCPumpTemperature>
+		<PumpCWaterProductionRate>0</PumpCWaterProductionRate>
+		<PumpCWaterSpecGravity>0</PumpCWaterSpecGravity>
+		<PumpDepth>5060</PumpDepth>
+		<PumpDiameter>2</PumpDiameter>
+		<PumpEfficiency>85</PumpEfficiency>
+		<PumpFillageOption>1</PumpFillageOption>
+		<PumpFriction>200</PumpFriction>
+		<PumpingSpeed>6.5</PumpingSpeed>
+		<PumpingSpeedOption>1</PumpingSpeedOption>
+		<PumpingUnitID>LC640-305-168</PumpingUnitID>
+		<PumpingUnitKey>201</PumpingUnitKey>
+		<PumpIntakePressure>1931.5</PumpIntakePressure>
+		<PumpLoadAdjustment>0</PumpLoadAdjustment>
+		<PumpLoadCoefficient>5</PumpLoadCoefficient>
+		<ReducerSheaveDiameter>0</ReducerSheaveDiameter>
+		<ReducerSheaveInertia>0</ReducerSheaveInertia>
+		<ReportOption>0</ReportOption>
+		<RodFrictionCoefficient>0.2</RodFrictionCoefficient>
+		<RodGuideTypeArray>N:N:M:N::::::</RodGuideTypeArray>
+		<RodGuideWeightArray>0:0:0:0:0:0:0:0:0:0</RodGuideWeightArray>
+		<RodLengthForFiberglass>37.5</RodLengthForFiberglass>
+		<RodLengthForSteel>25</RodLengthForSteel>
+		<RodLoading>0</RodLoading>
+		<RodTypeArray>3:3:3:2:0:0:0:0:0:0</RodTypeArray>
+		<RotationKey>-1</RotationKey>
+		<Runtime>24</Runtime>
+		<SelectHydralicUnit>0</SelectHydralicUnit>
+		<SeparatorPressure>40</SeparatorPressure>
+		<ServiceFactor>1</ServiceFactor>
+		<ShallowWell>0</ShallowWell>
+		<SheaveOption>0</SheaveOption>
+		<SinkerBarDiameter>0</SinkerBarDiameter>
+		<SinkerBarLength>0</SinkerBarLength>
+		<SinkerBarType></SinkerBarType>
+		<SpeedVariationKey>1</SpeedVariationKey>
+		<SRODRecommendNemaDMotor>0</SRODRecommendNemaDMotor>
+		<StuffingBoxFriction>100</StuffingBoxFriction>
+		<Taper></Taper>
+		<TaperCount>4</TaperCount>
+		<TaperDesignOption>1</TaperDesignOption>
+		<TaperDiameterArray>1:0.875:0.75:1.5:0:0:0:0:0:0</TaperDiameterArray>
+		<TaperLengthArray>1510:1600:1700:250:0:0:0:0:0:0</TaperLengthArray>
+		<TaperLumpsArray>0:0:0:0:0:0:0:0:0:0</TaperLumpsArray>
+		<TaperModulusArray>30.5:30.5:30.5:30.5:0:0:0:0:0:0</TaperModulusArray>
+		<TaperMTSArray>115000:115000:115000:90000:0:0:0:0:0:0</TaperMTSArray>
+		<TaperWeightArray>2.904:2.224:1.634:6:0:0:0:0:0:0</TaperWeightArray>
+		<TotalDepartureOfTarget>0</TotalDepartureOfTarget>
+		<TrueFluidDepth>304</TrueFluidDepth>
+		<TubingAnchorLocation>4970</TubingAnchorLocation>
+		<TubingGradient>0.433</TubingGradient>
+		<TubingSize>3</TubingSize>
+		<TVD>0</TVD>
+		<UnitsSelection>1</UnitsSelection>
+		<UpStrokeDampingFactor>0.05</UpStrokeDampingFactor>
+		<Version>6.8.6</Version>
+		<VerticalDepthArr>0</VerticalDepthArr>
+		<ViewOption>1</ViewOption>
+		<WaterCut>0</WaterCut>
+		<WaterSpecGravity>0</WaterSpecGravity>
+		<WellDeviationType>1</WellDeviationType>
+		<WellName>Well 5B   6.5 SPM</WellName>
+		<WheeledGuideFrictionRatio>0.1</WheeledGuideFrictionRatio>
+	</Case></INPRoot>

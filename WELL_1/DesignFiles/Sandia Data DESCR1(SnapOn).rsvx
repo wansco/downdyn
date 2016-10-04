@@ -1,0 +1,3586 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<r:rodstar lang="zh-Hans" xmlns:r="urn:schemas-gotheta-com:rodstar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <r:input>
+    <r:calc-fluid-level>0</r:calc-fluid-level>
+    <r:calc-friction>-1</r:calc-friction>
+    <r:calc-sliding-friction-coeff>0</r:calc-sliding-friction-coeff>
+    <r:calc-irot>0</r:calc-irot>
+    <r:calc-motor-size>-1</r:calc-motor-size>
+    <r:calc-motor-spv>0</r:calc-motor-spv>
+    <r:calc-plunger-size>0</r:calc-plunger-size>
+    <r:calc-pump-condition>0</r:calc-pump-condition>
+    <r:calc-pump-intake-pressure>0</r:calc-pump-intake-pressure>
+    <r:calc-pumping-speed>0</r:calc-pumping-speed>
+    <r:calc-target-production>0</r:calc-target-production>
+    <r:casing-pressure>0</r:casing-pressure>
+    <r:cbalance-file />
+    <r:comment>Test Number: 01. Test Date March, 1995</r:comment>
+    <r:cover-page-comment>Test Number: 01       Test Date: March, 1995
+
+General Comments: Five Albert Engineering/Sandia National
+Laboratories (AE/SNL) downhole dynamometer tools were used in
+this test, including one placed below the pump, Tool #1. 
+Unfortunately, Tool #1 failed to acquire data during the test
+due to an internal electrical problem, but all 4 tools above the
+pump responded as expected.
+
+Well Depth: 2780' (Drilled to 2853', plugged back to 2780')
+
+Casing Record: 5.5", 15.5# to 2818'
+
+Tubing Record: 2.875" to 2734', seating nipple at 2710', tubing
+anchor at 2647', tubing set with 15,000# tension.
+
+Rod String:
+   -Size--Description-----------Length Ea.--Number--Cum.Depth@end
+    1.25" Polished Rod              16'       1       0'
+    0.75" API Grade 'C' Steel        4'       1       4'
+    0.75" API Grade 'C' Steel        2'       1       6'
+          Tool #5                    2'       1       8'
+    0.75" API Grade 'C' Steel       25'      40    1008'
+          Tool #4                    2'       1    1010'
+    0.75" API Grade 'C' Steel       25'      58    2460'
+          Tool #3                    2'       1    2462'
+    0.75" API Grade 'C' Steel       25'       9    2687'
+          Tool #2                    2'       1    2689'
+          Pump (top hold down)      12'            2722'
+          Tool #1                    2'       1    2724'
+          
+Note on Depths:  Rod depths are relative to the bottom of the
+polished rod.  Pump depths are relative to the stated seating
+nipple depth which is usually relative to the kelly bushing.
+
+Couplings:  Full size
+
+Centralizers: snap-on plastic, 2 per rod
+
+Perforations: 2703' to 2719', 4 shots per foot
+
+Downhole Pump: Insert type, 1.5" plunger diameter, 12' barrel,
+and 4' plunger (API 25-150-RWA-101-4-4) [Barrel length given
+in inches because it is not an even foot length]
+
+Pumping Unit: Lufkin LC228D21386, CW rotation, weights in max
+position in long hole
+
+Motor: Marathon OPDR 20HP, 1170 RPM
+
+Tubing pressure: 60 psi
+
+Casing pressure:  0 psi
+
+Production:   4 bopd,  130 bwpd, 0 mcfpd
+
+Fluid Properties: 38 degree API oil, water specific gravity = 1.
+
+Pumping Speed:   11 spm
+
+Stroke Length:   86"
+
+Fluid Level:
+                                    Fluid Level
+     Date/Time                above pump | from surface
+     03/09/95  8:40:00 AM         0'           2710'
+     03/09/95 10:52:00 AM         0'           2710'
+Bottomhole temperature: unknown
+
+Corrosion/Scale/Paraffin condition: None noted
+
+Inhibition program: unknown
+
+Deviation Survey: None.
+
+Tool Locations:
+
+Tool#1 - Below pump **No DATA**
+Tool#2 - Above pump @2689'
+Tool#3 - In 3/4" rods @ 2462'  
+Tool#4 - In 3/4" rods @ 1010'
+Tool#5 - Below Polished Rod @ 2'Additional Information: Tool#3 was located at 2460' to be
+near an observed problem.  A January 1995 maintenance report
+lists a hole found in the 80th joint of tubing, which was junked
+along with 7 others, presumably nearby.  Following this
+replacement, the tubing anchor was set with 15,000# tension.
+
+Failure History:
+
+03/09/87 Well put on production, no guides on rods
+03/01/88 Replaced bottom 32 rods and pump (no failure analysis)
+         Ran 32 new rods on bottom with 4 guides/rod
+         Installed 75 new guides on remainder of string
+         Ran new pump
+         Installed rod rotator
+03/21/89 Rod part in 12th rod from surface
+         Replaced parted rod with new
+         Ran new pump
+12/08/89 Replaced pump, no indication why
+07/28/92 Suspected hole in tubing, but not found
+         Replaced 18 bad rods (no indication where or why)
+         Replaced bottom 12 tubing joints (bad)
+         Ran new tubing on top
+         Ran new pump
+05/23/94 Pump broken at seat cups.
+         Ran new pump
+         Replaced 6 rod boxes (no indication where or why)
+         Installed 35 guides on rods (no indication where or why)
+01/19/95 Hole in tubing found in 80th joint
+         Replaced 8 bad tubing joints with blue band tubing
+         Ran new pump
+         Replaced 9 rods (no indication where or why)
+         Replaced 7 rod boxes (no indication where or why)
+         Installed 83 guides on rods (no indication where or why)
+03/09/95 Downhole Dynamometer Test
+         Ran new pump
+01/10/96 Tubing leak.  Hold down on pump was broken off from pump
+         barrel.  Replaced 5 worn couplings and installed 7 rod
+         guides.</r:cover-page-comment>
+    <r:company-name>Sandia Data</r:company-name>
+    <r:compressibility-index>3</r:compressibility-index>
+    <r:date>Friday, August 01, 2014</r:date>
+    <r:deviation-survey>xsi:nil</r:deviation-survey>
+    <r:electricity-cost>0.0599999986588955</r:electricity-cost>
+    <r:fluid-damping>0.100000001490116</r:fluid-damping>
+    <r:fluid-level>2724</r:fluid-level>
+    <r:calc-fluid-spgr>-1</r:calc-fluid-spgr>
+    <r:fluid-spgr>0.98348081111908</r:fluid-spgr>
+    <r:include-buoyancy>-1</r:include-buoyancy>
+    <r:include-fluid-inertia>0</r:include-fluid-inertia>
+    <r:inertia-articulating>133989</r:inertia-articulating>
+    <r:inertia-rotating>0</r:inertia-rotating>
+    <r:ipr-profile>xsi:nil</r:ipr-profile>
+    <r:max-existing-counterbalance>xsi:nil</r:max-existing-counterbalance>
+    <r:cb-effect>xsi:nil</r:cb-effect>
+    <r:cb-angle>xsi:nil</r:cb-angle>
+    <r:cb-datatype>xsi:nil</r:cb-datatype>
+    <r:max-pump-drag-downstroke>200</r:max-pump-drag-downstroke>
+    <r:max-pump-drag-upstroke>200</r:max-pump-drag-upstroke>
+    <r:measured-dynamometer-card>xsi:nil</r:measured-dynamometer-card>
+    <r:motor-kind>0</r:motor-kind>
+    <r:motor-setting>15 hp</r:motor-setting>
+    <r:motor-size>15 hp</r:motor-size>
+    <r:motor-speed-variation>0</r:motor-speed-variation>
+    <r:oil-density>38</r:oil-density>
+    <r:plunger-size>1.5</r:plunger-size>
+    <r:polrod-drag-proportionality>constant</r:polrod-drag-proportionality>
+    <r:power-meter-type>detent</r:power-meter-type>
+    <r:pump-condition>full</r:pump-condition>
+    <r:pump-depth>2724</r:pump-depth>
+    <r:pump-drag-d-proportionality>constant</r:pump-drag-d-proportionality>
+    <r:pump-drag-u-proportionality>constant</r:pump-drag-u-proportionality>
+    <r:pump-efficiency>85</r:pump-efficiency>
+    <r:pump-fillage>0</r:pump-fillage>
+    <r:pump-friction>200</r:pump-friction>
+    <r:pump-intake-pressure>14.6999998092651</r:pump-intake-pressure>
+    <r:pump-load-adjustment>0</r:pump-load-adjustment>
+    <r:pump-type>insert</r:pump-type>
+    <r:pumping-speed>11</r:pumping-speed>
+    <r:vsp>0</r:vsp>
+    <r:pumpingunit>
+      <r:pumpingunit-conventional>
+        <r:crank-rotation>counterclockwise</r:crank-rotation>
+        <r:crank-hole-number>1</r:crank-hole-number>
+        <r:pumping-unit-id>CL70</r:pumping-unit-id>
+        <r:crank-offset-angle>0</r:crank-offset-angle>
+        <r:structural-unbalance>450</r:structural-unbalance>
+      </r:pumpingunit-conventional>
+    </r:pumpingunit>
+    <r:rod-string-design>
+      <r:rodstringdesign-steel>
+        <r:rodtype-steel>api-c</r:rodtype-steel>
+        <r:steel-size-max>0.75</r:steel-size-max>
+        <r:steel-size-min>0.75</r:steel-size-min>
+        <r:steel-fric-coef>0.300000011920929</r:steel-fric-coef>
+        <r:steel-guide>5</r:steel-guide>
+        <r:sinker-bar>xsi:nil</r:sinker-bar>
+      </r:rodstringdesign-steel>
+    </r:rod-string-design>
+    <r:rod-string-extra-cost>0</r:rod-string-extra-cost>
+    <r:rod-string-extra-cost-desc />
+    <r:rod-tapers>
+      <r:rod-taper Order="1">
+        <r:rodtype-steel>api-c</r:rodtype-steel>
+        <r:taper-length>2724</r:taper-length>
+        <r:taper-size>0.75</r:taper-size>
+        <r:taper-tensile-strength>90000</r:taper-tensile-strength>
+        <r:taper-stress-method>0</r:taper-stress-method>
+        <r:taper-guide>0</r:taper-guide>
+        <r:taper-friction-coef>0.200000002980232</r:taper-friction-coef>
+      </r:rod-taper>
+    </r:rod-tapers>
+    <r:sliding-friction-coeff>0.200000002980232</r:sliding-friction-coeff>
+    <r:service-factor>1</r:service-factor>
+    <r:rod-tubing-friction-downstroke>1.17999994754791</r:rod-tubing-friction-downstroke>
+    <r:rod-tubing-friction-upstroke>1.17999994754791</r:rod-tubing-friction-upstroke>
+    <r:runtime>24</r:runtime>
+    <r:stuffing-box-friction>100</r:stuffing-box-friction>
+    <r:target-production>0</r:target-production>
+    <r:tubing-anchor-depth>2724</r:tubing-anchor-depth>
+    <r:tubing-anchored>0</r:tubing-anchored>
+    <r:tubing-id>2.44099998474121</r:tubing-id>
+    <r:tubing-od>2.875</r:tubing-od>
+    <r:tubing-pressure>60</r:tubing-pressure>
+    <r:user-name>Scott Malone 432-559-2005</r:user-name>
+    <r:water-cut>90</r:water-cut>
+    <r:water-spgr>1</r:water-spgr>
+    <r:well-name>DESCR1</r:well-name>
+    <r:deviated-case>0</r:deviated-case>
+    <r:design-sinkerbar>0</r:design-sinkerbar>
+    <r:rodstard-save-flag>0</r:rodstard-save-flag>
+    <r:polished-rod-diameter>1.25</r:polished-rod-diameter>
+    <r:measured-stroke>86</r:measured-stroke>
+  </r:input>
+  <r:output>
+    <r:version-major>3</r:version-major>
+    <r:version-minor>6</r:version-minor>
+    <r:version-build>31</r:version-build>
+    <r:bpd-surface>198.333694458008</r:bpd-surface>
+    <r:fluid-load>2155.931640625</r:fluid-load>
+    <r:fluid-level-tvd>0</r:fluid-level-tvd>
+    <r:fzero-skr>0.0601536296308041</r:fzero-skr>
+    <r:gross-pump-stroke>82.1296691894531</r:gross-pump-stroke>
+    <r:max-rod-stress-loading>0.715673685073853</r:max-rod-stress-loading>
+    <r:min-motor-hp>13.40394115448</r:min-motor-hp>
+    <r:mprload>1722.79406738281</r:mprload>
+    <r:n-over-nzeroprime>0.122528716921806</r:n-over-nzeroprime>
+    <r:ntsteps>171</r:ntsteps>
+    <r:ntsteps-upstroke>82</r:ntsteps-upstroke>
+    <r:pfill>0.850000023841858</r:pfill>
+    <r:plunger-length>2</r:plunger-length>
+    <r:pprload>8466</r:pprload>
+    <r:prhp>8.43681716918945</r:prhp>
+    <r:plhp>29.5353298187256</r:plhp>
+    <r:production-loss>3.1281213760376</r:production-loss>
+    <r:pump-length>11</r:pump-length>
+    <r:pump-spacing>8.17199993133545</r:pump-spacing>
+    <r:structure-loading>0.397464781999588</r:structure-loading>
+    <r:system-eff>0.330266028642654</r:system-eff>
+    <r:tubing-stretch>1.27523696422577</r:tubing-stretch>
+    <r:wrods-in-fluid>3897.88916015625</r:wrods-in-fluid>
+    <r:cbeffect-at-90-deg>
+      <r:existing>450</r:existing>
+      <r:min-energy>5039.29638671875</r:min-energy>
+      <r:min-torque>5410.33935546875</r:min-torque>
+    </r:cbeffect-at-90-deg>
+    <r:cyclic-load-factor>
+      <r:existing>0</r:existing>
+      <r:min-energy>1.40974807739258</r:min-energy>
+      <r:min-torque>1.42986941337585</r:min-torque>
+    </r:cyclic-load-factor>
+    <r:cost-per-bbl-fluid>
+      <r:existing>0</r:existing>
+      <r:min-energy>0.0633654296398163</r:min-energy>
+      <r:min-torque>0.0642464309930801</r:min-torque>
+    </r:cost-per-bbl-fluid>
+    <r:cost-per-bbl-oil>
+      <r:existing>0</r:existing>
+      <r:min-energy>0.633654296398163</r:min-energy>
+      <r:min-torque>0.642464339733124</r:min-torque>
+    </r:cost-per-bbl-oil>
+    <r:monthly-electric-bill>
+      <r:existing>0</r:existing>
+      <r:min-energy>383.308746337891</r:min-energy>
+      <r:min-torque>388.638061523438</r:min-torque>
+    </r:monthly-electric-bill>
+    <r:gearbox-loading>
+      <r:existing>0</r:existing>
+      <r:min-energy>0.653028905391693</r:min-energy>
+      <r:min-torque>0.61017519235611</r:min-torque>
+    </r:gearbox-loading>
+    <r:hp-nema-d>
+      <r:existing>0</r:existing>
+      <r:min-energy>15</r:min-energy>
+      <r:min-torque>15</r:min-torque>
+    </r:hp-nema-d>
+    <r:hp-uhs>
+      <r:existing>0</r:existing>
+      <r:min-energy>15</r:min-energy>
+      <r:min-torque>15</r:min-torque>
+    </r:hp-uhs>
+    <r:maximum-counterbalance>
+      <r:existing>0</r:existing>
+      <r:min-energy>188008.734375</r:min-energy>
+      <r:min-torque>203209.171875</r:min-torque>
+    </r:maximum-counterbalance>
+    <r:motor-kwh>
+      <r:existing>0</r:existing>
+      <r:min-energy>209.458343505859</r:min-energy>
+      <r:min-torque>212.370529174805</r:min-torque>
+    </r:motor-kwh>
+    <r:peak-gearbox-torque>
+      <r:existing>0</r:existing>
+      <r:min-energy>148890.59375</r:min-energy>
+      <r:min-torque>139119.9375</r:min-torque>
+    </r:peak-gearbox-torque>
+    <r:net-torque>
+      <r:net-torque-point Order="0">
+        <r:existing>16320.537109375</r:existing>
+        <r:min-energy>9413.9404296875</r:min-energy>
+        <r:min-torque>8855.544921875</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="1">
+        <r:existing>24987.01953125</r:existing>
+        <r:min-energy>11183.1513671875</r:min-energy>
+        <r:min-torque>10067.11328125</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="2">
+        <r:existing>34093.62109375</r:existing>
+        <r:min-energy>13411.1142578125</r:min-energy>
+        <r:min-torque>11738.9404296875</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="3">
+        <r:existing>43844.67578125</r:existing>
+        <r:min-energy>16311.44921875</r:min-energy>
+        <r:min-torque>14085.3984375</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="4">
+        <r:existing>54329.5234375</r:existing>
+        <r:min-energy>19982.748046875</r:min-energy>
+        <r:min-torque>17205.82421875</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="5">
+        <r:existing>65687.25</r:existing>
+        <r:min-energy>24573.29296875</r:min-energy>
+        <r:min-torque>21249.244140625</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="6">
+        <r:existing>78065.796875</r:existing>
+        <r:min-energy>30240.16015625</r:min-energy>
+        <r:min-torque>26373.474609375</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="7">
+        <r:existing>91473.875</r:existing>
+        <r:min-energy>37001.1171875</r:min-energy>
+        <r:min-torque>32597.015625</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="8">
+        <r:existing>105695.234375</r:existing>
+        <r:min-energy>44648.8984375</r:min-energy>
+        <r:min-torque>39713.32421875</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="9">
+        <r:existing>120401.453125</r:existing>
+        <r:min-energy>52863.9453125</r:min-energy>
+        <r:min-torque>47403.5625</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="10">
+        <r:existing>135401.90625</r:existing>
+        <r:min-energy>61464.39453125</r:min-energy>
+        <r:min-torque>55486.57421875</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="11">
+        <r:existing>150828.1875</r:existing>
+        <r:min-energy>70590.4921875</r:min-energy>
+        <r:min-torque>64103.30078125</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="12">
+        <r:existing>167090.4375</r:existing>
+        <r:min-energy>80660.8671875</r:min-energy>
+        <r:min-torque>73673.0703125</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="13">
+        <r:existing>184638.953125</r:existing>
+        <r:min-energy>92134.1875</r:min-energy>
+        <r:min-torque>84655.2109375</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="14">
+        <r:existing>203716.859375</r:existing>
+        <r:min-energy>105261.7734375</r:min-energy>
+        <r:min-torque>97301.7109375</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="15">
+        <r:existing>223930.703125</r:existing>
+        <r:min-energy>119658.2109375</r:min-energy>
+        <r:min-torque>111227.8203125</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="16">
+        <r:existing>243676.640625</r:existing>
+        <r:min-energy>133727.5</r:min-energy>
+        <r:min-torque>124838.1484375</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="17">
+        <r:existing>260029.96875</r:existing>
+        <r:min-energy>144552.625</r:min-energy>
+        <r:min-torque>135216.328125</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="18">
+        <r:existing>269740.28125</r:existing>
+        <r:min-energy>148890.59375</r:min-energy>
+        <r:min-torque>139119.9375</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="19">
+        <r:existing>271134.0625</r:existing>
+        <r:min-energy>145075.203125</r:min-energy>
+        <r:min-torque>134883.390625</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="20">
+        <r:existing>265640.84375</r:existing>
+        <r:min-energy>134542.953125</r:min-energy>
+        <r:min-torque>123943.734375</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="21">
+        <r:existing>257482.765625</r:existing>
+        <r:min-energy>121522.828125</r:min-energy>
+        <r:min-torque>110530.515625</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="22">
+        <r:existing>251276.1875</r:existing>
+        <r:min-energy>110637.7578125</r:min-energy>
+        <r:min-torque>99267.1875</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="23">
+        <r:existing>249066.296875</r:existing>
+        <r:min-energy>103939.2265625</r:min-energy>
+        <r:min-torque>92205.7578125</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="24">
+        <r:existing>249080.234375</r:existing>
+        <r:min-energy>99660.4296875</r:min-energy>
+        <r:min-torque>87579.890625</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="25">
+        <r:existing>247379.234375</r:existing>
+        <r:min-energy>93868.421875</r:min-energy>
+        <r:min-torque>81457.125</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="26">
+        <r:existing>241330.09375</r:existing>
+        <r:min-energy>83935.484375</r:min-energy>
+        <r:min-torque>71210.1875</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="27">
+        <r:existing>232244.828125</r:existing>
+        <r:min-energy>71178.8984375</r:min-energy>
+        <r:min-torque>58156.7734375</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="28">
+        <r:existing>225045.015625</r:existing>
+        <r:min-energy>60525.20703125</r:min-energy>
+        <r:min-torque>47223.83984375</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="29">
+        <r:existing>225078.171875</r:existing>
+        <r:min-energy>57326.5703125</r:min-energy>
+        <r:min-torque>43763.9140625</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="30">
+        <r:existing>234445.4375</r:existing>
+        <r:min-energy>63688.5078125</r:min-energy>
+        <r:min-torque>49882.87109375</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="31">
+        <r:existing>250572.625</r:existing>
+        <r:min-energy>77040.8828125</r:min-energy>
+        <r:min-torque>63010.90625</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="32">
+        <r:existing>267988.40625</r:existing>
+        <r:min-energy>91916.1015625</r:min-energy>
+        <r:min-torque>77680.71875</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="33">
+        <r:existing>281843.375</r:existing>
+        <r:min-energy>103468.2109375</r:min-energy>
+        <r:min-torque>89046.640625</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="34">
+        <r:existing>290540.5</r:existing>
+        <r:min-energy>110103.2578125</r:min-energy>
+        <r:min-torque>95514.9765625</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="35">
+        <r:existing>295772.5</r:existing>
+        <r:min-energy>113516.78125</r:min-energy>
+        <r:min-torque>98781.4765625</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="36">
+        <r:existing>300356.8125</r:existing>
+        <r:min-energy>116528.65625</r:min-energy>
+        <r:min-torque>101666.21875</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="37">
+        <r:existing>305775.375</r:existing>
+        <r:min-energy>120622.9140625</r:min-energy>
+        <r:min-torque>105653.40625</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="38">
+        <r:existing>311188.5</r:existing>
+        <r:min-energy>124961.7109375</r:min-energy>
+        <r:min-torque>109905.34375</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="39">
+        <r:existing>314272.84375</r:existing>
+        <r:min-energy>127223.09375</r:min-energy>
+        <r:min-torque>112100.1875</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="40">
+        <r:existing>312863.875</r:existing>
+        <r:min-energy>125243.6953125</r:min-energy>
+        <r:min-torque>110074.671875</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="41">
+        <r:existing>306115.4375</r:existing>
+        <r:min-energy>118178.09375</r:min-energy>
+        <r:min-torque>102983.421875</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="42">
+        <r:existing>294648.09375</r:existing>
+        <r:min-energy>106647.2734375</r:min-energy>
+        <r:min-torque>91447.4765625</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="43">
+        <r:existing>280055.6875</r:existing>
+        <r:min-energy>92245.234375</r:min-energy>
+        <r:min-torque>77060.828125</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="44">
+        <r:existing>264373.5</r:existing>
+        <r:min-energy>77006.921875</r:min-energy>
+        <r:min-torque>61858.40234375</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="45">
+        <r:existing>249697.890625</r:existing>
+        <r:min-energy>63028.11328125</r:min-energy>
+        <r:min-torque>47935.9296875</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="46">
+        <r:existing>237747.078125</r:existing>
+        <r:min-energy>52026.11328125</r:min-energy>
+        <r:min-torque>37010.640625</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="47">
+        <r:existing>229260.28125</r:existing>
+        <r:min-energy>44738.83203125</r:min-energy>
+        <r:min-torque>29820.33984375</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="48">
+        <r:existing>223589.21875</r:existing>
+        <r:min-energy>40516.37890625</r:min-energy>
+        <r:min-torque>25715.0078125</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="49">
+        <r:existing>219026</r:existing>
+        <r:min-energy>37648.9140625</r:min-energy>
+        <r:min-torque>22984.642578125</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="50">
+        <r:existing>213933.90625</r:existing>
+        <r:min-energy>34497.4296875</r:min-energy>
+        <r:min-torque>19990.0546875</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="51">
+        <r:existing>207988.5</r:existing>
+        <r:min-energy>30734.857421875</r:min-energy>
+        <r:min-torque>16403.966796875</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="52">
+        <r:existing>202513.625</r:existing>
+        <r:min-energy>27682.10546875</r:min-energy>
+        <r:min-torque>13547.0419921875</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="53">
+        <r:existing>199482.3125</r:existing>
+        <r:min-energy>27308.9296875</r:min-energy>
+        <r:min-torque>13388.775390625</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="54">
+        <r:existing>199830.4375</r:existing>
+        <r:min-energy>30547.619140625</r:min-energy>
+        <r:min-torque>16861.166015625</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="55">
+        <r:existing>202382.375</r:existing>
+        <r:min-energy>36218.66015625</r:min-energy>
+        <r:min-torque>22784.384765625</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="56">
+        <r:existing>204295.25</r:existing>
+        <r:min-energy>41474.9140625</r:min-energy>
+        <r:min-torque>28310.94921875</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="57">
+        <r:existing>202759.921875</r:existing>
+        <r:min-energy>43502.80078125</r:min-energy>
+        <r:min-torque>30626.921875</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="58">
+        <r:existing>196703.65625</r:existing>
+        <r:min-energy>41224.7109375</r:min-energy>
+        <r:min-torque>28654.294921875</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="59">
+        <r:existing>187249.921875</r:existing>
+        <r:min-energy>35759.05859375</r:min-energy>
+        <r:min-torque>23511.080078125</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="60">
+        <r:existing>176681.015625</r:existing>
+        <r:min-energy>29382.728515625</r:min-energy>
+        <r:min-torque>17473.71484375</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="61">
+        <r:existing>166779.578125</r:existing>
+        <r:min-energy>23872.720703125</r:min-energy>
+        <r:min-torque>12318.7548828125</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="62">
+        <r:existing>157805.359375</r:existing>
+        <r:min-energy>19482.833984375</r:min-energy>
+        <r:min-torque>8299.5087890625</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="63">
+        <r:existing>148733.375</r:existing>
+        <r:min-energy>15181.94140625</r:min-energy>
+        <r:min-torque>4384.35595703125</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="64">
+        <r:existing>138386.0625</r:existing>
+        <r:min-energy>9785.9990234375</r:min-energy>
+        <r:min-torque>-611.268310546875</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="65">
+        <r:existing>126478.015625</r:existing>
+        <r:min-energy>3002.90869140625</r:min-energy>
+        <r:min-torque>-6980.0087890625</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="66">
+        <r:existing>113814.1015625</r:existing>
+        <r:min-energy>-4369.337890625</r:min-energy>
+        <r:min-torque>-13924.42578125</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="67">
+        <r:existing>101709.3125</r:existing>
+        <r:min-energy>-11022.9560546875</r:min-energy>
+        <r:min-torque>-20137.318359375</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="68">
+        <r:existing>91175.8828125</r:existing>
+        <r:min-energy>-15952.984375</r:min-energy>
+        <r:min-torque>-24614.314453125</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="69">
+        <r:existing>82450.828125</r:existing>
+        <r:min-energy>-18930.064453125</r:min-energy>
+        <r:min-torque>-27126.671875</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="70">
+        <r:existing>75132.640625</r:existing>
+        <r:min-energy>-20363.3828125</r:min-energy>
+        <r:min-torque>-28084.201171875</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="71">
+        <r:existing>68595.921875</r:existing>
+        <r:min-energy>-20886.3515625</r:min-energy>
+        <r:min-torque>-28120.958984375</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="72">
+        <r:existing>62342.8203125</r:existing>
+        <r:min-energy>-21004.865234375</r:min-energy>
+        <r:min-torque>-27743.494140625</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="73">
+        <r:existing>56116.05078125</r:existing>
+        <r:min-energy>-20984.533203125</r:min-energy>
+        <r:min-torque>-27218.087890625</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="74">
+        <r:existing>49836.62890625</r:existing>
+        <r:min-energy>-20912.80859375</r:min-energy>
+        <r:min-torque>-26632.875</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="75">
+        <r:existing>43509.48046875</r:existing>
+        <r:min-energy>-20793.267578125</r:min-energy>
+        <r:min-torque>-25992.12109375</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="76">
+        <r:existing>37167.28515625</r:existing>
+        <r:min-energy>-20602.005859375</r:min-energy>
+        <r:min-torque>-25272.6328125</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="77">
+        <r:existing>30827.935546875</r:existing>
+        <r:min-energy>-20329.869140625</r:min-energy>
+        <r:min-torque>-24465.958984375</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="78">
+        <r:existing>24455.205078125</r:existing>
+        <r:min-energy>-20022.095703125</r:min-energy>
+        <r:min-torque>-23618.0703125</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="79">
+        <r:existing>17958.408203125</r:existing>
+        <r:min-energy>-19778.3046875</r:min-energy>
+        <r:min-torque>-22829.3046875</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="80">
+        <r:existing>11268.58984375</r:existing>
+        <r:min-energy>-19676.591796875</r:min-energy>
+        <r:min-torque>-22178.498046875</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="81">
+        <r:existing>4439.42431640625</r:existing>
+        <r:min-energy>-19672.49609375</r:min-energy>
+        <r:min-torque>-21621.935546875</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="82">
+        <r:existing>-2240.63940429688</r:existing>
+        <r:min-energy>-19486.703125</r:min-energy>
+        <r:min-torque>-20881.041015625</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="83">
+        <r:existing>-8449.9404296875</r:existing>
+        <r:min-energy>-18806.912109375</r:min-energy>
+        <r:min-torque>-19644.26953125</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="84">
+        <r:existing>-14217.18359375</r:existing>
+        <r:min-energy>-17671.03515625</r:min-energy>
+        <r:min-torque>-17950.27734375</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="85">
+        <r:existing>-19604.310546875</r:existing>
+        <r:min-energy>-16150.4267578125</r:min-energy>
+        <r:min-torque>-15871.181640625</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="86">
+        <r:existing>-24763.65625</r:existing>
+        <r:min-energy>-14406.65234375</r:min-energy>
+        <r:min-torque>-13569.2919921875</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="87">
+        <r:existing>-29758.443359375</r:existing>
+        <r:min-energy>-12512.3017578125</r:min-energy>
+        <r:min-torque>-11117.9580078125</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="88">
+        <r:existing>-34484.4140625</r:existing>
+        <r:min-energy>-10372.4599609375</r:min-energy>
+        <r:min-torque>-8423.017578125</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="89">
+        <r:existing>-38773.7578125</r:existing>
+        <r:min-energy>-7828.498046875</r:min-energy>
+        <r:min-torque>-5326.58544921875</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="90">
+        <r:existing>-42568.3984375</r:existing>
+        <r:min-energy>-4831.65283203125</r:min-energy>
+        <r:min-torque>-1780.65063476563</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="91">
+        <r:existing>-45977.9140625</r:existing>
+        <r:min-energy>-1500.57873535156</r:min-energy>
+        <r:min-torque>2095.3974609375</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="92">
+        <r:existing>-49144.3046875</r:existing>
+        <r:min-energy>2013.5322265625</r:min-energy>
+        <r:min-torque>6149.62451171875</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="93">
+        <r:existing>-52036.47265625</r:existing>
+        <r:min-energy>5732.84765625</r:min-energy>
+        <r:min-torque>10403.4765625</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="94">
+        <r:existing>-54377.515625</r:existing>
+        <r:min-energy>9925.26171875</r:min-energy>
+        <r:min-torque>15124.1181640625</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="95">
+        <r:existing>-55794.8671875</r:existing>
+        <r:min-energy>14954.6015625</r:min-energy>
+        <r:min-torque>20674.669921875</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="96">
+        <r:existing>-56085.63671875</r:existing>
+        <r:min-energy>21015.015625</r:min-energy>
+        <r:min-torque>27248.576171875</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="97">
+        <r:existing>-55380.7109375</r:existing>
+        <r:min-energy>27967.00390625</r:min-energy>
+        <r:min-torque>34705.63671875</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="98">
+        <r:existing>-54069.28515625</r:existing>
+        <r:min-energy>35413.015625</r:min-energy>
+        <r:min-torque>42647.62890625</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="99">
+        <r:existing>-52535.87890625</r:existing>
+        <r:min-energy>42960.171875</r:min-energy>
+        <r:min-torque>50680.9921875</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="100">
+        <r:existing>-50908.359375</r:existing>
+        <r:min-energy>50472.56640625</r:min-energy>
+        <r:min-torque>58669.17578125</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="101">
+        <r:existing>-49001.140625</r:existing>
+        <r:min-energy>58127.75390625</r:min-energy>
+        <r:min-torque>66789.0859375</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="102">
+        <r:existing>-46481.68359375</r:existing>
+        <r:min-energy>66250.609375</r:min-energy>
+        <r:min-torque>75364.9765625</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="103">
+        <r:existing>-43117.828125</r:existing>
+        <r:min-energy>75065.640625</r:min-energy>
+        <r:min-torque>84620.7265625</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="104">
+        <r:existing>-38997.7734375</r:existing>
+        <r:min-energy>84477.359375</r:min-energy>
+        <r:min-torque>94460.28125</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="105">
+        <r:existing>-34762.70703125</r:existing>
+        <r:min-energy>93837.40625</r:min-energy>
+        <r:min-torque>104234.6796875</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="106">
+        <r:existing>-31709.466796875</r:existing>
+        <r:min-energy>101841.9921875</r:min-energy>
+        <r:min-torque>112639.578125</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="107">
+        <r:existing>-31485.44921875</r:existing>
+        <r:min-energy>106837.1015625</r:min-energy>
+        <r:min-torque>118020.421875</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="108">
+        <r:existing>-35297.1171875</r:existing>
+        <r:min-energy>107609.7890625</r:min-energy>
+        <r:min-torque>119163.7578125</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="109">
+        <r:existing>-43025.2421875</r:existing>
+        <r:min-energy>104273.0703125</r:min-energy>
+        <r:min-torque>116182.0859375</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="110">
+        <r:existing>-52949.18359375</r:existing>
+        <r:min-energy>98541.6953125</r:min-energy>
+        <r:min-torque>110789.6796875</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="111">
+        <r:existing>-62517.640625</r:existing>
+        <r:min-energy>92961.3515625</r:min-energy>
+        <r:min-torque>105531.7734375</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="112">
+        <r:existing>-69831.5859375</r:existing>
+        <r:min-energy>89425.5859375</r:min-energy>
+        <r:min-torque>102301.46875</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="113">
+        <r:existing>-74821.484375</r:existing>
+        <r:min-energy>87998.8671875</r:min-energy>
+        <r:min-torque>101162.8359375</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="114">
+        <r:existing>-79155.9140625</r:existing>
+        <r:min-energy>87007.8203125</r:min-energy>
+        <r:min-torque>100442.1015625</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="115">
+        <r:existing>-84802.890625</r:existing>
+        <r:min-energy>84479.9609375</r:min-energy>
+        <r:min-torque>98166.4140625</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="116">
+        <r:existing>-92242.3671875</r:existing>
+        <r:min-energy>79931.0390625</r:min-energy>
+        <r:min-torque>93851.1953125</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="117">
+        <r:existing>-99708.3828125</r:existing>
+        <r:min-energy>75123.140625</r:min-energy>
+        <r:min-torque>89258.203125</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="118">
+        <r:existing>-104135.703125</r:existing>
+        <r:min-energy>73117.9375</r:min-energy>
+        <r:min-torque>87448.828125</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="119">
+        <r:existing>-103196.21875</r:existing>
+        <r:min-energy>76240.2734375</r:min-energy>
+        <r:min-torque>90747.6484375</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="120">
+        <r:existing>-96947.6796875</r:existing>
+        <r:min-energy>84429.40625</r:min-energy>
+        <r:min-torque>99093.6796875</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="121">
+        <r:existing>-87884.8828125</r:existing>
+        <r:min-energy>95187.9609375</r:min-energy>
+        <r:min-torque>109989.328125</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="122">
+        <r:existing>-79380.8359375</r:existing>
+        <r:min-energy>105140.6328125</r:min-energy>
+        <r:min-torque>120059.125</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="123">
+        <r:existing>-73685.9140625</r:existing>
+        <r:min-energy>112035.0625</r:min-energy>
+        <r:min-torque>127050.5390625</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="124">
+        <r:existing>-70900.9140625</r:existing>
+        <r:min-energy>115768.8671875</r:min-energy>
+        <r:min-torque>130861.0546875</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="125">
+        <r:existing>-69517.4921875</r:existing>
+        <r:min-energy>117849.09375</r:min-energy>
+        <r:min-torque>132997.609375</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="126">
+        <r:existing>-67935.6171875</r:existing>
+        <r:min-energy>119874.84375</r:min-energy>
+        <r:min-torque>135059.25</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="127">
+        <r:existing>-65757.75</r:existing>
+        <r:min-energy>122243.0546875</r:min-energy>
+        <r:min-torque>137442.84375</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="128">
+        <r:existing>-64012.765625</r:existing>
+        <r:min-energy>123924.578125</r:min-energy>
+        <r:min-torque>139119.25</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="129">
+        <r:existing>-64368.875</r:existing>
+        <r:min-energy>123251.3125</r:min-energy>
+        <r:min-torque>138420.328125</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="130">
+        <r:existing>-68069.765625</r:existing>
+        <r:min-energy>118979.9765625</r:min-energy>
+        <r:min-torque>134102.890625</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="131">
+        <r:existing>-75311.875</r:existing>
+        <r:min-energy>110914.921875</r:min-energy>
+        <r:min-torque>125971.296875</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="132">
+        <r:existing>-85259.7421875</r:existing>
+        <r:min-energy>99892.71875</r:min-energy>
+        <r:min-torque>114862.2265625</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="133">
+        <r:existing>-96428.703125</r:existing>
+        <r:min-energy>87399.453125</r:min-energy>
+        <r:min-torque>102261.890625</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="134">
+        <r:existing>-107112.6171875</r:existing>
+        <r:min-energy>75143.0859375</r:min-energy>
+        <r:min-torque>89878.3984375</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="135">
+        <r:existing>-115777.96875</r:existing>
+        <r:min-energy>64659.2578125</r:min-energy>
+        <r:min-torque>79247.5390625</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="136">
+        <r:existing>-121488.59375</r:existing>
+        <r:min-energy>56886.54296875</r:min-energy>
+        <r:min-torque>71308.109375</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="137">
+        <r:existing>-124276.1953125</r:existing>
+        <r:min-energy>51796.08203125</r:min-energy>
+        <r:min-torque>66031.4609375</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="138">
+        <r:existing>-125147.1484375</r:existing>
+        <r:min-energy>48384.58203125</r:min-energy>
+        <r:min-torque>62414.55859375</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="139">
+        <r:existing>-125491.9765625</r:existing>
+        <r:min-energy>45264.94140625</r:min-energy>
+        <r:min-torque>59070.57421875</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="140">
+        <r:existing>-126118.8515625</r:existing>
+        <r:min-energy>41632.70703125</r:min-energy>
+        <r:min-torque>55195.359375</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="141">
+        <r:existing>-126584.4296875</r:existing>
+        <r:min-energy>37935.35546875</r:min-energy>
+        <r:min-torque>51236.71875</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="142">
+        <r:existing>-125445.171875</r:existing>
+        <r:min-energy>35620.73828125</r:min-energy>
+        <r:min-torque>48642.859375</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="143">
+        <r:existing>-121400.6484375</r:existing>
+        <r:min-energy>35993.96484375</r:min-energy>
+        <r:min-torque>48719.26171875</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="144">
+        <r:existing>-114532.8515625</r:existing>
+        <r:min-energy>38977.9375</r:min-energy>
+        <r:min-torque>51389.23046875</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="145">
+        <r:existing>-106647.984375</r:existing>
+        <r:min-energy>42771.796875</r:min-energy>
+        <r:min-torque>54852.33203125</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="146">
+        <r:existing>-100350.1796875</r:existing>
+        <r:min-energy>44776.890625</r:min-energy>
+        <r:min-torque>56510.36328125</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="147">
+        <r:existing>-97463.2265625</r:existing>
+        <r:min-energy>43175.15234375</r:min-energy>
+        <r:min-torque>54545.71484375</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="148">
+        <r:existing>-97953.1171875</r:existing>
+        <r:min-energy>38006.77734375</r:min-energy>
+        <r:min-torque>48999.0859375</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="149">
+        <r:existing>-100130.3515625</r:existing>
+        <r:min-energy>30967.525390625</r:min-energy>
+        <r:min-torque>41566.73828125</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="150">
+        <r:existing>-101925.5703125</r:existing>
+        <r:min-energy>24133.306640625</r:min-energy>
+        <r:min-torque>34325.12109375</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="151">
+        <r:existing>-102239.640625</r:existing>
+        <r:min-energy>18609.99609375</r:min-energy>
+        <r:min-torque>28380.646484375</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="152">
+        <r:existing>-101399.1640625</r:existing>
+        <r:min-energy>14078.1650390625</r:min-energy>
+        <r:min-torque>23414.46484375</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="153">
+        <r:existing>-100511.5078125</r:existing>
+        <r:min-energy>9437.623046875</r:min-energy>
+        <r:min-torque>18326.96875</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="154">
+        <r:existing>-100359.0546875</r:existing>
+        <r:min-energy>3913.37255859375</r:min-energy>
+        <r:min-torque>12343.7607421875</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="155">
+        <r:existing>-100711.671875</r:existing>
+        <r:min-energy>-2256.63305664063</r:min-energy>
+        <r:min-torque>5703.4208984375</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="156">
+        <r:existing>-100490.5234375</r:existing>
+        <r:min-energy>-7985.78076171875</r:min-energy>
+        <r:min-torque>-506.805999755859</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="157">
+        <r:existing>-98511.8671875</r:existing>
+        <r:min-energy>-12082.2958984375</r:min-energy>
+        <r:min-torque>-5094.4970703125</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="158">
+        <r:existing>-94180.109375</r:existing>
+        <r:min-energy>-13942.4677734375</r:min-energy>
+        <r:min-torque>-7455.2841796875</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="159">
+        <r:existing>-87681.9296875</r:existing>
+        <r:min-energy>-13744.4560546875</r:min-energy>
+        <r:min-torque>-7766.63818359375</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="160">
+        <r:existing>-79694.171875</r:existing>
+        <r:min-energy>-12156.6748046875</r:min-energy>
+        <r:min-torque>-6696.29248046875</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="161">
+        <r:existing>-70942.1875</r:existing>
+        <r:min-energy>-9895.92578125</r:min-energy>
+        <r:min-torque>-4960.357421875</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="162">
+        <r:existing>-61920.83203125</r:existing>
+        <r:min-energy>-7448.12744140625</r:min-energy>
+        <r:min-torque>-3044.029296875</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="163">
+        <r:existing>-52859.546875</r:existing>
+        <r:min-energy>-5033.9375</r:min-energy>
+        <r:min-torque>-1167.25439453125</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="164">
+        <r:existing>-43823.39453125</r:existing>
+        <r:min-energy>-2709.44311523438</r:min-energy>
+        <r:min-torque>614.604797363281</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="165">
+        <r:existing>-34821.8671875</r:existing>
+        <r:min-energy>-475.161499023438</r:min-energy>
+        <r:min-torque>2301.75708007813</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="166">
+        <r:existing>-25881.017578125</r:existing>
+        <r:min-energy>1652.16394042969</r:min-energy>
+        <r:min-torque>3878.21166992188</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="167">
+        <r:existing>-17077.80859375</r:existing>
+        <r:min-energy>3604.68017578125</r:min-energy>
+        <r:min-torque>5276.8515625</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="168">
+        <r:existing>-8528.166015625</r:existing>
+        <r:min-energy>5275.61962890625</r:min-energy>
+        <r:min-torque>6391.650390625</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="169">
+        <r:existing>-309.245788574219</r:existing>
+        <r:min-energy>6597.29248046875</r:min-energy>
+        <r:min-torque>7155.68359375</r:min-torque>
+      </r:net-torque-point>
+      <r:net-torque-point Order="170">
+        <r:existing>16320.537109375</r:existing>
+        <r:min-energy>8058.64697265625</r:min-energy>
+        <r:min-torque>8058.64404296875</r:min-torque>
+      </r:net-torque-point>
+    </r:net-torque>
+    <r:calculated-rod-tapers>
+      <r:calculated-rod-taper Order="1">
+        <r:max-rod-stress-top>18936.75</r:max-rod-stress-top>
+        <r:min-rod-stress-bot-buoy>-1672.71508789063</r:min-rod-stress-bot-buoy>
+        <r:min-rod-stress-bot-unbuoy>-452.707397460938</r:min-rod-stress-bot-unbuoy>
+        <r:min-rod-stress-top>4125.9619140625</r:min-rod-stress-top>
+        <r:rod-stress-loading>0.715673685073853</r:rod-stress-loading>
+      </r:calculated-rod-taper>
+    </r:calculated-rod-tapers>
+    <r:predicted-dynamometer-card>
+      <r:predicted-dynamometer-card-point Order="0">
+        <r:surface-load>4349.251953125</r:surface-load>
+        <r:surface-position>0.0365764796733856</r:surface-position>
+        <r:permissible-load>21300</r:permissible-load>
+        <r:thetac>0.0367437750101089</r:thetac>
+        <r:torque-factor>4.18555593490601</r:torque-factor>
+        <r:velocity>0.401784539222717</r:velocity>
+        <r:acceleration>6.32489109039307</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="1">
+        <r:surface-load>4436.01953125</r:surface-load>
+        <r:surface-position>0.343737453222275</r:surface-position>
+        <r:permissible-load>21300</r:permissible-load>
+        <r:thetac>0.0734875500202179</r:thetac>
+        <r:torque-factor>6.26866483688354</r:torque-factor>
+        <r:velocity>0.601748645305634</r:velocity>
+        <r:acceleration>6.21056413650513</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="2">
+        <r:surface-load>4551.89013671875</r:surface-load>
+        <r:surface-position>0.611732721328735</r:surface-position>
+        <r:permissible-load>21300</r:permissible-load>
+        <r:thetac>0.110231325030327</r:thetac>
+        <r:torque-factor>8.31168556213379</r:torque-factor>
+        <r:velocity>0.797864556312561</r:velocity>
+        <r:acceleration>6.08402395248413</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="3">
+        <r:surface-load>4702.294921875</r:surface-load>
+        <r:surface-position>0.95401132106781</r:surface-position>
+        <r:permissible-load>21300</r:permissible-load>
+        <r:thetac>0.146975100040436</r:thetac>
+        <r:torque-factor>10.3108263015747</r:torque-factor>
+        <r:velocity>0.989768266677856</r:velocity>
+        <r:acceleration>5.94672918319702</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="4">
+        <r:surface-load>4880.451171875</r:surface-load>
+        <r:surface-position>1.36889100074768</r:surface-position>
+        <r:permissible-load>21300</r:permissible-load>
+        <r:thetac>0.183718875050545</r:thetac>
+        <r:torque-factor>12.2627515792847</r:torque-factor>
+        <r:velocity>1.17713963985443</r:velocity>
+        <r:acceleration>5.8000750541687</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="5">
+        <r:surface-load>5087.421875</r:surface-load>
+        <r:surface-position>1.85455763339996</r:surface-position>
+        <r:permissible-load>19683.716796875</r:permissible-load>
+        <r:thetac>0.220462650060654</r:thetac>
+        <r:torque-factor>14.164605140686</r:torque-factor>
+        <r:velocity>1.35970449447632</r:velocity>
+        <r:acceleration>5.64537572860718</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="6">
+        <r:surface-load>5324.89111328125</r:surface-load>
+        <r:surface-position>2.40915846824646</r:surface-position>
+        <r:permissible-load>17915.646484375</r:permissible-load>
+        <r:thetac>0.257206439971924</r:thetac>
+        <r:torque-factor>16.0138549804688</r:torque-factor>
+        <r:velocity>1.53721976280212</r:velocity>
+        <r:acceleration>5.48386764526367</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="7">
+        <r:surface-load>5586.53759765625</r:surface-load>
+        <r:surface-position>3.03073525428772</r:surface-position>
+        <r:permissible-load>16559.01171875</r:permissible-load>
+        <r:thetac>0.293950200080872</r:thetac>
+        <r:torque-factor>17.8084697723389</r:torque-factor>
+        <r:velocity>1.70949041843414</r:velocity>
+        <r:acceleration>5.31668472290039</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="8">
+        <r:surface-load>5857.30859375</r:surface-load>
+        <r:surface-position>3.7171847820282</r:surface-position>
+        <r:permissible-load>15489.94921875</r:permissible-load>
+        <r:thetac>0.330693960189819</r:thetac>
+        <r:torque-factor>19.5467357635498</r:torque-factor>
+        <r:velocity>1.8763519525528</r:velocity>
+        <r:acceleration>5.1448712348938</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="9">
+        <r:surface-load>6122.0107421875</r:surface-load>
+        <r:surface-position>4.46644401550293</r:surface-position>
+        <r:permissible-load>14629.755859375</r:permissible-load>
+        <r:thetac>0.367437750101089</r:thetac>
+        <r:torque-factor>21.2272968292236</r:torque-factor>
+        <r:velocity>2.03767418861389</r:velocity>
+        <r:acceleration>4.96937084197998</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="10">
+        <r:surface-load>6375.93994140625</r:surface-load>
+        <r:surface-position>5.27639675140381</r:surface-position>
+        <r:permissible-load>13926.0859375</r:permissible-load>
+        <r:thetac>0.40418154001236</r:thetac>
+        <r:torque-factor>22.8490180969238</r:torque-factor>
+        <r:velocity>2.19334816932678</r:velocity>
+        <r:acceleration>4.79103708267212</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="11">
+        <r:surface-load>6628.6669921875</r:surface-load>
+        <r:surface-position>6.14480924606323</r:surface-position>
+        <r:permissible-load>13342.6845703125</r:permissible-load>
+        <r:thetac>0.440925300121307</r:thetac>
+        <r:torque-factor>24.4111213684082</r:torque-factor>
+        <r:velocity>2.3432993888855</r:velocity>
+        <r:acceleration>4.61062097549438</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="12">
+        <r:surface-load>6898.1240234375</r:surface-load>
+        <r:surface-position>7.06957769393921</r:surface-position>
+        <r:permissible-load>12853.6962890625</r:permissible-load>
+        <r:thetac>0.477669060230255</r:thetac>
+        <r:torque-factor>25.9130306243896</r:torque-factor>
+        <r:velocity>2.48747229576111</r:velocity>
+        <r:acceleration>4.428786277771</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="13">
+        <r:surface-load>7199.8935546875</r:surface-load>
+        <r:surface-position>8.04837608337402</r:surface-position>
+        <r:permissible-load>12440.185546875</r:permissible-load>
+        <r:thetac>0.514412879943848</r:thetac>
+        <r:torque-factor>27.3543510437012</r:torque-factor>
+        <r:velocity>2.62582921981812</r:velocity>
+        <r:acceleration>4.2461109161377</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="14">
+        <r:surface-load>7539.5283203125</r:surface-load>
+        <r:surface-position>9.07903671264648</r:surface-position>
+        <r:permissible-load>12087.9453125</r:permissible-load>
+        <r:thetac>0.551156640052795</r:thetac>
+        <r:torque-factor>28.7348957061768</r:torque-factor>
+        <r:velocity>2.75835204124451</r:velocity>
+        <r:acceleration>4.06308746337891</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="15">
+        <r:surface-load>7900.78515625</r:surface-load>
+        <r:surface-position>10.1592979431152</r:surface-position>
+        <r:permissible-load>11786.1142578125</r:permissible-load>
+        <r:thetac>0.587900400161743</r:thetac>
+        <r:torque-factor>30.0546455383301</r:torque-factor>
+        <r:velocity>2.88503885269165</r:velocity>
+        <r:acceleration>3.88012766838074</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="16">
+        <r:surface-load>8231.8056640625</r:surface-load>
+        <r:surface-position>11.2869129180908</r:surface-position>
+        <r:permissible-load>11526.2763671875</r:permissible-load>
+        <r:thetac>0.624644160270691</r:thetac>
+        <r:torque-factor>31.3136367797852</r:torque-factor>
+        <r:velocity>3.00589323043823</r:velocity>
+        <r:acceleration>3.69758105278015</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="17">
+        <r:surface-load>8447.951171875</r:surface-load>
+        <r:surface-position>12.4597396850586</r:surface-position>
+        <r:permissible-load>11301.7734375</r:permissible-load>
+        <r:thetac>0.661387920379639</r:thetac>
+        <r:torque-factor>32.5120735168457</r:torque-factor>
+        <r:velocity>3.12093496322632</r:velocity>
+        <r:acceleration>3.51572108268738</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="18">
+        <r:surface-load>8466</r:surface-load>
+        <r:surface-position>13.6754236221313</r:surface-position>
+        <r:permissible-load>11107.291015625</r:permissible-load>
+        <r:thetac>0.698131740093231</r:thetac>
+        <r:torque-factor>33.6502342224121</r:torque-factor>
+        <r:velocity>3.23019051551819</r:velocity>
+        <r:acceleration>3.3347601890564</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="19">
+        <r:surface-load>8257.26171875</r:surface-load>
+        <r:surface-position>14.9318523406982</r:surface-position>
+        <r:permissible-load>10938.5400390625</r:permissible-load>
+        <r:thetac>0.734875500202179</r:thetac>
+        <r:torque-factor>34.7284469604492</r:torque-factor>
+        <r:velocity>3.33369159698486</r:velocity>
+        <r:acceleration>3.15485572814941</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="20">
+        <r:surface-load>7881.1259765625</r:surface-load>
+        <r:surface-position>16.2268009185791</r:surface-position>
+        <r:permissible-load>10792.03125</r:permissible-load>
+        <r:thetac>0.771619260311127</r:thetac>
+        <r:torque-factor>35.7470512390137</r:torque-factor>
+        <r:velocity>3.4314706325531</r:velocity>
+        <r:acceleration>2.97612118721008</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="21">
+        <r:surface-load>7464.64306640625</r:surface-load>
+        <r:surface-position>17.5580768585205</r:surface-position>
+        <r:permissible-load>10664.8828125</r:permissible-load>
+        <r:thetac>0.808363080024719</r:thetac>
+        <r:torque-factor>36.7064666748047</r:torque-factor>
+        <r:velocity>3.52356791496277</r:velocity>
+        <r:acceleration>2.79861211776733</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="22">
+        <r:surface-load>7131.61474609375</r:surface-load>
+        <r:surface-position>18.9235229492188</r:surface-position>
+        <r:permissible-load>10554.712890625</r:permissible-load>
+        <r:thetac>0.845106840133667</r:thetac>
+        <r:torque-factor>37.607105255127</r:torque-factor>
+        <r:velocity>3.610023021698</r:velocity>
+        <r:acceleration>2.62234997749329</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="23">
+        <r:surface-load>6927.7705078125</r:surface-load>
+        <r:surface-position>20.3210144042969</r:surface-position>
+        <r:permissible-load>10459.537109375</r:permissible-load>
+        <r:thetac>0.881850600242615</r:thetac>
+        <r:torque-factor>38.4493865966797</r:torque-factor>
+        <r:velocity>3.69087624549866</r:velocity>
+        <r:acceleration>2.44731426239014</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="24">
+        <r:surface-load>6798.63037109375</r:surface-load>
+        <r:surface-position>21.7483901977539</r:surface-position>
+        <r:permissible-load>10377.69921875</r:permissible-load>
+        <r:thetac>0.918594360351563</r:thetac>
+        <r:torque-factor>39.2336959838867</r:torque-factor>
+        <r:velocity>3.76616454124451</r:velocity>
+        <r:acceleration>2.27346110343933</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="25">
+        <r:surface-load>6640.607421875</r:surface-load>
+        <r:surface-position>23.2035236358643</r:surface-position>
+        <r:permissible-load>10307.80859375</r:permissible-load>
+        <r:thetac>0.95533812046051</r:thetac>
+        <r:torque-factor>39.9604148864746</r:torque-factor>
+        <r:velocity>3.83592438697815</r:velocity>
+        <r:acceleration>2.10070729255676</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="26">
+        <r:surface-load>6389.71484375</r:surface-load>
+        <r:surface-position>24.6842842102051</r:surface-position>
+        <r:permissible-load>10248.689453125</r:permissible-load>
+        <r:thetac>0.992081940174103</r:thetac>
+        <r:torque-factor>40.6299133300781</r:torque-factor>
+        <r:velocity>3.90019178390503</r:velocity>
+        <r:acceleration>1.92894625663757</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="27">
+        <r:surface-load>6081.205078125</r:surface-load>
+        <r:surface-position>26.1886405944824</r:surface-position>
+        <r:permissible-load>10199.3681640625</r:permissible-load>
+        <r:thetac>1.0288257598877</r:thetac>
+        <r:torque-factor>41.2424736022949</r:torque-factor>
+        <r:velocity>3.95899319648743</r:velocity>
+        <r:acceleration>1.75805997848511</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="28">
+        <r:surface-load>5834.0615234375</r:surface-load>
+        <r:surface-position>27.7144031524658</r:surface-position>
+        <r:permissible-load>10159.0185546875</r:permissible-load>
+        <r:thetac>1.06556951999664</r:thetac>
+        <r:torque-factor>41.7983741760254</r:torque-factor>
+        <r:velocity>4.01235580444336</r:velocity>
+        <r:acceleration>1.58790194988251</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="29">
+        <r:surface-load>5771.2685546875</r:surface-load>
+        <r:surface-position>29.2596130371094</r:surface-position>
+        <r:permissible-load>10126.9541015625</r:permissible-load>
+        <r:thetac>1.10231328010559</r:thetac>
+        <r:torque-factor>42.2978401184082</r:torque-factor>
+        <r:velocity>4.06030130386353</r:velocity>
+        <r:acceleration>1.41831433773041</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="30">
+        <r:surface-load>5935.25634765625</r:surface-load>
+        <r:surface-position>30.8220710754395</r:surface-position>
+        <r:permissible-load>10102.6142578125</r:permissible-load>
+        <r:thetac>1.13905704021454</r:thetac>
+        <r:torque-factor>42.7410163879395</r:torque-factor>
+        <r:velocity>4.10284280776978</r:velocity>
+        <r:acceleration>1.24913263320923</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="31">
+        <r:surface-load>6259.97265625</r:surface-load>
+        <r:surface-position>32.3998336791992</r:surface-position>
+        <r:permissible-load>10085.5390625</r:permissible-load>
+        <r:thetac>1.17580080032349</r:thetac>
+        <r:torque-factor>43.1280212402344</r:torque-factor>
+        <r:velocity>4.13999271392822</r:velocity>
+        <r:acceleration>1.08018243312836</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="32">
+        <r:surface-load>6616.4794921875</r:surface-load>
+        <r:surface-position>33.9907531738281</r:surface-position>
+        <r:permissible-load>10075.36328125</r:permissible-load>
+        <r:thetac>1.21254456043243</r:thetac>
+        <r:torque-factor>43.4588966369629</r:torque-factor>
+        <r:velocity>4.17175436019897</r:velocity>
+        <r:acceleration>0.911281168460846</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="33">
+        <r:surface-load>6894.54541015625</r:surface-load>
+        <r:surface-position>35.5927963256836</r:surface-position>
+        <r:permissible-load>10071.810546875</r:permissible-load>
+        <r:thetac>1.24928832054138</r:thetac>
+        <r:torque-factor>43.7336311340332</r:torque-factor>
+        <r:velocity>4.19812726974487</r:velocity>
+        <r:acceleration>0.742252469062805</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="34">
+        <r:surface-load>7060.380859375</r:surface-load>
+        <r:surface-position>37.2039566040039</r:surface-position>
+        <r:permissible-load>10074.681640625</r:permissible-load>
+        <r:thetac>1.28603208065033</r:thetac>
+        <r:torque-factor>43.9521560668945</r:torque-factor>
+        <r:velocity>4.21910429000854</r:velocity>
+        <r:acceleration>0.572917759418488</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="35">
+        <r:surface-load>7154.6806640625</r:surface-load>
+        <r:surface-position>38.8220596313477</r:surface-position>
+        <r:permissible-load>10083.8544921875</r:permissible-load>
+        <r:thetac>1.32277584075928</r:thetac>
+        <r:torque-factor>44.114330291748</r:torque-factor>
+        <r:velocity>4.2346715927124</r:velocity>
+        <r:acceleration>0.403111219406128</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="36">
+        <r:surface-load>7242.33203125</r:surface-load>
+        <r:surface-position>40.4450836181641</r:surface-position>
+        <r:permissible-load>10099.2705078125</r:permissible-load>
+        <r:thetac>1.35951972007751</r:thetac>
+        <r:torque-factor>44.2199859619141</r:torque-factor>
+        <r:velocity>4.24481391906738</r:velocity>
+        <r:acceleration>0.232673108577728</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="37">
+        <r:surface-load>7357.23046875</r:surface-load>
+        <r:surface-position>42.0710067749023</r:surface-position>
+        <r:permissible-load>10120.9462890625</r:permissible-load>
+        <r:thetac>1.39626348018646</r:thetac>
+        <r:torque-factor>44.2688827514648</r:torque-factor>
+        <r:velocity>4.24950790405273</r:velocity>
+        <r:acceleration>0.0614615641534328</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="38">
+        <r:surface-load>7480.80322265625</r:surface-load>
+        <r:surface-position>43.6976165771484</r:surface-position>
+        <r:permissible-load>10148.9619140625</r:permissible-load>
+        <r:thetac>1.43300724029541</r:thetac>
+        <r:torque-factor>44.2607345581055</r:torque-factor>
+        <r:velocity>4.24872541427612</r:velocity>
+        <r:acceleration>-0.110644407570362</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="39">
+        <r:surface-load>7561.01171875</r:surface-load>
+        <r:surface-position>45.322883605957</r:surface-position>
+        <r:permissible-load>10183.4619140625</r:permissible-load>
+        <r:thetac>1.46975100040436</r:thetac>
+        <r:torque-factor>44.1952362060547</r:torque-factor>
+        <r:velocity>4.24243831634521</r:velocity>
+        <r:acceleration>-0.283741921186447</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="40">
+        <r:surface-load>7548.92041015625</r:surface-load>
+        <r:surface-position>46.9447021484375</r:surface-position>
+        <r:permissible-load>10224.6611328125</r:permissible-load>
+        <r:thetac>1.50649476051331</r:thetac>
+        <r:torque-factor>44.0720367431641</r:torque-factor>
+        <r:velocity>4.23061180114746</r:velocity>
+        <r:acceleration>-0.457898497581482</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="41">
+        <r:surface-load>7424.47900390625</r:surface-load>
+        <r:surface-position>48.5609321594238</r:surface-position>
+        <r:permissible-load>10272.833984375</r:permissible-load>
+        <r:thetac>1.54323852062225</r:thetac>
+        <r:torque-factor>43.890796661377</r:torque-factor>
+        <r:velocity>4.21321392059326</r:velocity>
+        <r:acceleration>-0.633138418197632</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="42">
+        <r:surface-load>7200.06396484375</r:surface-load>
+        <r:surface-position>50.1694450378418</r:surface-position>
+        <r:permissible-load>10328.33203125</r:permissible-load>
+        <r:thetac>1.5799822807312</r:thetac>
+        <r:torque-factor>43.6511535644531</r:torque-factor>
+        <r:velocity>4.19020986557007</r:velocity>
+        <r:acceleration>-0.809452176094055</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="43">
+        <r:surface-load>6909.93115234375</r:surface-load>
+        <r:surface-position>51.7680473327637</r:surface-position>
+        <r:permissible-load>10391.583984375</r:permissible-load>
+        <r:thetac>1.61672616004944</r:thetac>
+        <r:torque-factor>43.3527374267578</r:torque-factor>
+        <r:velocity>4.16156387329102</r:velocity>
+        <r:acceleration>-0.986781656742096</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="44">
+        <r:surface-load>6598.90087890625</r:surface-load>
+        <r:surface-position>53.354606628418</r:surface-position>
+        <r:permissible-load>10463.0859375</r:permissible-load>
+        <r:thetac>1.65346992015839</r:thetac>
+        <r:torque-factor>42.995246887207</r:torque-factor>
+        <r:velocity>4.12724733352661</r:velocity>
+        <r:acceleration>-1.16500675678253</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="45">
+        <r:surface-load>6314.4248046875</r:surface-load>
+        <r:surface-position>54.9269332885742</r:surface-position>
+        <r:permissible-load>10543.423828125</r:permissible-load>
+        <r:thetac>1.69021368026733</r:thetac>
+        <r:torque-factor>42.5784111022949</r:torque-factor>
+        <r:velocity>4.08723402023315</r:velocity>
+        <r:acceleration>-1.34395277500153</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="46">
+        <r:surface-load>6096.92919921875</r:surface-load>
+        <r:surface-position>56.4828071594238</r:surface-position>
+        <r:permissible-load>10633.2763671875</r:permissible-load>
+        <r:thetac>1.72695744037628</r:thetac>
+        <r:torque-factor>42.1020126342773</r:torque-factor>
+        <r:velocity>4.04150295257568</r:velocity>
+        <r:acceleration>-1.52338075637817</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="47">
+        <r:surface-load>5965.5751953125</r:surface-load>
+        <r:surface-position>58.0201797485352</r:surface-position>
+        <r:permissible-load>10733.408203125</r:permissible-load>
+        <r:thetac>1.76370120048523</r:thetac>
+        <r:torque-factor>41.5659790039063</r:torque-factor>
+        <r:velocity>3.99004745483398</r:velocity>
+        <r:acceleration>-1.70297026634216</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="48">
+        <r:surface-load>5907.3544921875</r:surface-load>
+        <r:surface-position>59.5366401672363</r:surface-position>
+        <r:permissible-load>10844.716796875</r:permissible-load>
+        <r:thetac>1.80044496059418</r:thetac>
+        <r:torque-factor>40.9702568054199</r:torque-factor>
+        <r:velocity>3.93286228179932</r:velocity>
+        <r:acceleration>-1.88234055042267</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="49">
+        <r:surface-load>5882.8564453125</r:surface-load>
+        <r:surface-position>61.0302429199219</r:surface-position>
+        <r:permissible-load>10968.1845703125</r:permissible-load>
+        <r:thetac>1.83718872070313</r:thetac>
+        <r:torque-factor>40.315071105957</r:torque-factor>
+        <r:velocity>3.8699688911438</r:velocity>
+        <r:acceleration>-2.06101083755493</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="50">
+        <r:surface-load>5852.27783203125</r:surface-load>
+        <r:surface-position>62.4986114501953</r:surface-position>
+        <r:permissible-load>11104.962890625</r:permissible-load>
+        <r:thetac>1.87393248081207</r:thetac>
+        <r:torque-factor>39.6006851196289</r:torque-factor>
+        <r:velocity>3.8013927936554</r:velocity>
+        <r:acceleration>-2.23843908309937</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="51">
+        <r:surface-load>5806.71435546875</r:surface-load>
+        <r:surface-position>63.9396438598633</r:surface-position>
+        <r:permissible-load>11256.33984375</r:permissible-load>
+        <r:thetac>1.91067624092102</r:thetac>
+        <r:torque-factor>38.8276252746582</r:torque-factor>
+        <r:velocity>3.72718453407288</r:velocity>
+        <r:acceleration>-2.41399097442627</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="52">
+        <r:surface-load>5779.7744140625</r:surface-load>
+        <r:surface-position>65.3512420654297</r:surface-position>
+        <r:permissible-load>11423.76953125</r:permissible-load>
+        <r:thetac>1.94742012023926</r:thetac>
+        <r:torque-factor>37.9966583251953</r:torque-factor>
+        <r:velocity>3.64741730690002</r:velocity>
+        <r:acceleration>-2.5869505405426</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="53">
+        <r:surface-load>5825.61328125</r:surface-load>
+        <r:surface-position>66.7312316894531</r:surface-position>
+        <r:permissible-load>11608.91796875</r:permissible-load>
+        <r:thetac>1.98416388034821</r:thetac>
+        <r:torque-factor>37.1087532043457</r:torque-factor>
+        <r:velocity>3.56218457221985</r:velocity>
+        <r:acceleration>-2.75653505325317</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="54">
+        <r:surface-load>5975.49609375</r:surface-load>
+        <r:surface-position>68.0775909423828</r:surface-position>
+        <r:permissible-load>11813.6796875</r:permissible-load>
+        <r:thetac>2.02090764045715</r:thetac>
+        <r:torque-factor>36.1651573181152</r:torque-factor>
+        <r:velocity>3.47160577774048</r:velocity>
+        <r:acceleration>-2.92189455032349</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="55">
+        <r:surface-load>6204.81982421875</r:surface-load>
+        <r:surface-position>69.3882598876953</r:surface-position>
+        <r:permissible-load>12040.2041015625</r:permissible-load>
+        <r:thetac>2.05765151977539</r:thetac>
+        <r:torque-factor>35.1674575805664</r:torque-factor>
+        <r:velocity>3.37583351135254</r:velocity>
+        <r:acceleration>-3.0821168422699</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="56">
+        <r:surface-load>6437.9892578125</r:surface-load>
+        <r:surface-position>70.6613311767578</r:surface-position>
+        <r:permissible-load>12290.96875</r:permissible-load>
+        <r:thetac>2.09439516067505</r:thetac>
+        <r:torque-factor>34.117504119873</r:torque-factor>
+        <r:velocity>3.27504539489746</r:velocity>
+        <r:acceleration>-3.23625183105469</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="57">
+        <r:surface-load>6590.98828125</r:surface-load>
+        <r:surface-position>71.8949279785156</r:surface-position>
+        <r:permissible-load>12568.8251953125</r:permissible-load>
+        <r:thetac>2.13113903999329</r:thetac>
+        <r:torque-factor>33.0174751281738</r:torque-factor>
+        <r:velocity>3.16945004463196</r:velocity>
+        <r:acceleration>-3.38333058357239</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="58">
+        <r:surface-load>6622.08544921875</r:surface-load>
+        <r:surface-position>73.0871124267578</r:surface-position>
+        <r:permissible-load>12877.072265625</r:permissible-load>
+        <r:thetac>2.16788268089294</r:thetac>
+        <r:torque-factor>31.8698863983154</r:torque-factor>
+        <r:velocity>3.05928945541382</r:velocity>
+        <r:acceleration>-3.52237057685852</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="59">
+        <r:surface-load>6553.81005859375</r:surface-load>
+        <r:surface-position>74.2363967895508</r:surface-position>
+        <r:permissible-load>13219.5615234375</r:permissible-load>
+        <r:thetac>2.20462656021118</r:thetac>
+        <r:torque-factor>30.677547454834</r:torque-factor>
+        <r:velocity>2.94483304023743</r:velocity>
+        <r:acceleration>-3.6524178981781</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="60">
+        <r:surface-load>6450.654296875</r:surface-load>
+        <r:surface-position>75.3410339355469</r:surface-position>
+        <r:permissible-load>13600.8017578125</r:permissible-load>
+        <r:thetac>2.24137020111084</r:thetac>
+        <r:torque-factor>29.4436264038086</r:torque-factor>
+        <r:velocity>2.8263852596283</r:velocity>
+        <r:acceleration>-3.77255058288574</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="61">
+        <r:surface-load>6370.1494140625</r:surface-load>
+        <r:surface-position>76.399528503418</r:surface-position>
+        <r:permissible-load>14026.154296875</r:permissible-load>
+        <r:thetac>2.27811408042908</r:thetac>
+        <r:torque-factor>28.1715145111084</r:torque-factor>
+        <r:velocity>2.70427131652832</r:velocity>
+        <r:acceleration>-3.88192582130432</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="62">
+        <r:surface-load>6323.9921875</r:surface-load>
+        <r:surface-position>77.4110794067383</r:surface-position>
+        <r:permissible-load>14501.908203125</r:permissible-load>
+        <r:thetac>2.31485772132874</r:thetac>
+        <r:torque-factor>26.8650951385498</r:torque-factor>
+        <r:velocity>2.57886409759521</r:velocity>
+        <r:acceleration>-3.97978019714355</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="63">
+        <r:surface-load>6276.2783203125</r:surface-load>
+        <r:surface-position>78.3736114501953</r:surface-position>
+        <r:permissible-load>15035.892578125</r:permissible-load>
+        <r:thetac>2.35160160064697</r:thetac>
+        <r:torque-factor>25.5280246734619</r:torque-factor>
+        <r:velocity>2.45051455497742</r:velocity>
+        <r:acceleration>-4.06548833847046</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="64">
+        <r:surface-load>6176.84814453125</r:surface-load>
+        <r:surface-position>79.2863006591797</r:surface-position>
+        <r:permissible-load>15637.498046875</r:permissible-load>
+        <r:thetac>2.38834547996521</r:thetac>
+        <r:torque-factor>24.164436340332</r:torque-factor>
+        <r:velocity>2.31961941719055</r:velocity>
+        <r:acceleration>-4.13854837417603</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="65">
+        <r:surface-load>6002.28271484375</r:surface-load>
+        <r:surface-position>80.1501922607422</r:surface-position>
+        <r:permissible-load>16317.71484375</r:permissible-load>
+        <r:thetac>2.42508912086487</r:thetac>
+        <r:torque-factor>22.7794628143311</r:torque-factor>
+        <r:velocity>2.18667149543762</r:velocity>
+        <r:acceleration>-4.19858264923096</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="66">
+        <r:surface-load>5774.3076171875</r:surface-load>
+        <r:surface-position>80.961799621582</r:surface-position>
+        <r:permissible-load>17091.7109375</r:permissible-load>
+        <r:thetac>2.46183300018311</r:thetac>
+        <r:torque-factor>21.3763198852539</r:torque-factor>
+        <r:velocity>2.05197930335999</r:velocity>
+        <r:acceleration>-4.2454571723938</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="67">
+        <r:surface-load>5545.94580078125</r:surface-load>
+        <r:surface-position>81.7194976806641</r:surface-position>
+        <r:permissible-load>17978.380859375</r:permissible-load>
+        <r:thetac>2.49857664108276</r:thetac>
+        <r:torque-factor>19.9588680267334</r:torque-factor>
+        <r:velocity>1.91591382026672</r:velocity>
+        <r:acceleration>-4.2791805267334</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="68">
+        <r:surface-load>5369.607421875</r:surface-load>
+        <r:surface-position>82.4268188476563</r:surface-position>
+        <r:permissible-load>19000.001953125</r:permissible-load>
+        <r:thetac>2.535320520401</r:thetac>
+        <r:torque-factor>18.5331630706787</r:torque-factor>
+        <r:velocity>1.77905595302582</r:velocity>
+        <r:acceleration>-4.29988098144531</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="69">
+        <r:surface-load>5270.9384765625</r:surface-load>
+        <r:surface-position>83.0815124511719</r:surface-position>
+        <r:permissible-load>20188.314453125</r:permissible-load>
+        <r:thetac>2.57206416130066</r:thetac>
+        <r:torque-factor>17.1026515960693</r:torque-factor>
+        <r:velocity>1.64173674583435</r:velocity>
+        <r:acceleration>-4.30793142318726</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="70">
+        <r:surface-load>5244.2197265625</r:surface-load>
+        <r:surface-position>83.6836090087891</r:surface-position>
+        <r:permissible-load>21300</r:permissible-load>
+        <r:thetac>2.6088080406189</r:thetac>
+        <r:torque-factor>15.6715049743652</r:torque-factor>
+        <r:velocity>1.50435650348663</r:velocity>
+        <r:acceleration>-4.30384302139282</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="71">
+        <r:surface-load>5265.8779296875</r:surface-load>
+        <r:surface-position>84.2333068847656</r:surface-position>
+        <r:permissible-load>21300</r:permissible-load>
+        <r:thetac>2.64555168151855</r:thetac>
+        <r:torque-factor>14.2437000274658</r:torque-factor>
+        <r:velocity>1.3672970533371</r:velocity>
+        <r:acceleration>-4.28827857971191</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="72">
+        <r:surface-load>5311.86767578125</r:surface-load>
+        <r:surface-position>84.7305908203125</r:surface-position>
+        <r:permissible-load>21300</r:permissible-load>
+        <r:thetac>2.68229556083679</r:thetac>
+        <r:torque-factor>12.8228130340576</r:torque-factor>
+        <r:velocity>1.23090171813965</r:velocity>
+        <r:acceleration>-4.26203346252441</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="73">
+        <r:surface-load>5367.17236328125</r:surface-load>
+        <r:surface-position>85.1757354736328</r:surface-position>
+        <r:permissible-load>21300</r:permissible-load>
+        <r:thetac>2.71903944015503</r:thetac>
+        <r:torque-factor>11.412260055542</r:torque-factor>
+        <r:velocity>1.09549832344055</r:velocity>
+        <r:acceleration>-4.22600412368774</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="74">
+        <r:surface-load>5426.08203125</r:surface-load>
+        <r:surface-position>85.5693817138672</r:surface-position>
+        <r:permissible-load>21300</r:permissible-load>
+        <r:thetac>2.75578308105469</r:thetac>
+        <r:torque-factor>10.0152349472046</r:torque-factor>
+        <r:velocity>0.961393535137177</r:velocity>
+        <r:acceleration>-4.18117570877075</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="75">
+        <r:surface-load>5489.0908203125</r:surface-load>
+        <r:surface-position>85.9119720458984</r:surface-position>
+        <r:permissible-load>21300</r:permissible-load>
+        <r:thetac>2.79252696037292</r:thetac>
+        <r:torque-factor>8.63439083099365</r:torque-factor>
+        <r:velocity>0.828842043876648</r:velocity>
+        <r:acceleration>-4.12859058380127</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="76">
+        <r:surface-load>5560.91015625</r:surface-load>
+        <r:surface-position>86.2041320800781</r:surface-position>
+        <r:permissible-load>21300</r:permissible-load>
+        <r:thetac>2.82927060127258</r:thetac>
+        <r:torque-factor>7.27214574813843</r:torque-factor>
+        <r:velocity>0.698075890541077</r:velocity>
+        <r:acceleration>-4.06932401657104</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="77">
+        <r:surface-load>5648.14404296875</r:surface-load>
+        <r:surface-position>86.4465713500977</r:surface-position>
+        <r:permissible-load>21300</r:permissible-load>
+        <r:thetac>2.86601448059082</r:thetac>
+        <r:torque-factor>5.93056583404541</r:torque-factor>
+        <r:velocity>0.569293439388275</r:velocity>
+        <r:acceleration>-4.00446033477783</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="78">
+        <r:surface-load>5753.24560546875</r:surface-load>
+        <r:surface-position>86.6402435302734</r:surface-position>
+        <r:permissible-load>21300</r:permissible-load>
+        <r:thetac>2.90275812149048</r:thetac>
+        <r:torque-factor>4.6113657951355</r:torque-factor>
+        <r:velocity>0.442659348249435</r:velocity>
+        <r:acceleration>-3.93507766723633</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="79">
+        <r:surface-load>5866.1044921875</r:surface-load>
+        <r:surface-position>86.7857818603516</r:surface-position>
+        <r:permissible-load>21300</r:permissible-load>
+        <r:thetac>2.93950200080872</r:thetac>
+        <r:torque-factor>3.31574249267578</r:torque-factor>
+        <r:velocity>0.318288415670395</r:velocity>
+        <r:acceleration>-3.86221098899841</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="80">
+        <r:surface-load>5960.82470703125</r:surface-load>
+        <r:surface-position>86.8841552734375</r:surface-position>
+        <r:permissible-load>21300</r:permissible-load>
+        <r:thetac>2.97624588012695</r:thetac>
+        <r:torque-factor>2.0448100566864</r:torque-factor>
+        <r:velocity>0.196287676692009</r:velocity>
+        <r:acceleration>-3.78686141967773</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="81">
+        <r:surface-load>6004.552734375</r:surface-load>
+        <r:surface-position>86.9363632202148</r:surface-position>
+        <r:permissible-load>21300</r:permissible-load>
+        <r:thetac>3.01298952102661</r:thetac>
+        <r:torque-factor>0.79924064874649</r:torque-factor>
+        <r:velocity>0.0767215937376022</r:velocity>
+        <r:acceleration>-3.70996308326721</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="82">
+        <r:surface-load>5776.21728515625</r:surface-load>
+        <r:surface-position>86.9432678222656</r:surface-position>
+        <r:permissible-load>0</r:permissible-load>
+        <r:thetac>3.04973340034485</r:thetac>
+        <r:torque-factor>-0.420681208372116</r:torque-factor>
+        <r:velocity>-0.0403824970126152</r:velocity>
+        <r:acceleration>-3.63237953186035</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="83">
+        <r:surface-load>5682.708984375</r:surface-load>
+        <r:surface-position>86.90576171875</r:surface-position>
+        <r:permissible-load>0</r:permissible-load>
+        <r:thetac>3.08647704124451</r:thetac>
+        <r:torque-factor>-1.61483097076416</r:torque-factor>
+        <r:velocity>-0.155012652277946</r:velocity>
+        <r:acceleration>-3.55490040779114</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="84">
+        <r:surface-load>5558.015625</r:surface-load>
+        <r:surface-position>86.8248825073242</r:surface-position>
+        <r:permissible-load>0</r:permissible-load>
+        <r:thetac>3.12322092056274</r:thetac>
+        <r:torque-factor>-2.78330850601196</r:torque-factor>
+        <r:velocity>-0.267178446054459</r:velocity>
+        <r:acceleration>-3.47823572158813</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="85">
+        <r:surface-load>5442.72900390625</r:surface-load>
+        <r:surface-position>86.7015151977539</r:surface-position>
+        <r:permissible-load>0</r:permissible-load>
+        <r:thetac>3.1599645614624</r:thetac>
+        <r:torque-factor>-3.92657232284546</r:torque-factor>
+        <r:velocity>-0.376923888921738</r:velocity>
+        <r:acceleration>-3.40300989151001</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="86">
+        <r:surface-load>5358.41357421875</r:surface-load>
+        <r:surface-position>86.5366516113281</r:surface-position>
+        <r:permissible-load>0</r:permissible-load>
+        <r:thetac>3.19670844078064</r:thetac>
+        <r:torque-factor>-5.04514455795288</r:torque-factor>
+        <r:velocity>-0.484299123287201</r:velocity>
+        <r:acceleration>-3.32976818084717</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="87">
+        <r:surface-load>5296.83544921875</r:surface-load>
+        <r:surface-position>86.3310623168945</r:surface-position>
+        <r:permissible-load>0</r:permissible-load>
+        <r:thetac>3.23345232009888</r:thetac>
+        <r:torque-factor>-6.13976764678955</r:torque-factor>
+        <r:velocity>-0.589375376701355</r:velocity>
+        <r:acceleration>-3.25897598266602</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="88">
+        <r:surface-load>5231.99267578125</r:surface-load>
+        <r:surface-position>86.0857391357422</r:surface-position>
+        <r:permissible-load>0</r:permissible-load>
+        <r:thetac>3.27019596099854</r:thetac>
+        <r:torque-factor>-7.21130609512329</r:torque-factor>
+        <r:velocity>-0.692235708236694</r:velocity>
+        <r:acceleration>-3.1910252571106</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="89">
+        <r:surface-load>5143.6796875</r:surface-load>
+        <r:surface-position>85.8014068603516</r:surface-position>
+        <r:permissible-load>0</r:permissible-load>
+        <r:thetac>3.30693984031677</r:thetac>
+        <r:torque-factor>-8.26084423065186</r:torque-factor>
+        <r:velocity>-0.792984127998352</r:velocity>
+        <r:acceleration>-3.12622833251953</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="90">
+        <r:surface-load>5032.48046875</r:surface-load>
+        <r:surface-position>85.4788818359375</r:surface-position>
+        <r:permissible-load>0</r:permissible-load>
+        <r:thetac>3.34368348121643</r:thetac>
+        <r:torque-factor>-9.28937911987305</r:torque-factor>
+        <r:velocity>-0.891716361045837</r:velocity>
+        <r:acceleration>-3.06484174728394</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="91">
+        <r:surface-load>4914.70458984375</r:surface-load>
+        <r:surface-position>85.1189727783203</r:surface-position>
+        <r:permissible-load>0</r:permissible-load>
+        <r:thetac>3.38042736053467</r:thetac>
+        <r:torque-factor>-10.2980861663818</r:torque-factor>
+        <r:velocity>-0.988545298576355</r:velocity>
+        <r:acceleration>-3.00705528259277</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="92">
+        <r:surface-load>4803.5888671875</r:surface-load>
+        <r:surface-position>84.7223663330078</r:surface-position>
+        <r:permissible-load>0</r:permissible-load>
+        <r:thetac>3.41717100143433</r:thetac>
+        <r:torque-factor>-11.2882280349731</r:torque-factor>
+        <r:velocity>-1.08359205722809</r:velocity>
+        <r:acceleration>-2.95300126075745</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="93">
+        <r:surface-load>4694.05126953125</r:surface-load>
+        <r:surface-position>84.289665222168</r:surface-position>
+        <r:permissible-load>0</r:permissible-load>
+        <r:thetac>3.45391488075256</r:thetac>
+        <r:torque-factor>-12.2610378265381</r:torque-factor>
+        <r:velocity>-1.17697513103485</r:velocity>
+        <r:acceleration>-2.90276408195496</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="94">
+        <r:surface-load>4563.96435546875</r:surface-load>
+        <r:surface-position>83.8215255737305</r:surface-position>
+        <r:permissible-load>0</r:permissible-load>
+        <r:thetac>3.49065852165222</r:thetac>
+        <r:torque-factor>-13.2177896499634</r:torque-factor>
+        <r:velocity>-1.26881670951843</r:velocity>
+        <r:acceleration>-2.8563814163208</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="95">
+        <r:surface-load>4390.38037109375</r:surface-load>
+        <r:surface-position>83.3185043334961</r:surface-position>
+        <r:permissible-load>0</r:permissible-load>
+        <r:thetac>3.52740240097046</r:thetac>
+        <r:torque-factor>-14.1597671508789</r:torque-factor>
+        <r:velocity>-1.35924005508423</r:velocity>
+        <r:acceleration>-2.81385016441345</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="96">
+        <r:surface-load>4167.16845703125</r:surface-load>
+        <r:surface-position>82.781120300293</r:surface-position>
+        <r:permissible-load>0</r:permissible-load>
+        <r:thetac>3.5641462802887</r:thetac>
+        <r:torque-factor>-15.0882692337036</r:torque-factor>
+        <r:velocity>-1.44836986064911</r:velocity>
+        <r:acceleration>-2.77512836456299</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="97">
+        <r:surface-load>3910.31640625</r:surface-load>
+        <r:surface-position>82.2098388671875</r:surface-position>
+        <r:permissible-load>0</r:permissible-load>
+        <r:thetac>3.60088992118835</r:thetac>
+        <r:torque-factor>-16.0045223236084</r:torque-factor>
+        <r:velocity>-1.53632390499115</r:velocity>
+        <r:acceleration>-2.74014449119568</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="98">
+        <r:surface-load>3647.52368164063</r:surface-load>
+        <r:surface-position>81.6051177978516</r:surface-position>
+        <r:permissible-load>0</r:permissible-load>
+        <r:thetac>3.63763380050659</r:thetac>
+        <r:torque-factor>-16.9097366333008</r:torque-factor>
+        <r:velocity>-1.62321817874908</r:velocity>
+        <r:acceleration>-2.70879459381104</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="99">
+        <r:surface-load>3400.6044921875</r:surface-load>
+        <r:surface-position>80.9673233032227</r:surface-position>
+        <r:permissible-load>0</r:permissible-load>
+        <r:thetac>3.67437744140625</r:thetac>
+        <r:torque-factor>-17.8051242828369</r:torque-factor>
+        <r:velocity>-1.70916926860809</r:velocity>
+        <r:acceleration>-2.68094682693481</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="100">
+        <r:surface-load>3173.56176757813</r:surface-load>
+        <r:surface-position>80.2967758178711</r:surface-position>
+        <r:permissible-load>0</r:permissible-load>
+        <r:thetac>3.71112132072449</r:thetac>
+        <r:torque-factor>-18.6918315887451</r:torque-factor>
+        <r:velocity>-1.79428696632385</r:velocity>
+        <r:acceleration>-2.65644407272339</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="101">
+        <r:surface-load>2953.77416992188</r:surface-load>
+        <r:surface-position>79.5938110351563</r:surface-position>
+        <r:permissible-load>0</r:permissible-load>
+        <r:thetac>3.74786496162415</r:thetac>
+        <r:torque-factor>-19.5709114074707</r:torque-factor>
+        <r:velocity>-1.87867259979248</r:velocity>
+        <r:acceleration>-2.63510704040527</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="102">
+        <r:surface-load>2723.67529296875</r:surface-load>
+        <r:surface-position>78.858642578125</r:surface-position>
+        <r:permissible-load>0</r:permissible-load>
+        <r:thetac>3.78460884094238</r:thetac>
+        <r:torque-factor>-20.4434127807617</r:torque-factor>
+        <r:velocity>-1.96242678165436</r:velocity>
+        <r:acceleration>-2.61673045158386</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="103">
+        <r:surface-load>2473.33520507813</r:surface-load>
+        <r:surface-position>78.0915374755859</r:surface-position>
+        <r:permissible-load>0</r:permissible-load>
+        <r:thetac>3.82135248184204</r:thetac>
+        <r:torque-factor>-21.3102741241455</r:torque-factor>
+        <r:velocity>-2.0456395149231</r:velocity>
+        <r:acceleration>-2.60108995437622</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="104">
+        <r:surface-load>2208.84692382813</r:surface-load>
+        <r:surface-position>77.2926483154297</r:surface-position>
+        <r:permissible-load>0</r:permissible-load>
+        <r:thetac>3.85809636116028</r:thetac>
+        <r:torque-factor>-22.1723518371582</r:torque-factor>
+        <r:velocity>-2.12839293479919</r:velocity>
+        <r:acceleration>-2.58793950080872</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="105">
+        <r:surface-load>1959.42431640625</r:surface-load>
+        <r:surface-position>76.4621658325195</r:surface-position>
+        <r:permissible-load>0</r:permissible-load>
+        <r:thetac>3.89484024047852</r:thetac>
+        <r:torque-factor>-23.0304393768311</r:torque-factor>
+        <r:velocity>-2.21076345443726</r:velocity>
+        <r:acceleration>-2.57700729370117</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="106">
+        <r:surface-load>1777.57788085938</r:surface-load>
+        <r:surface-position>75.6002578735352</r:surface-position>
+        <r:permissible-load>0</r:permissible-load>
+        <r:thetac>3.93158388137817</r:thetac>
+        <r:torque-factor>-23.8852024078369</r:torque-factor>
+        <r:velocity>-2.2928147315979</r:velocity>
+        <r:acceleration>-2.56800270080566</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="107">
+        <r:surface-load>1722.79406738281</r:surface-load>
+        <r:surface-position>74.7069473266602</r:surface-position>
+        <r:permissible-load>0</r:permissible-load>
+        <r:thetac>3.96832776069641</r:thetac>
+        <r:torque-factor>-24.737268447876</r:torque-factor>
+        <r:velocity>-2.37460732460022</r:velocity>
+        <r:acceleration>-2.56060886383057</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="108">
+        <r:surface-load>1829.48876953125</r:surface-load>
+        <r:surface-position>73.7823867797852</r:surface-position>
+        <r:permissible-load>0</r:permissible-load>
+        <r:thetac>4.00507164001465</r:thetac>
+        <r:torque-factor>-25.5870990753174</r:torque-factor>
+        <r:velocity>-2.45618510246277</r:velocity>
+        <r:acceleration>-2.55448198318481</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="109">
+        <r:surface-load>2077.58374023438</r:surface-load>
+        <r:surface-position>72.8266448974609</r:surface-position>
+        <r:permissible-load>0</r:permissible-load>
+        <r:thetac>4.04181528091431</r:thetac>
+        <r:torque-factor>-26.4350414276123</r:torque-factor>
+        <r:velocity>-2.53758192062378</r:velocity>
+        <r:acceleration>-2.5492582321167</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="110">
+        <r:surface-load>2390.85571289063</r:surface-load>
+        <r:surface-position>71.8397674560547</r:surface-position>
+        <r:permissible-load>0</r:permissible-load>
+        <r:thetac>4.07855892181396</r:thetac>
+        <r:torque-factor>-27.2813606262207</r:torque-factor>
+        <r:velocity>-2.61882257461548</r:velocity>
+        <r:acceleration>-2.5445384979248</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="111">
+        <r:surface-load>2672.76025390625</r:surface-load>
+        <r:surface-position>70.8218078613281</r:surface-position>
+        <r:permissible-load>0</r:permissible-load>
+        <r:thetac>4.11530303955078</r:thetac>
+        <r:torque-factor>-28.1261291503906</r:torque-factor>
+        <r:velocity>-2.6999146938324</r:velocity>
+        <r:acceleration>-2.53990030288696</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="112">
+        <r:surface-load>2860.537109375</r:surface-load>
+        <r:surface-position>69.7728652954102</r:surface-position>
+        <r:permissible-load>0</r:permissible-load>
+        <r:thetac>4.15204668045044</r:thetac>
+        <r:torque-factor>-28.9693050384521</r:torque-factor>
+        <r:velocity>-2.78085374832153</r:velocity>
+        <r:acceleration>-2.53488278388977</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="113">
+        <r:surface-load>2959.88842773438</r:surface-load>
+        <r:surface-position>68.6929626464844</r:surface-position>
+        <r:permissible-load>0</r:permissible-load>
+        <r:thetac>4.1887903213501</r:thetac>
+        <r:torque-factor>-29.8106803894043</r:torque-factor>
+        <r:velocity>-2.86161994934082</r:velocity>
+        <r:acceleration>-2.52899479866028</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="114">
+        <r:surface-load>3032.58447265625</r:surface-load>
+        <r:surface-position>67.5821838378906</r:surface-position>
+        <r:permissible-load>0</r:permissible-load>
+        <r:thetac>4.22553396224976</r:thetac>
+        <r:torque-factor>-30.6498832702637</r:torque-factor>
+        <r:velocity>-2.94217753410339</r:velocity>
+        <r:acceleration>-2.52170896530151</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="115">
+        <r:surface-load>3143.3212890625</r:surface-load>
+        <r:surface-position>66.4405975341797</r:surface-position>
+        <r:permissible-load>0</r:permissible-load>
+        <r:thetac>4.26227807998657</r:thetac>
+        <r:torque-factor>-31.4863624572754</r:torque-factor>
+        <r:velocity>-3.02247381210327</r:velocity>
+        <r:acceleration>-2.51245999336243</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="116">
+        <r:surface-load>3304.0908203125</r:surface-load>
+        <r:surface-position>65.2683563232422</r:surface-position>
+        <r:permissible-load>0</r:permissible-load>
+        <r:thetac>4.29902172088623</r:thetac>
+        <r:torque-factor>-32.3193511962891</r:torque-factor>
+        <r:velocity>-3.10243511199951</r:velocity>
+        <r:acceleration>-2.50064158439636</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="117">
+        <r:surface-load>3457.98559570313</r:surface-load>
+        <r:surface-position>64.0656127929688</r:surface-position>
+        <r:permissible-load>0</r:permissible-load>
+        <r:thetac>4.33576536178589</r:thetac>
+        <r:torque-factor>-33.147891998291</r:torque-factor>
+        <r:velocity>-3.181969165802</r:velocity>
+        <r:acceleration>-2.48560976982117</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="118">
+        <r:surface-load>3515.44580078125</r:surface-load>
+        <r:surface-position>62.8325042724609</r:surface-position>
+        <r:permissible-load>0</r:permissible-load>
+        <r:thetac>4.37250900268555</r:thetac>
+        <r:torque-factor>-33.970817565918</r:torque-factor>
+        <r:velocity>-3.26096439361572</r:velocity>
+        <r:acceleration>-2.46667623519897</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="119">
+        <r:surface-load>3416.541015625</r:surface-load>
+        <r:surface-position>61.5692367553711</r:surface-position>
+        <r:permissible-load>0</r:permissible-load>
+        <r:thetac>4.40925312042236</r:thetac>
+        <r:torque-factor>-34.7867164611816</r:torque-factor>
+        <r:velocity>-3.33928513526917</r:velocity>
+        <r:acceleration>-2.44311356544495</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="120">
+        <r:surface-load>3173.716796875</r:surface-load>
+        <r:surface-position>60.2762031555176</r:surface-position>
+        <r:permissible-load>0</r:permissible-load>
+        <r:thetac>4.44599676132202</r:thetac>
+        <r:torque-factor>-35.5938911437988</r:torque-factor>
+        <r:velocity>-3.41676831245422</r:velocity>
+        <r:acceleration>-2.41415357589722</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="121">
+        <r:surface-load>2865.05419921875</r:surface-load>
+        <r:surface-position>58.9536819458008</r:surface-position>
+        <r:permissible-load>0</r:permissible-load>
+        <r:thetac>4.48274040222168</r:thetac>
+        <r:torque-factor>-36.390438079834</r:torque-factor>
+        <r:velocity>-3.49323129653931</r:velocity>
+        <r:acceleration>-2.37898588180542</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="122">
+        <r:surface-load>2585.37670898438</r:surface-load>
+        <r:surface-position>57.602108001709</r:surface-position>
+        <r:permissible-load>0</r:permissible-load>
+        <r:thetac>4.5194845199585</r:thetac>
+        <r:torque-factor>-37.1741600036621</r:torque-factor>
+        <r:velocity>-3.56846308708191</r:velocity>
+        <r:acceleration>-2.33676671981812</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="123">
+        <r:surface-load>2392.0390625</r:surface-load>
+        <r:surface-position>56.2220191955566</r:surface-position>
+        <r:permissible-load>0</r:permissible-load>
+        <r:thetac>4.55622816085815</r:thetac>
+        <r:torque-factor>-37.9425506591797</r:torque-factor>
+        <r:velocity>-3.6422233581543</r:velocity>
+        <r:acceleration>-2.28661799430847</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="124">
+        <r:surface-load>2282.40405273438</r:surface-load>
+        <r:surface-position>54.8140258789063</r:surface-position>
+        <r:permissible-load>0</r:permissible-load>
+        <r:thetac>4.59297180175781</r:thetac>
+        <r:torque-factor>-38.6928367614746</r:torque-factor>
+        <r:velocity>-3.71424579620361</r:velocity>
+        <r:acceleration>-2.22763752937317</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="125">
+        <r:surface-load>2213.42211914063</r:surface-load>
+        <r:surface-position>53.378849029541</r:surface-position>
+        <r:permissible-load>0</r:permissible-load>
+        <r:thetac>4.62971544265747</r:thetac>
+        <r:torque-factor>-39.4219245910645</r:torque-factor>
+        <r:velocity>-3.78423309326172</r:velocity>
+        <r:acceleration>-2.15889739990234</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="126">
+        <r:surface-load>2143.0390625</r:surface-load>
+        <r:surface-position>51.9172897338867</r:surface-position>
+        <r:permissible-load>0</r:permissible-load>
+        <r:thetac>4.66645956039429</r:thetac>
+        <r:torque-factor>-40.1264343261719</r:torque-factor>
+        <r:velocity>-3.85186123847961</r:velocity>
+        <r:acceleration>-2.07946181297302</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="127">
+        <r:surface-load>2061.60595703125</r:surface-load>
+        <r:surface-position>50.4303970336914</r:surface-position>
+        <r:permissible-load>0</r:permissible-load>
+        <r:thetac>4.70320320129395</r:thetac>
+        <r:torque-factor>-40.8026237487793</r:torque-factor>
+        <r:velocity>-3.91677069664001</r:velocity>
+        <r:acceleration>-1.98840200901031</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="128">
+        <r:surface-load>1994.46728515625</r:surface-load>
+        <r:surface-position>48.9192123413086</r:surface-position>
+        <r:permissible-load>0</r:permissible-load>
+        <r:thetac>4.7399468421936</r:thetac>
+        <r:torque-factor>-41.4465026855469</r:torque-factor>
+        <r:velocity>-3.97857856750488</r:velocity>
+        <r:acceleration>-1.88479244709015</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="129">
+        <r:surface-load>1980.63330078125</r:surface-load>
+        <r:surface-position>47.3850021362305</r:surface-position>
+        <r:permissible-load>0</r:permissible-load>
+        <r:thetac>4.77669095993042</r:thetac>
+        <r:torque-factor>-42.0537528991699</r:torque-factor>
+        <r:velocity>-4.03687047958374</r:velocity>
+        <r:acceleration>-1.76774644851685</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="130">
+        <r:surface-load>2047.14147949219</r:surface-load>
+        <r:surface-position>45.8292922973633</r:surface-position>
+        <r:permissible-load>0</r:permissible-load>
+        <r:thetac>4.81343460083008</r:thetac>
+        <r:torque-factor>-42.6197471618652</r:torque-factor>
+        <r:velocity>-4.09120225906372</r:velocity>
+        <r:acceleration>-1.63642489910126</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="131">
+        <r:surface-load>2195.77026367188</r:surface-load>
+        <r:surface-position>44.2536010742188</r:surface-position>
+        <r:permissible-load>0</r:permissible-load>
+        <r:thetac>4.85017824172974</r:thetac>
+        <r:torque-factor>-43.1396255493164</r:torque-factor>
+        <r:velocity>-4.14110660552979</r:velocity>
+        <r:acceleration>-1.49005198478699</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="132">
+        <r:surface-load>2405.1279296875</r:surface-load>
+        <r:surface-position>42.6597099304199</r:surface-position>
+        <r:permissible-load>0</r:permissible-load>
+        <r:thetac>4.88692188262939</r:thetac>
+        <r:torque-factor>-43.608268737793</r:torque-factor>
+        <r:velocity>-4.1860933303833</r:velocity>
+        <r:acceleration>-1.3279435634613</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="133">
+        <r:surface-load>2640.5478515625</r:surface-load>
+        <r:surface-position>41.0495986938477</r:surface-position>
+        <r:permissible-load>0</r:permissible-load>
+        <r:thetac>4.92366600036621</r:thetac>
+        <r:torque-factor>-44.0203590393066</r:torque-factor>
+        <r:velocity>-4.22565126419067</r:velocity>
+        <r:acceleration>-1.14953374862671</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="134">
+        <r:surface-load>2864.05639648438</r:surface-load>
+        <r:surface-position>39.4254913330078</r:surface-position>
+        <r:permissible-load>0</r:permissible-load>
+        <r:thetac>4.96040964126587</r:thetac>
+        <r:torque-factor>-44.3703880310059</r:torque-factor>
+        <r:velocity>-4.25925159454346</r:velocity>
+        <r:acceleration>-0.954397201538086</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="135">
+        <r:surface-load>3042.85180664063</r:surface-load>
+        <r:surface-position>37.7897567749023</r:surface-position>
+        <r:permissible-load>0</r:permissible-load>
+        <r:thetac>4.99715328216553</r:thetac>
+        <r:torque-factor>-44.6527519226074</r:torque-factor>
+        <r:velocity>-4.2863564491272</r:velocity>
+        <r:acceleration>-0.742270290851593</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="136">
+        <r:surface-load>3158.06323242188</r:surface-load>
+        <r:surface-position>36.1449661254883</r:surface-position>
+        <r:permissible-load>0</r:permissible-load>
+        <r:thetac>5.03389739990234</r:thetac>
+        <r:torque-factor>-44.8618011474609</r:torque-factor>
+        <r:velocity>-4.30642366409302</r:velocity>
+        <r:acceleration>-0.51308137178421</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="137">
+        <r:surface-load>3212.19213867188</r:surface-load>
+        <r:surface-position>34.493953704834</r:surface-position>
+        <r:permissible-load>0</r:permissible-load>
+        <r:thetac>5.070641040802</r:thetac>
+        <r:torque-factor>-44.991870880127</r:torque-factor>
+        <r:velocity>-4.31890964508057</r:velocity>
+        <r:acceleration>-0.26698225736618</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="138">
+        <r:surface-load>3228.73803710938</r:surface-load>
+        <r:surface-position>32.8396759033203</r:surface-position>
+        <r:permissible-load>0</r:permissible-load>
+        <r:thetac>5.10738468170166</r:thetac>
+        <r:torque-factor>-45.0374031066895</r:torque-factor>
+        <r:velocity>-4.32328033447266</r:velocity>
+        <r:acceleration>-0.00435119401663542</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="139">
+        <r:surface-load>3239.14453125</r:surface-load>
+        <r:surface-position>31.1853446960449</r:surface-position>
+        <r:permissible-load>0</r:permissible-load>
+        <r:thetac>5.14412832260132</r:thetac>
+        <r:torque-factor>-44.9930000305176</r:torque-factor>
+        <r:velocity>-4.31901788711548</r:velocity>
+        <r:acceleration>0.274169445037842</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="140">
+        <r:surface-load>3261.79345703125</r:surface-load>
+        <r:surface-position>29.5343780517578</r:surface-position>
+        <r:permissible-load>0</r:permissible-load>
+        <r:thetac>5.18087244033813</r:thetac>
+        <r:torque-factor>-44.8535270690918</r:torque-factor>
+        <r:velocity>-4.30562973022461</r:velocity>
+        <r:acceleration>0.567667841911316</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="141">
+        <r:surface-load>3287.31201171875</r:surface-load>
+        <r:surface-position>27.8903675079346</r:surface-position>
+        <r:permissible-load>0</r:permissible-load>
+        <r:thetac>5.21761608123779</r:thetac>
+        <r:torque-factor>-44.6142082214355</r:torque-factor>
+        <r:velocity>-4.2826566696167</r:velocity>
+        <r:acceleration>0.87494021654129</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="142">
+        <r:surface-load>3283.59375</r:surface-load>
+        <r:surface-position>26.2570896148682</r:surface-position>
+        <r:permissible-load>0</r:permissible-load>
+        <r:thetac>5.25435972213745</r:thetac>
+        <r:torque-factor>-44.2706985473633</r:torque-factor>
+        <r:velocity>-4.24968194961548</r:velocity>
+        <r:acceleration>1.19451034069061</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="143">
+        <r:surface-load>3220.49047851563</r:surface-load>
+        <r:surface-position>24.6384048461914</r:surface-position>
+        <r:permissible-load>0</r:permissible-load>
+        <r:thetac>5.29110336303711</r:thetac>
+        <r:torque-factor>-43.8191909790039</r:torque-factor>
+        <r:velocity>-4.20634031295776</r:velocity>
+        <r:acceleration>1.52462220191956</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="144">
+        <r:surface-load>3097.76049804688</r:surface-load>
+        <r:surface-position>23.0382652282715</r:surface-position>
+        <r:permissible-load>0</r:permissible-load>
+        <r:thetac>5.32784748077393</r:thetac>
+        <r:torque-factor>-43.2565002441406</r:torque-factor>
+        <r:velocity>-4.15232610702515</r:velocity>
+        <r:acceleration>1.86326158046722</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="145">
+        <r:surface-load>2954.63891601563</r:surface-load>
+        <r:surface-position>21.4609184265137</r:surface-position>
+        <r:permissible-load>0</r:permissible-load>
+        <r:thetac>5.36459112167358</r:thetac>
+        <r:torque-factor>-42.5801849365234</r:torque-factor>
+        <r:velocity>-4.08740425109863</r:velocity>
+        <r:acceleration>2.20814871788025</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="146">
+        <r:surface-load>2851.3779296875</r:surface-load>
+        <r:surface-position>19.9105758666992</r:surface-position>
+        <r:permissible-load>0</r:permissible-load>
+        <r:thetac>5.40133476257324</r:thetac>
+        <r:torque-factor>-41.7885818481445</r:torque-factor>
+        <r:velocity>-4.01141595840454</r:velocity>
+        <r:acceleration>2.55680918693542</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="147">
+        <r:surface-load>2834.08178710938</r:surface-load>
+        <r:surface-position>18.3913841247559</r:surface-position>
+        <r:permissible-load>0</r:permissible-load>
+        <r:thetac>5.43807888031006</r:thetac>
+        <r:torque-factor>-40.8808250427246</r:torque-factor>
+        <r:velocity>-3.92427754402161</r:velocity>
+        <r:acceleration>2.90660214424133</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="148">
+        <r:surface-load>2907.6083984375</r:surface-load>
+        <r:surface-position>16.9078636169434</r:surface-position>
+        <r:permissible-load>0</r:permissible-load>
+        <r:thetac>5.47482252120972</r:thetac>
+        <r:torque-factor>-39.8570899963379</r:torque-factor>
+        <r:velocity>-3.82600593566895</r:velocity>
+        <r:acceleration>3.25472640991211</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="149">
+        <r:surface-load>3036.12670898438</r:surface-load>
+        <r:surface-position>15.4637813568115</r:surface-position>
+        <r:permissible-load>0</r:permissible-load>
+        <r:thetac>5.51156616210938</r:thetac>
+        <r:torque-factor>-38.7182693481445</r:torque-factor>
+        <r:velocity>-3.71668696403503</r:velocity>
+        <r:acceleration>3.59836530685425</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="150">
+        <r:surface-load>3170.44580078125</r:surface-load>
+        <r:surface-position>14.0639514923096</r:surface-position>
+        <r:permissible-load>0</r:permissible-load>
+        <r:thetac>5.54830980300903</r:thetac>
+        <r:torque-factor>-37.466495513916</r:torque-factor>
+        <r:velocity>-3.59652543067932</r:velocity>
+        <r:acceleration>3.93460702896118</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="151">
+        <r:surface-load>3281.76831054688</r:surface-load>
+        <r:surface-position>12.7118835449219</r:surface-position>
+        <r:permissible-load>0</r:permissible-load>
+        <r:thetac>5.58505392074585</r:thetac>
+        <r:torque-factor>-36.1045227050781</r:torque-factor>
+        <r:velocity>-3.46578526496887</r:velocity>
+        <r:acceleration>4.26066160202026</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="152">
+        <r:surface-load>3377.52905273438</r:surface-load>
+        <r:surface-position>11.4123344421387</r:surface-position>
+        <r:permissible-load>0</r:permissible-load>
+        <r:thetac>5.62179756164551</r:thetac>
+        <r:torque-factor>-34.6364326477051</r:torque-factor>
+        <r:velocity>-3.32485890388489</r:velocity>
+        <r:acceleration>4.57374238967896</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="153">
+        <r:surface-load>3489.66430664063</r:surface-load>
+        <r:surface-position>10.1679983139038</r:surface-position>
+        <r:permissible-load>0</r:permissible-load>
+        <r:thetac>5.65854120254517</r:thetac>
+        <r:torque-factor>-33.0666465759277</r:torque-factor>
+        <r:velocity>-3.17417025566101</r:velocity>
+        <r:acceleration>4.87134218215942</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="154">
+        <r:surface-load>3646.05688476563</r:surface-load>
+        <r:surface-position>8.9832649230957</r:surface-position>
+        <r:permissible-load>0</r:permissible-load>
+        <r:thetac>5.69528532028198</r:thetac>
+        <r:torque-factor>-31.4008979797363</r:torque-factor>
+        <r:velocity>-3.01426982879639</r:velocity>
+        <r:acceleration>5.15104961395264</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="155">
+        <r:surface-load>3847.2001953125</r:surface-load>
+        <r:surface-position>7.86140632629395</r:surface-position>
+        <r:permissible-load>0</r:permissible-load>
+        <r:thetac>5.73202896118164</r:thetac>
+        <r:torque-factor>-29.6454925537109</r:torque-factor>
+        <r:velocity>-2.84576296806335</r:velocity>
+        <r:acceleration>5.4107460975647</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="156">
+        <r:surface-load>4063.80883789063</r:surface-load>
+        <r:surface-position>6.80557727813721</r:surface-position>
+        <r:permissible-load>0</r:permissible-load>
+        <r:thetac>5.7687726020813</r:thetac>
+        <r:torque-factor>-27.8073711395264</r:torque-factor>
+        <r:velocity>-2.6693160533905</r:velocity>
+        <r:acceleration>5.64861011505127</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="157">
+        <r:surface-load>4254.41943359375</r:surface-load>
+        <r:surface-position>5.81873559951782</r:surface-position>
+        <r:permissible-load>0</r:permissible-load>
+        <r:thetac>5.80551624298096</r:thetac>
+        <r:torque-factor>-25.8940601348877</r:torque-factor>
+        <r:velocity>-2.48565125465393</r:velocity>
+        <r:acceleration>5.86312866210938</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="158">
+        <r:surface-load>4388.36572265625</r:surface-load>
+        <r:surface-position>4.90348243713379</r:surface-position>
+        <r:permissible-load>0</r:permissible-load>
+        <r:thetac>5.84226036071777</r:thetac>
+        <r:torque-factor>-23.9134998321533</r:torque-factor>
+        <r:velocity>-2.29553127288818</r:velocity>
+        <r:acceleration>6.05313348770142</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="159">
+        <r:surface-load>4458.49365234375</r:surface-load>
+        <r:surface-position>4.06214427947998</r:surface-position>
+        <r:permissible-load>0</r:permissible-load>
+        <r:thetac>5.87900400161743</r:thetac>
+        <r:torque-factor>-21.8740348815918</r:torque-factor>
+        <r:velocity>-2.09975671768188</r:velocity>
+        <r:acceleration>6.2177939414978</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="160">
+        <r:surface-load>4478.19140625</r:surface-load>
+        <r:surface-position>3.29664087295532</r:surface-position>
+        <r:permissible-load>0</r:permissible-load>
+        <r:thetac>5.91574764251709</r:thetac>
+        <r:torque-factor>-19.784107208252</r:torque-factor>
+        <r:velocity>-1.8991379737854</r:velocity>
+        <r:acceleration>6.35663557052612</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="161">
+        <r:surface-load>4468.8515625</r:surface-load>
+        <r:surface-position>2.60875868797302</r:surface-position>
+        <r:permissible-load>0</r:permissible-load>
+        <r:thetac>5.95249176025391</r:thetac>
+        <r:torque-factor>-17.6523532867432</r:torque-factor>
+        <r:velocity>-1.69450426101685</r:velocity>
+        <r:acceleration>6.46950960159302</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="162">
+        <r:surface-load>4448.1396484375</r:surface-load>
+        <r:surface-position>1.99985146522522</r:surface-position>
+        <r:permissible-load>0</r:permissible-load>
+        <r:thetac>5.98923540115356</r:thetac>
+        <r:torque-factor>-15.4874105453491</r:torque-factor>
+        <r:velocity>-1.48668467998505</r:velocity>
+        <r:acceleration>6.55658388137817</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="163">
+        <r:surface-load>4425.07568359375</r:surface-load>
+        <r:surface-position>1.47093164920807</r:surface-position>
+        <r:permissible-load>0</r:permissible-load>
+        <r:thetac>6.02597904205322</r:thetac>
+        <r:torque-factor>-13.2977457046509</r:torque-factor>
+        <r:velocity>-1.27649199962616</r:velocity>
+        <r:acceleration>6.61832189559937</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="164">
+        <r:surface-load>4401.0087890625</r:surface-load>
+        <r:surface-position>1.0228271484375</r:surface-position>
+        <r:permissible-load>0</r:permissible-load>
+        <r:thetac>6.06272268295288</r:thetac>
+        <r:torque-factor>-11.0916976928711</r:torque-factor>
+        <r:velocity>-1.06472659111023</r:velocity>
+        <r:acceleration>6.65544271469116</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="165">
+        <r:surface-load>4372.603515625</r:surface-load>
+        <r:surface-position>0.655932068824768</r:surface-position>
+        <r:permissible-load>0</r:permissible-load>
+        <r:thetac>6.0994668006897</r:thetac>
+        <r:torque-factor>-8.87723350524902</r:torque-factor>
+        <r:velocity>-0.852153241634369</r:velocity>
+        <r:acceleration>6.66889619827271</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="166">
+        <r:surface-load>4334.80126953125</r:surface-load>
+        <r:surface-position>0.370483070611954</r:surface-position>
+        <r:permissible-load>0</r:permissible-load>
+        <r:thetac>6.13621044158936</r:thetac>
+        <r:torque-factor>-6.66212129592896</r:torque-factor>
+        <r:velocity>-0.639517724514008</r:velocity>
+        <r:acceleration>6.6598162651062</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="167">
+        <r:surface-load>4284.62939453125</r:surface-load>
+        <r:surface-position>0.166283011436462</r:surface-position>
+        <r:permissible-load>0</r:permissible-load>
+        <r:thetac>6.17295408248901</r:thetac>
+        <r:torque-factor>-4.45357465744019</r:torque-factor>
+        <r:velocity>-0.427512466907501</r:velocity>
+        <r:acceleration>6.62949371337891</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="168">
+        <r:surface-load>4226.1708984375</r:surface-load>
+        <r:surface-position>0.0430296063423157</r:surface-position>
+        <r:permissible-load>0</r:permissible-load>
+        <r:thetac>6.20969820022583</r:thetac>
+        <r:torque-factor>-2.25841641426086</r:torque-factor>
+        <r:velocity>-0.216792419552803</r:velocity>
+        <r:acceleration>6.57933330535889</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="169">
+        <r:surface-load>4173.81787109375</r:surface-load>
+        <r:surface-position>6.57141208648682E-05</r:surface-position>
+        <r:permissible-load>0</r:permissible-load>
+        <r:thetac>6.24644184112549</r:thetac>
+        <r:torque-factor>-0.0830453559756279</r:torque-factor>
+        <r:velocity>-0.00797178223729134</r:velocity>
+        <r:acceleration>6.51082134246826</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+      <r:predicted-dynamometer-card-point Order="170">
+        <r:surface-load>4349.251953125</r:surface-load>
+        <r:surface-position>0.0365764796733856</r:surface-position>
+        <r:permissible-load>21300</r:permissible-load>
+        <r:thetac>6.28318548202515</r:thetac>
+        <r:torque-factor>2.0667245388031</r:torque-factor>
+        <r:velocity>0.198391318321228</r:velocity>
+        <r:acceleration>6.4254903793335</r:acceleration>
+      </r:predicted-dynamometer-card-point>
+    </r:predicted-dynamometer-card>
+    <r:predicted-dynamometer-pump-card>
+      <r:predicted-dynamometer-pump-card-point Order="0">
+        <r:pump-load>-150.77082824707</r:pump-load>
+        <r:pump-position>0.0582382641732693</r:pump-position>
+        <r:pump-velocity>0.154834479093552</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="1">
+        <r:pump-load>37.4801445007324</r:pump-load>
+        <r:pump-position>0.171500891447067</r:pump-position>
+        <r:pump-velocity>0.139725849032402</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="2">
+        <r:pump-load>125.644180297852</r:pump-load>
+        <r:pump-position>0.222315639257431</r:pump-position>
+        <r:pump-velocity>0.132753551006317</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="3">
+        <r:pump-load>218.341003417969</r:pump-load>
+        <r:pump-position>0.281161516904831</r:pump-position>
+        <r:pump-velocity>0.153734862804413</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="4">
+        <r:pump-load>328.386871337891</r:pump-load>
+        <r:pump-position>0.352500230073929</r:pump-position>
+        <r:pump-velocity>0.1863724142313</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="5">
+        <r:pump-load>456.983245849609</r:pump-load>
+        <r:pump-position>0.433291405439377</r:pump-position>
+        <r:pump-velocity>0.211066946387291</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="6">
+        <r:pump-load>599.977966308594</r:pump-load>
+        <r:pump-position>0.521663427352905</r:pump-position>
+        <r:pump-velocity>0.230871945619583</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="7">
+        <r:pump-load>760.238464355469</r:pump-load>
+        <r:pump-position>0.622880101203918</r:pump-position>
+        <r:pump-velocity>0.264428555965424</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="8">
+        <r:pump-load>949.687561035156</r:pump-load>
+        <r:pump-position>0.745782315731049</r:pump-position>
+        <r:pump-velocity>0.321082055568695</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="9">
+        <r:pump-load>1179.48254394531</r:pump-load>
+        <r:pump-position>0.894728362560272</r:pump-position>
+        <r:pump-velocity>0.389121472835541</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="10">
+        <r:pump-load>1450.29797363281</r:pump-load>
+        <r:pump-position>1.06615781784058</r:pump-position>
+        <r:pump-velocity>0.44785949587822</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="11">
+        <r:pump-load>1752.79931640625</r:pump-load>
+        <r:pump-position>1.25258839130402</r:pump-position>
+        <r:pump-velocity>0.487049996852875</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="12">
+        <r:pump-load>2076.24633789063</r:pump-load>
+        <r:pump-position>1.44879651069641</r:pump-position>
+        <r:pump-velocity>0.512593865394592</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="13">
+        <r:pump-load>2155.931640625</r:pump-load>
+        <r:pump-position>1.7662900686264</r:pump-position>
+        <r:pump-velocity>0.829451858997345</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="14">
+        <r:pump-load>2155.931640625</r:pump-load>
+        <r:pump-position>2.30445957183838</r:pump-position>
+        <r:pump-velocity>1.40596735477448</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="15">
+        <r:pump-load>2155.931640625</r:pump-load>
+        <r:pump-position>3.07924890518188</r:pump-position>
+        <r:pump-velocity>2.02413702011108</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="16">
+        <r:pump-load>2155.931640625</r:pump-load>
+        <r:pump-position>4.04287528991699</r:pump-position>
+        <r:pump-velocity>2.51747465133667</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="17">
+        <r:pump-load>2155.931640625</r:pump-load>
+        <r:pump-position>5.13880109786987</r:pump-position>
+        <r:pump-velocity>2.8631055355072</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="18">
+        <r:pump-load>2155.931640625</r:pump-load>
+        <r:pump-position>6.34936189651489</r:pump-position>
+        <r:pump-velocity>3.16259050369263</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="19">
+        <r:pump-load>2155.931640625</r:pump-load>
+        <r:pump-position>7.70377445220947</r:pump-position>
+        <r:pump-velocity>3.53840231895447</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="20">
+        <r:pump-load>2155.931640625</r:pump-load>
+        <r:pump-position>9.24650955200195</r:pump-position>
+        <r:pump-velocity>4.03039789199829</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="21">
+        <r:pump-load>2155.931640625</r:pump-load>
+        <r:pump-position>10.9939289093018</r:pump-position>
+        <r:pump-velocity>4.56513357162476</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="22">
+        <r:pump-load>2155.931640625</r:pump-load>
+        <r:pump-position>12.9107913970947</r:pump-position>
+        <r:pump-velocity>5.00780439376831</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="23">
+        <r:pump-load>2155.931640625</r:pump-load>
+        <r:pump-position>14.9191560745239</r:pump-position>
+        <r:pump-velocity>5.24685287475586</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="24">
+        <r:pump-load>2155.931640625</r:pump-load>
+        <r:pump-position>16.9283618927002</r:pump-position>
+        <r:pump-velocity>5.24904775619507</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="25">
+        <r:pump-load>2155.931640625</r:pump-load>
+        <r:pump-position>18.8644886016846</r:pump-position>
+        <r:pump-velocity>5.05813217163086</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="26">
+        <r:pump-load>2155.931640625</r:pump-load>
+        <r:pump-position>20.6848735809326</r:pump-position>
+        <r:pump-velocity>4.75575590133667</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="27">
+        <r:pump-load>2155.931640625</r:pump-load>
+        <r:pump-position>22.3773918151855</r:pump-position>
+        <r:pump-velocity>4.42170143127441</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="28">
+        <r:pump-load>2155.931640625</r:pump-load>
+        <r:pump-position>23.9523754119873</r:pump-position>
+        <r:pump-velocity>4.11464309692383</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="29">
+        <r:pump-load>2155.931640625</r:pump-load>
+        <r:pump-position>25.4332237243652</r:pump-position>
+        <r:pump-velocity>3.86871480941772</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="30">
+        <r:pump-load>2155.931640625</r:pump-load>
+        <r:pump-position>26.8464527130127</r:pump-position>
+        <r:pump-velocity>3.69206190109253</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="31">
+        <r:pump-load>2155.931640625</r:pump-load>
+        <r:pump-position>28.2112083435059</r:pump-position>
+        <r:pump-velocity>3.56542634963989</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="32">
+        <r:pump-load>2155.931640625</r:pump-load>
+        <r:pump-position>29.5326519012451</r:pump-position>
+        <r:pump-velocity>3.4522693157196</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="33">
+        <r:pump-load>2155.931640625</r:pump-load>
+        <r:pump-position>30.8061790466309</r:pump-position>
+        <r:pump-velocity>3.32708740234375</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="34">
+        <r:pump-load>2155.931640625</r:pump-load>
+        <r:pump-position>32.0339050292969</r:pump-position>
+        <r:pump-velocity>3.20743489265442</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="35">
+        <r:pump-load>2155.931640625</r:pump-load>
+        <r:pump-position>33.2436790466309</r:pump-position>
+        <r:pump-velocity>3.16053891181946</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="36">
+        <r:pump-load>2155.931640625</r:pump-load>
+        <r:pump-position>34.4944305419922</r:pump-position>
+        <r:pump-velocity>3.26758527755737</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="37">
+        <r:pump-load>2155.931640625</r:pump-load>
+        <r:pump-position>35.8582305908203</r:pump-position>
+        <r:pump-velocity>3.56293129920959</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="38">
+        <r:pump-load>2155.931640625</r:pump-load>
+        <r:pump-position>37.386589050293</r:pump-position>
+        <r:pump-velocity>3.99283933639526</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="39">
+        <r:pump-load>2155.931640625</r:pump-load>
+        <r:pump-position>39.0827751159668</r:pump-position>
+        <r:pump-velocity>4.43128442764282</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="40">
+        <r:pump-load>2155.931640625</r:pump-load>
+        <r:pump-position>40.900749206543</r:pump-position>
+        <r:pump-velocity>4.74945497512817</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="41">
+        <r:pump-load>2155.931640625</r:pump-load>
+        <r:pump-position>42.7733039855957</r:pump-position>
+        <r:pump-velocity>4.89205026626587</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="42">
+        <r:pump-load>2155.931640625</r:pump-load>
+        <r:pump-position>44.6504898071289</r:pump-position>
+        <r:pump-velocity>4.90415191650391</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="43">
+        <r:pump-load>2155.931640625</r:pump-load>
+        <r:pump-position>46.521354675293</r:pump-position>
+        <r:pump-velocity>4.88763809204102</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="44">
+        <r:pump-load>2155.931640625</r:pump-load>
+        <r:pump-position>48.404354095459</r:pump-position>
+        <r:pump-velocity>4.91933822631836</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="45">
+        <r:pump-load>2155.931640625</r:pump-load>
+        <r:pump-position>50.3152198791504</r:pump-position>
+        <r:pump-velocity>4.9921407699585</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="46">
+        <r:pump-load>2155.931640625</r:pump-load>
+        <r:pump-position>52.2374801635742</r:pump-position>
+        <r:pump-velocity>5.02190589904785</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="47">
+        <r:pump-load>2155.931640625</r:pump-load>
+        <r:pump-position>54.1178169250488</r:pump-position>
+        <r:pump-velocity>4.91237878799438</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="48">
+        <r:pump-load>2155.931640625</r:pump-load>
+        <r:pump-position>55.8891563415527</r:pump-position>
+        <r:pump-velocity>4.6276216506958</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="49">
+        <r:pump-load>2155.931640625</r:pump-load>
+        <r:pump-position>57.5041999816895</r:pump-position>
+        <r:pump-velocity>4.21930074691772</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="50">
+        <r:pump-load>2155.931640625</r:pump-load>
+        <r:pump-position>58.9561958312988</r:pump-position>
+        <r:pump-velocity>3.79333972930908</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="51">
+        <r:pump-load>2155.931640625</r:pump-load>
+        <r:pump-position>60.2750396728516</r:pump-position>
+        <r:pump-velocity>3.44547843933105</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="52">
+        <r:pump-load>2155.931640625</r:pump-load>
+        <r:pump-position>61.5050315856934</r:pump-position>
+        <r:pump-velocity>3.2133514881134</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="53">
+        <r:pump-load>2155.931640625</r:pump-load>
+        <r:pump-position>62.6815490722656</r:pump-position>
+        <r:pump-velocity>3.07365345954895</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="54">
+        <r:pump-load>2155.931640625</r:pump-load>
+        <r:pump-position>63.820858001709</r:pump-position>
+        <r:pump-velocity>2.97644686698914</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="55">
+        <r:pump-load>2155.931640625</r:pump-load>
+        <r:pump-position>64.9251556396484</r:pump-position>
+        <r:pump-velocity>2.88496232032776</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="56">
+        <r:pump-load>2155.931640625</r:pump-load>
+        <r:pump-position>65.9944915771484</r:pump-position>
+        <r:pump-velocity>2.79364657402039</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="57">
+        <r:pump-load>2155.931640625</r:pump-load>
+        <r:pump-position>67.0357131958008</r:pump-position>
+        <r:pump-velocity>2.72020077705383</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="58">
+        <r:pump-load>2155.931640625</r:pump-load>
+        <r:pump-position>68.064079284668</r:pump-position>
+        <r:pump-velocity>2.68661427497864</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="59">
+        <r:pump-load>2155.931640625</r:pump-load>
+        <r:pump-position>69.0996856689453</r:pump-position>
+        <r:pump-velocity>2.70551824569702</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="60">
+        <r:pump-load>2155.931640625</r:pump-load>
+        <r:pump-position>70.1622772216797</r:pump-position>
+        <r:pump-velocity>2.77602362632751</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="61">
+        <r:pump-load>2155.931640625</r:pump-load>
+        <r:pump-position>71.2658309936523</r:pump-position>
+        <r:pump-velocity>2.8830258846283</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="62">
+        <r:pump-load>2155.931640625</r:pump-load>
+        <r:pump-position>72.4124755859375</r:pump-position>
+        <r:pump-velocity>2.99560308456421</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="63">
+        <r:pump-load>2155.931640625</r:pump-load>
+        <r:pump-position>73.5871734619141</r:pump-position>
+        <r:pump-velocity>3.06889653205872</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="64">
+        <r:pump-load>2155.931640625</r:pump-load>
+        <r:pump-position>74.7573089599609</r:pump-position>
+        <r:pump-velocity>3.0569851398468</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="65">
+        <r:pump-load>2155.931640625</r:pump-load>
+        <r:pump-position>75.8809204101563</r:pump-position>
+        <r:pump-velocity>2.93542671203613</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="66">
+        <r:pump-load>2155.931640625</r:pump-load>
+        <r:pump-position>76.9217071533203</r:pump-position>
+        <r:pump-velocity>2.71905469894409</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="67">
+        <r:pump-load>2155.931640625</r:pump-load>
+        <r:pump-position>77.8625106811523</r:pump-position>
+        <r:pump-velocity>2.457843542099</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="68">
+        <r:pump-load>2155.931640625</r:pump-load>
+        <r:pump-position>78.7075500488281</r:pump-position>
+        <r:pump-velocity>2.20767498016357</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="69">
+        <r:pump-load>2155.931640625</r:pump-load>
+        <r:pump-position>79.4707717895508</r:pump-position>
+        <r:pump-velocity>1.9939181804657</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="70">
+        <r:pump-load>2155.931640625</r:pump-load>
+        <r:pump-position>80.1579666137695</r:pump-position>
+        <r:pump-velocity>1.79530203342438</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="71">
+        <r:pump-load>2155.931640625</r:pump-load>
+        <r:pump-position>80.756217956543</r:pump-position>
+        <r:pump-velocity>1.56293475627899</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="72">
+        <r:pump-load>2155.931640625</r:pump-load>
+        <r:pump-position>81.239501953125</r:pump-position>
+        <r:pump-velocity>1.26257312297821</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="73">
+        <r:pump-load>2155.931640625</r:pump-load>
+        <r:pump-position>81.5873336791992</r:pump-position>
+        <r:pump-velocity>0.908713459968567</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="74">
+        <r:pump-load>2155.931640625</r:pump-load>
+        <r:pump-position>81.8030700683594</r:pump-position>
+        <r:pump-velocity>0.563615620136261</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="75">
+        <r:pump-load>2155.931640625</r:pump-load>
+        <r:pump-position>81.918098449707</r:pump-position>
+        <r:pump-velocity>0.300511628389359</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="76">
+        <r:pump-load>2155.931640625</r:pump-load>
+        <r:pump-position>81.9784164428711</r:pump-position>
+        <r:pump-velocity>0.157584726810455</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="77">
+        <r:pump-load>2155.931640625</r:pump-load>
+        <r:pump-position>82.0228729248047</r:pump-position>
+        <r:pump-velocity>0.116144098341465</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="78">
+        <r:pump-load>2155.931640625</r:pump-load>
+        <r:pump-position>82.0678939819336</r:pump-position>
+        <r:pump-velocity>0.117608986794949</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="79">
+        <r:pump-load>2155.931640625</r:pump-load>
+        <r:pump-position>82.1080093383789</r:pump-position>
+        <r:pump-velocity>0.104810684919357</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="80">
+        <r:pump-load>2155.931640625</r:pump-load>
+        <r:pump-position>82.1296691894531</r:pump-position>
+        <r:pump-velocity>0.0565907321870327</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="81">
+        <r:pump-load>2155.931640625</r:pump-load>
+        <r:pump-position>82.1267929077148</r:pump-position>
+        <r:pump-velocity>-0.00752179557457566</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="82">
+        <r:pump-load>2141.92333984375</r:pump-load>
+        <r:pump-position>82.1130981445313</r:pump-position>
+        <r:pump-velocity>-0.0357719324529171</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="83">
+        <r:pump-load>2126.03735351563</r:pump-load>
+        <r:pump-position>82.1079940795898</r:pump-position>
+        <r:pump-velocity>-0.0133254202082753</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="84">
+        <r:pump-load>2127.67919921875</r:pump-load>
+        <r:pump-position>82.1150360107422</r:pump-position>
+        <r:pump-velocity>0.0183996055275202</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="85">
+        <r:pump-load>2139.08740234375</r:pump-load>
+        <r:pump-position>82.1214904785156</r:pump-position>
+        <r:pump-velocity>0.0168586745858192</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="86">
+        <r:pump-load>2137.48901367188</r:pump-load>
+        <r:pump-position>82.1131439208984</r:pump-position>
+        <r:pump-velocity>-0.0217989031225443</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="87">
+        <r:pump-load>2106.8056640625</r:pump-load>
+        <r:pump-position>82.0851898193359</r:pump-position>
+        <r:pump-velocity>-0.0730307027697563</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="88">
+        <r:pump-load>2044.99938964844</r:pump-load>
+        <r:pump-position>82.0400238037109</r:pump-position>
+        <r:pump-velocity>-0.117987394332886</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="89">
+        <r:pump-load>1955.60791015625</r:pump-load>
+        <r:pump-position>81.9794387817383</r:pump-position>
+        <r:pump-velocity>-0.158285543322563</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="90">
+        <r:pump-load>1839.2021484375</r:pump-load>
+        <r:pump-position>81.9023208618164</r:pump-position>
+        <r:pump-velocity>-0.201477542519569</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="91">
+        <r:pump-load>1695.54296875</r:pump-load>
+        <r:pump-position>81.8094940185547</r:pump-position>
+        <r:pump-velocity>-0.242514938116074</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="92">
+        <r:pump-load>1531.14306640625</r:pump-load>
+        <r:pump-position>81.7078399658203</r:pump-position>
+        <r:pump-velocity>-0.265578597784042</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="93">
+        <r:pump-load>1360.30224609375</r:pump-load>
+        <r:pump-position>81.6073913574219</r:pump-position>
+        <r:pump-velocity>-0.26242133975029</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="94">
+        <r:pump-load>1196.40405273438</r:pump-load>
+        <r:pump-position>81.5139465332031</r:pump-position>
+        <r:pump-velocity>-0.244121864438057</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="95">
+        <r:pump-load>1042.1904296875</r:pump-load>
+        <r:pump-position>81.4249572753906</r:pump-position>
+        <r:pump-velocity>-0.232490032911301</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="96">
+        <r:pump-load>889.046691894531</r:pump-load>
+        <r:pump-position>81.3327789306641</r:pump-position>
+        <r:pump-velocity>-0.240815326571465</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="97">
+        <r:pump-load>725.652282714844</r:pump-load>
+        <r:pump-position>81.2316589355469</r:pump-position>
+        <r:pump-velocity>-0.264170706272125</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="98">
+        <r:pump-load>547.049865722656</r:pump-load>
+        <r:pump-position>81.1214904785156</r:pump-position>
+        <r:pump-velocity>-0.28781720995903</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="99">
+        <r:pump-load>355.763427734375</r:pump-load>
+        <r:pump-position>81.00537109375</r:pump-position>
+        <r:pump-velocity>-0.30337181687355</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="100">
+        <r:pump-load>155.294937133789</r:pump-load>
+        <r:pump-position>80.8843383789063</r:pump-position>
+        <r:pump-velocity>-0.316195249557495</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="101">
+        <r:pump-load>-56.4115600585938</r:pump-load>
+        <r:pump-position>80.7549209594727</r:pump-position>
+        <r:pump-velocity>-0.338103950023651</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="102">
+        <r:pump-load>-200</r:pump-load>
+        <r:pump-position>80.5740280151367</r:pump-position>
+        <r:pump-velocity>-0.472587794065475</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="103">
+        <r:pump-load>-200</r:pump-load>
+        <r:pump-position>80.246452331543</r:pump-position>
+        <r:pump-velocity>-0.855788588523865</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="104">
+        <r:pump-load>-200</r:pump-load>
+        <r:pump-position>79.7297439575195</r:pump-position>
+        <r:pump-velocity>-1.34990751743317</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="105">
+        <r:pump-load>-200</r:pump-load>
+        <r:pump-position>79.0398635864258</r:pump-position>
+        <r:pump-velocity>-1.80231320858002</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="106">
+        <r:pump-load>-200</r:pump-load>
+        <r:pump-position>78.2219848632813</r:pump-position>
+        <r:pump-velocity>-2.13670444488525</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="107">
+        <r:pump-load>-200</r:pump-load>
+        <r:pump-position>77.3101348876953</r:pump-position>
+        <r:pump-velocity>-2.38221001625061</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="108">
+        <r:pump-load>-200</r:pump-load>
+        <r:pump-position>76.3046112060547</r:pump-position>
+        <r:pump-velocity>-2.6269314289093</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="109">
+        <r:pump-load>-200</r:pump-load>
+        <r:pump-position>75.1802139282227</r:pump-position>
+        <r:pump-velocity>-2.93748712539673</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="110">
+        <r:pump-load>-200</r:pump-load>
+        <r:pump-position>73.9150924682617</r:pump-position>
+        <r:pump-velocity>-3.30512189865112</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="111">
+        <r:pump-load>-200</r:pump-load>
+        <r:pump-position>72.5172576904297</r:pump-position>
+        <r:pump-velocity>-3.65185117721558</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="112">
+        <r:pump-load>-200</r:pump-load>
+        <r:pump-position>71.0309219360352</r:pump-position>
+        <r:pump-velocity>-3.8830509185791</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="113">
+        <r:pump-load>-200</r:pump-load>
+        <r:pump-position>69.5214233398438</r:pump-position>
+        <r:pump-velocity>-3.9435567855835</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="114">
+        <r:pump-load>-200</r:pump-load>
+        <r:pump-position>68.051155090332</r:pump-position>
+        <r:pump-velocity>-3.84107899665833</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="115">
+        <r:pump-load>-200</r:pump-load>
+        <r:pump-position>66.6612167358398</r:pump-position>
+        <r:pump-velocity>-3.63121175765991</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="116">
+        <r:pump-load>-200</r:pump-load>
+        <r:pump-position>65.36572265625</r:pump-position>
+        <r:pump-velocity>-3.3844838142395</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="117">
+        <r:pump-load>-200</r:pump-load>
+        <r:pump-position>64.1563568115234</r:pump-position>
+        <r:pump-velocity>-3.15947556495667</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="118">
+        <r:pump-load>-200</r:pump-load>
+        <r:pump-position>63.0113143920898</r:pump-position>
+        <r:pump-velocity>-2.99141359329224</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="119">
+        <r:pump-load>-200</r:pump-load>
+        <r:pump-position>61.904655456543</r:pump-position>
+        <r:pump-velocity>-2.89114904403687</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="120">
+        <r:pump-load>-200</r:pump-load>
+        <r:pump-position>60.8145904541016</r:pump-position>
+        <r:pump-velocity>-2.84779334068298</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="121">
+        <r:pump-load>-200</r:pump-load>
+        <r:pump-position>59.7290992736816</r:pump-position>
+        <r:pump-velocity>-2.83584332466125</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="122">
+        <r:pump-load>-200</r:pump-load>
+        <r:pump-position>58.6454467773438</r:pump-position>
+        <r:pump-velocity>-2.83104038238525</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="123">
+        <r:pump-load>-200</r:pump-load>
+        <r:pump-position>57.561637878418</r:pump-position>
+        <r:pump-velocity>-2.8314483165741</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="124">
+        <r:pump-load>-200</r:pump-load>
+        <r:pump-position>56.4634590148926</r:pump-position>
+        <r:pump-velocity>-2.86898803710938</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="125">
+        <r:pump-load>-200</r:pump-load>
+        <r:pump-position>55.316478729248</r:pump-position>
+        <r:pump-velocity>-2.99648666381836</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="126">
+        <r:pump-load>-200</r:pump-load>
+        <r:pump-position>54.0718116760254</r:pump-position>
+        <r:pump-velocity>-3.25168943405151</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="127">
+        <r:pump-load>-200</r:pump-load>
+        <r:pump-position>52.6857795715332</r:pump-position>
+        <r:pump-velocity>-3.62100553512573</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="128">
+        <r:pump-load>-200</r:pump-load>
+        <r:pump-position>51.1423225402832</r:pump-position>
+        <r:pump-velocity>-4.0322790145874</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="129">
+        <r:pump-load>-200</r:pump-load>
+        <r:pump-position>49.4626808166504</r:pump-position>
+        <r:pump-velocity>-4.38806247711182</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="130">
+        <r:pump-load>-200</r:pump-load>
+        <r:pump-position>47.6941795349121</r:pump-position>
+        <r:pump-velocity>-4.62020635604858</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="131">
+        <r:pump-load>-200</r:pump-load>
+        <r:pump-position>45.8845710754395</r:pump-position>
+        <r:pump-velocity>-4.72760534286499</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="132">
+        <r:pump-load>-200</r:pump-load>
+        <r:pump-position>44.0591850280762</r:pump-position>
+        <r:pump-velocity>-4.76882553100586</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="133">
+        <r:pump-load>-200</r:pump-load>
+        <r:pump-position>42.2164573669434</r:pump-position>
+        <r:pump-velocity>-4.81413078308105</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="134">
+        <r:pump-load>-200</r:pump-load>
+        <r:pump-position>40.3439254760742</r:pump-position>
+        <r:pump-velocity>-4.89199447631836</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="135">
+        <r:pump-load>-200</r:pump-load>
+        <r:pump-position>38.4418258666992</r:pump-position>
+        <r:pump-velocity>-4.96923637390137</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="136">
+        <r:pump-load>-200</r:pump-load>
+        <r:pump-position>36.5363006591797</r:pump-position>
+        <r:pump-velocity>-4.97818946838379</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="137">
+        <r:pump-load>-200</r:pump-load>
+        <r:pump-position>34.6725234985352</r:pump-position>
+        <r:pump-velocity>-4.8691201210022</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="138">
+        <r:pump-load>-200</r:pump-load>
+        <r:pump-position>32.8930969238281</r:pump-position>
+        <r:pump-velocity>-4.64875555038452</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="139">
+        <r:pump-load>-200</r:pump-load>
+        <r:pump-position>31.2171268463135</r:pump-position>
+        <r:pump-velocity>-4.3784704208374</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="140">
+        <r:pump-load>-200</r:pump-load>
+        <r:pump-position>29.6336841583252</r:pump-position>
+        <r:pump-velocity>-4.13674640655518</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="141">
+        <r:pump-load>-200</r:pump-load>
+        <r:pump-position>28.1121082305908</r:pump-position>
+        <r:pump-velocity>-3.97511768341064</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="142">
+        <r:pump-load>-200</r:pump-load>
+        <r:pump-position>26.6202793121338</r:pump-position>
+        <r:pump-velocity>-3.89740109443665</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="143">
+        <r:pump-load>-200</r:pump-load>
+        <r:pump-position>25.1384410858154</r:pump-position>
+        <r:pump-velocity>-3.87129998207092</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="144">
+        <r:pump-load>-200</r:pump-load>
+        <r:pump-position>23.6617240905762</r:pump-position>
+        <r:pump-velocity>-3.85792422294617</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="145">
+        <r:pump-load>-200</r:pump-load>
+        <r:pump-position>22.1933479309082</r:pump-position>
+        <r:pump-velocity>-3.83613514900208</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="146">
+        <r:pump-load>-200</r:pump-load>
+        <r:pump-position>20.7356796264648</r:pump-position>
+        <r:pump-velocity>-3.80815672874451</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="147">
+        <r:pump-load>-200</r:pump-load>
+        <r:pump-position>19.2852363586426</r:pump-position>
+        <r:pump-velocity>-3.78928256034851</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="148">
+        <r:pump-load>-200</r:pump-load>
+        <r:pump-position>17.8331031799316</r:pump-position>
+        <r:pump-velocity>-3.79369688034058</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="149">
+        <r:pump-load>-200</r:pump-load>
+        <r:pump-position>16.3687496185303</r:pump-position>
+        <r:pump-velocity>-3.82562208175659</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="150">
+        <r:pump-load>-200</r:pump-load>
+        <r:pump-position>14.8848323822021</r:pump-position>
+        <r:pump-velocity>-3.87673473358154</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="151">
+        <r:pump-load>-200</r:pump-load>
+        <r:pump-position>13.381875038147</r:pump-position>
+        <r:pump-velocity>-3.9264760017395</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="152">
+        <r:pump-load>-200</r:pump-load>
+        <r:pump-position>11.8720788955688</r:pump-position>
+        <r:pump-velocity>-3.94434261322021</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="153">
+        <r:pump-load>-200</r:pump-load>
+        <r:pump-position>10.3803930282593</r:pump-position>
+        <r:pump-velocity>-3.89702868461609</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="154">
+        <r:pump-load>-200</r:pump-load>
+        <r:pump-position>8.94051933288574</r:pump-position>
+        <r:pump-velocity>-3.76167011260986</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="155">
+        <r:pump-load>-200</r:pump-load>
+        <r:pump-position>7.58570432662964</r:pump-position>
+        <r:pump-velocity>-3.5394549369812</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="156">
+        <r:pump-load>-200</r:pump-load>
+        <r:pump-position>6.33828926086426</r:pump-position>
+        <r:pump-velocity>-3.25887203216553</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="157">
+        <r:pump-load>-200</r:pump-load>
+        <r:pump-position>5.20446157455444</r:pump-position>
+        <r:pump-velocity>-2.9621250629425</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="158">
+        <r:pump-load>-200</r:pump-load>
+        <r:pump-position>4.17837762832642</r:pump-position>
+        <r:pump-velocity>-2.68064475059509</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="159">
+        <r:pump-load>-200</r:pump-load>
+        <r:pump-position>3.25348854064941</r:pump-position>
+        <r:pump-velocity>-2.41627264022827</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="160">
+        <r:pump-load>-200</r:pump-load>
+        <r:pump-position>2.43312311172485</r:pump-position>
+        <r:pump-velocity>-2.14320468902588</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="161">
+        <r:pump-load>-200</r:pump-load>
+        <r:pump-position>1.73214769363403</r:pump-position>
+        <r:pump-velocity>-1.83129787445068</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="162">
+        <r:pump-load>-200</r:pump-load>
+        <r:pump-position>1.16774570941925</r:pump-position>
+        <r:pump-velocity>-1.47450029850006</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="163">
+        <r:pump-load>-200</r:pump-load>
+        <r:pump-position>0.745607495307922</r:pump-position>
+        <r:pump-velocity>-1.10283601284027</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="164">
+        <r:pump-load>-200</r:pump-load>
+        <r:pump-position>0.451700627803802</r:pump-position>
+        <r:pump-velocity>-0.767831683158875</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="165">
+        <r:pump-load>-200</r:pump-load>
+        <r:pump-position>0.256044000387192</r:pump-position>
+        <r:pump-velocity>-0.511152923107147</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="166">
+        <r:pump-load>-200</r:pump-load>
+        <r:pump-position>0.126285389065742</r:pump-position>
+        <r:pump-velocity>-0.338994383811951</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="167">
+        <r:pump-load>-200</r:pump-load>
+        <r:pump-position>0.0419310331344604</r:pump-position>
+        <r:pump-velocity>-0.220375761389732</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="168">
+        <r:pump-load>-200</r:pump-load>
+        <r:pump-position>0</r:pump-position>
+        <r:pump-velocity>-0.109544821083546</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="169">
+        <r:pump-load>-200</r:pump-load>
+        <r:pump-position>0.00943870842456818</r:pump-position>
+        <r:pump-velocity>0.0246586240828037</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+      <r:predicted-dynamometer-pump-card-point Order="170">
+        <r:pump-load>-150.77082824707</r:pump-load>
+        <r:pump-position>0.0582382641732693</r:pump-position>
+        <r:pump-velocity>0.12748883664608</r:pump-velocity>
+      </r:predicted-dynamometer-pump-card-point>
+    </r:predicted-dynamometer-pump-card>
+    <r:rod-element-data />
+    <r:pu-dimensions-adjusted>0</r:pu-dimensions-adjusted>
+    <r:stroke-length-adjustment-length>0</r:stroke-length-adjustment-length>
+    <r:original-kinematic-stroke>0</r:original-kinematic-stroke>
+    <r:new-kinematic-stroke>0</r:new-kinematic-stroke>
+    <r:new-a>0</r:new-a>
+    <r:new-c>0</r:new-c>
+  </r:output>
+</r:rodstar>
