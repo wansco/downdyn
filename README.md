@@ -2,9 +2,9 @@
 
 The program downdyn was created by Sandia National Labs in 1996 to present the data gathered from a number of test wells.
 
-Unfortunately, this program was written in VB3 and target at Windows 3.1. While it is possible to get this software running in a modern Windows installation, the support and instructions to do so are problematic.
+Unfortunately, this program was written in VB3 and targeted at Windows 3.1. While it is possible to get this software running in a modern Windows installation, the support and instructions to do so are problematic.
 
-As a simple alternative, downdyn is installed in a virtual machine, making access to this old program quick and easy. Alternatively, dosbox has been ported to javascript making it possible to run old programs directly in a web browser.
+As a simple alternative, downdyn can be installed in a virtual machine, making access to this old program quick and easy. Alternatively, the dosbox emulator has been ported to javascript making it possible to run old programs directly in a web browser.
 
 ##Update - downdyn in a web browser
 For easy access to the original downdyn program, please follow this link with a modern web browser:
