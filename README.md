@@ -6,7 +6,7 @@ Unfortunately, this program was written in VB3 and targeted at Windows 3.1. Whil
 
 As a simple alternative, downdyn can be installed in a virtual machine, making access to this old program quick and easy. Alternatively, the dosbox emulator has been ported to javascript making it possible to run old programs directly in a web browser.
 
-##Update - downdyn in a web browser
+## Update - downdyn in a web browser
 For easy access to the original downdyn program, please follow this link with a modern web browser:
 
 > http://downdyn.s3-website-us-west-2.amazonaws.com/
@@ -14,7 +14,7 @@ For easy access to the original downdyn program, please follow this link with a 
 For more old windows programs, checkout [Archive.org](https://archive.org/details/softwarelibrary_win3&tab=collection)
 
 
-##Instructions - Virtual Machine Image
+## Instructions - Virtual Machine Image
 First, install Virtualbox on your machine (Please note the "dot-org")
 
 https://www.virtualbox.org/wiki/Downloads
@@ -34,7 +34,7 @@ After the virtual machine boots, you should see a shortcut to DOWNDYN.EXE on the
 
 
 
-###Notes on the virtual machine image
+### Notes on the virtual machine image
 For distribution size consideration, the linux distribution [Slitaz](http://www.slitaz.org/en/) was used.
 
 [Wine](https://www.winehq.org/) was installed to provide the necessary compatibility with downdyn.
@@ -44,7 +44,7 @@ Downdyn was then installed and tested. The data files were placed in the downdyn
 
 
 
-#Sandia Data Files
+# Sandia Data Files
 The original Sandia test data files are available in the machine images above.
 
 Scott Malone provided the RODSTAR and SROD data files for the various tests and these are available in the /WELL_#/DesignFiles/ folders. I have not recompiled the machine images, so these design files are only available in the [git repository](https://github.com/wansco/downdyn)
@@ -52,7 +52,7 @@ Scott Malone provided the RODSTAR and SROD data files for the various tests and 
 
 
 
-###References
+### References
 https://www.onepetro.org/journal-paper/SPE-60768-PA
 
 http://www.osti.gov/estsc/details.jsp?rcdid=2957
