@@ -11,6 +11,8 @@ For easy access to the original downdyn program, please follow this link with a 
 
 > http://downdyn.s3-website-us-west-2.amazonaws.com/
 
+Chrome works best, but you might have luck with other browsers. Clicking on the emulator will steal the mouse - hit ESC to get it back. Older systems might bog down on this. If so, one of the options below might be a better solution.
+
 For more old windows programs, checkout [Archive.org](https://archive.org/details/softwarelibrary_win3&tab=collection)
 
 
@@ -20,7 +22,6 @@ First, install Virtualbox on your machine (Please note the "dot-org")
 https://www.virtualbox.org/wiki/Downloads
 
 > You want the installer from the "VirtualBox platform packages" section. Dont worry about the "extension pack" links.
-
 
 Next download the virtualbox machine image from this repository. 
 
@@ -47,7 +48,7 @@ Downdyn was then installed and tested. The data files were placed in the downdyn
 # Sandia Data Files
 The original Sandia test data files are available in the machine images above.
 
-Scott Malone provided the RODSTAR and SROD data files for the various tests and these are available in the /WELL_#/DesignFiles/ folders. I have not recompiled the machine images, so these design files are only available in the [git repository](https://github.com/wansco/downdyn)
+Scott Malone provided the RODSTAR and SROD data files for the various tests and these are available in the **/WELL_#/DesignFiles/** folders. I have not recompiled the machine images above, so these design files are only available in the [git repository](https://github.com/wansco/downdyn)
 
 
 
